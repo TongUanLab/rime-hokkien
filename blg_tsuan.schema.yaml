@@ -5,9 +5,10 @@
 schema:
   schema_id: blg_tsuan
   name: 閩南語泉州音
-  version: "1.0"
+  version: "2026.4.23"
   author:
     - 阿托 <a-thok@outlook.com>
+    - Enatsu <unsioer@outlook.com>
   description: |
     閩南語輸入方案
     採用「臺灣閩南語羅馬字拼音方案」
@@ -52,7 +53,8 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - abbrev/^([ptkbgmlsch]h?).+$/$1/ 
+    - xform/\{.*\}//
+    - abbrev/^([ptkbgmlschj]h?).+$/$1/ 
     - derive/^c/ts/
     - derive/uih/ueh/
     - derive/^j/l/
@@ -79,9 +81,9 @@ speller:
     - derive/ik/iak/		#市區、海口
     #- derive/erng/ng/		#市區、海口
     #- derive/7/3/		#陰陽去本調
-    #- derive/ir/i/		#海口腔
-    #- derive/er([^eptkmng]*)(h?)$/e$1$2/		#海口腔
-    #- derive/6/1/		#海口腔
+    - derive/ir/i/		#海口腔
+    - derive/er([^eptkmng]*)(h?)$/e$1$2/		#海口腔
+    - derive/6/1/		#海口腔
     #- derive/iO/er/		#永春
     #- derive/aInn/ing/	#山內腔（永春、安溪…）
     #- derive/naI/ling/	#山內腔
@@ -94,7 +96,10 @@ speller:
 
 translator:
   dictionary: banlam
-  preedit_format:
+  prism: bamlam_tsuan # 分離 prism，避免多方案共享同一 banlam.prism.bin 時的衝突
+  spelling_hints: 5
+  comment_format:
+    - xform/\{.*\}//
     - 'xform ([aeiou])(r?m?n*h?g?p?t?k?)([\[/\\\]90\-;]) $1$3$2'
     - 'xform ([aeo])([iueo])([\[/\\\]90\-;]) $1$3$2'
     - 'xform a\[ a'
@@ -165,7 +170,7 @@ reverse_lookup:
     - xform/([nljqxy])v/$1ü/
 
 punctuator:
-  import_preset: default
+  import_preset: symbols
 
 key_binder:
   import_preset: default
@@ -176,23 +181,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[a-z]*$"
-
-style:
-  display_tray_icon: false
-  font_face: "Microsoft Jhenghei"
-  font_point: 12
-  fullscreen: false
-  horizontal: true
-  inline_preedit: false
-  layout:
-    border_width: 3
-    candidate_spacing: 5
-    hilite_padding: 2
-    hilite_spacing: 4
-    margin_x: 12
-    margin_y: 6
-    min_height: 0
-    min_width: 160
-    round_corner: 4
-    spacing: 10
+    punct: "^/([0-9]0?|[a-z]+)$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    reverse_lookup: "`[a-z]*'?$|[a-z]*'$"
