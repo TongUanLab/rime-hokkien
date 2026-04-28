@@ -5,7 +5,7 @@
 schema:
   schema_id: blg_ha
   name: 閩南語廈門音
-  version: "2026.4.23"
+  version: "2026.4.29"
   author:
     - 阿托 <a-thok@outlook.com>
     - Enatsu <unsioer@outlook.com>
@@ -20,8 +20,11 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+  - options: [ tw, hant, hans ]
+    states: [ 臺繁, 通繁, 简体 ] # 通繁倚靠 OpenCC 繁體
+  - name: variants
+    reset: 1
+    states: [ 原始, 兼容 ] # 繁簡轉換，單字兼容「着/著」
 
 engine:
   processors:
@@ -45,17 +48,22 @@ engine:
     - r10n_translator
     - reverse_lookup_translator
   filters:
-    - simplifier
+    - simplifier@hant
+    - simplifier@hans
+    - simplifier@variants
     - uniquifier
+    - lua_filter@*biauim.schema_dict_isolation
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba~[/\]90-;'
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - xform/\{.*\}//
+    - xform/\{[^\}]*\}//
     - abbrev/^([ptkbgmlschj]h?).+$/$1/ 
     - derive/^c/ts/
+    - derive/S/i/  # 「雙」「摔」「針」「汁」
+    - derive/JINN/ni/ # 「耳」「爾」文讀
     - derive/uih/uih/
     - derive/^j/l/
     - derive/6/7/
@@ -63,7 +71,7 @@ speller:
     - derive/ee/e/
     - derive/enn/inn/
     - derive/^([mn]g?)ee/$1i
-    - derive/IR/i/		#魚韻讀i特字
+    - derive/IR/i/    #魚韻讀i特字
     - derive/ir/u/
     - derive/ur/u/
     - derive/er([^eptkmng]*)(h?)$/e$1$2/
@@ -173,3 +181,23 @@ recognizer:
     uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
     reverse_lookup: "`[a-z]*'?$|[a-z]*'$"
+
+customization:
+  region_tags:
+    - 廈
+
+hant:
+  option_name: hant
+  opencc_config: tw2t.json
+  tips: all
+
+hans:
+  option_name: hans
+  # opencc_config: biauim_tw2s.json # 愛對 Rime 系統資料夾複製 biauim_tw2s.json 要求的相應 ocd2
+  opencc_config: tw2s.json
+  tips: all
+
+variants:
+  option_name: variants
+  opencc_config: biauim_variants.json
+  tips: all

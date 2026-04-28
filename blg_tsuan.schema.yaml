@@ -5,7 +5,7 @@
 schema:
   schema_id: blg_tsuan
   name: 閩南語泉州音
-  version: "2026.4.23"
+  version: "2026.4.29"
   author:
     - 阿托 <a-thok@outlook.com>
     - Enatsu <unsioer@outlook.com>
@@ -20,8 +20,11 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+  - options: [ tw, hant, hans ]
+    states: [ 臺繁, 通繁, 简体 ] # 通繁倚靠 OpenCC 繁體
+  - name: variants
+    reset: 1
+    states: [ 原始, 兼容 ] # 繁簡轉換，單字兼容「着/著」
 
 engine:
   processors:
@@ -45,17 +48,22 @@ engine:
     - r10n_translator
     - reverse_lookup_translator
   filters:
-    - simplifier
+    - simplifier@hant
+    - simplifier@hans
+    - simplifier@variants
     - uniquifier
+    - lua_filter@*biauim.schema_dict_isolation
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba~[/\]90-;'
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - xform/\{.*\}//
+    - xform/\{[^\}]*\}//
     - abbrev/^([ptkbgmlschj]h?).+$/$1/ 
     - derive/^c/ts/
+    - derive/S//  # 「雙」「摔」「針」「汁」
+    - derive/JINN/ni/ # 「耳」「爾」文讀
     - derive/uih/ueh/
     - derive/^j/l/
     - derive/Ia/io/
@@ -80,6 +88,7 @@ speller:
     - derive/oO/oo/
     - derive/ik/iak/		#市區、海口
     #- derive/erng/ng/		#市區、海口
+    - derive/cerk/cak/	# 府城等「賊」「則」文讀
     #- derive/7/3/		#陰陽去本調
     - derive/ir/i/		#海口腔
     - derive/er([^eptkmng]*)(h?)$/e$1$2/		#海口腔
@@ -161,7 +170,6 @@ translator:
     - 'xform c ts'
     - 'xform q h'
 
-
 reverse_lookup:
   dictionary: luna_pinyin
   prefix: "`"
@@ -185,3 +193,22 @@ recognizer:
     uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
     reverse_lookup: "`[a-z]*'?$|[a-z]*'$"
+
+customization:
+  region_tags:
+    - 泉
+
+hant:
+  option_name: hant
+  opencc_config: tw2t.json
+  tips: all
+
+hans:
+  option_name: hans
+  opencc_config: tw2s.json
+  tips: all
+
+variants:
+  option_name: variants
+  opencc_config: biauim_variants.json
+  tips: all

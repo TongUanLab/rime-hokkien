@@ -1,0 +1,23 @@
+{
+  "name": "Biauim Variants For Characters",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "biauim_variants.txt"
+    }
+  },
+  "conversion_chain": [
+    {
+      "dict": {
+        "type": "group",
+        "dicts": [
+          {
+            "type": "text",
+            "file": "biauim_variants.txt"
+          }
+        ]
+      }
+    }
+  ]
+}
