@@ -60,42 +60,48 @@ speller:
   delimiter: " '"
   algebra:
     - xform/\{[^\}]*\}//
+    - xform/(\d)0/$1/ # 輕聲標記
     - abbrev/^([ptkbgmlschj]h?).+$/$1/ 
     - derive/^c/ts/
-    - derive/S/i/  # 「雙」「摔」「針」「汁」
+    - xform/S/i/  # 「雙」「摔」「針」「汁」
     - derive/JINN/ni/ # 「耳」「爾」文讀
+    - xform/NG/ng/ # 「毛」「兩」白讀
     - derive/uih/ueh/
-    #- derive/^j/l/	#偏泉腔，j濫l
+    #- derive/^j/l/  #偏泉腔，j濫l
     - derive/6/7/
     - derive/Ia/io/
-    #- derive/Iang/iang/		#偏漳腔，上讀siang
+    #- derive/Iang/iang/    #偏漳腔，上讀siang
+    - derive/Uee/ue/  # 「畫」「劃」
+    - derive/Uee/ui/  # 「畫」「劃」
     - derive/ee/e/
-    #- derive/enn/inn/		#偏泉腔，enn濫inn
-    #- derive/^([mn]g?)ee/$1i		#同上
-    - derive/IR/ir/
-    - derive/ir/u/
-    - derive/ir/i/
+    #- derive/enn/inn/    #偏泉腔，enn濫inn
+    #- derive/^([mn]g?)ee/$1i    #同上
+    - derive/ira/ia/
+    - derive/IR(h?\d?)$/i$1/    #魚韻讀i特字
+    - derive/ir(h?\d?)$/u$1/
+    - derive/ir(h?\d?)$/i$1/
     - derive/ur/u/
-    - derive/er([^eptkmng]*)(h?)$/ue$1$2/		#偏漳腔，過讀kue
-    - derive/er([^eptkmng]*)(h?)$/e$1$2/		#偏泉腔，過讀ke
+    - derive/er([^eptkmng]*)(h?)$/ue$1$2/    #偏漳腔，過讀kue
+    - derive/er([^eptkmng]*)(h?)$/e$1$2/    #偏泉腔，過讀ke
     - derive/Er/e/
-    - derive/Er/er/		#鹿港
-    - derive/ere/e/		#偏漳腔，雞讀ke
-    - derive/ere/ue/		#偏泉腔，雞讀kue
+    - derive/Er/er/    #鹿港
+    - derive/ere/e/    #偏漳腔，雞讀ke
+    - derive/ere/ue/    #偏泉腔，雞讀kue
     - derive/uIn?n?/ng/
     - derive/uAinn/uan/
     - derive/iO/oo/
-    - derive/IO/io/		#侯韻文讀特字
-    - derive/U/u/
+    - derive/IO/io/    #侯韻文讀特字
+    - derive/U([^e|$])/u$1/
     - derive/aInn/ing/
     - derive/^ngaI/ging/
     - derive/aI/ai/
     - derive/^mue/mui/
-    - derive/ern/in/
-    - derive/ern(\d?\s?)/un$1/
-    - derive/ern/irn/
+    - derive/er([nt])(\d?\s?)/i$1$2/
+    - derive/er([nt])(\d?\s?)/u$1$2/
+    - derive/er([nt])/ir$1/
     - derive/erm/im/
-    #- derive/^ji/gi/		#日母字讀g，比論字讀gi
+    - derive/(m|n|ng)o(h?\d?)$/$1oo$2/
+    #- derive/^ji/gi/    #日母字讀g，比論字讀gi
     - derive/^([a-z]+)\d$/$1/
     - 'xlit 12345678 [/\]90-;'
 
@@ -104,7 +110,7 @@ translator:
   prism: bamlam_tai # 分離 prism，避免多方案共享同一 banlam.prism.bin 時的衝突
   spelling_hints: 5
   comment_format:
-    - xform/\{.*\}//
+    # - xform/\{.*\}//
     - 'xform ([aeiou])(r?m?n*h?g?p?t?k?)([\[/\\\]90\-;]) $1$3$2'
     - 'xform ([aeo])([iueo])([\[/\\\]90\-;]) $1$3$2'
     - 'xform a\[ a'

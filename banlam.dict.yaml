@@ -29,7 +29,7 @@
 
 ---
 name: banlam
-version: "2026.4.29"
+version: "2026.5.1"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -49,14 +49,16 @@ columns:
 啞	a2
 鴨	ah4
 押	ah4
+矣	ah4
 壓	ah4	1%
 抑	ah4	5%
 盒	ah8
 曷	ah8	1%
 巴	pa1
-笆	pa1
-芭	pa1
 吧	pa1
+羓	pa1
+芭	pa1
+笆	pa1
 飽	pa2	10
 把	pa2
 霸	pa3	10
@@ -112,6 +114,7 @@ columns:
 籮	la5
 蟧	la5
 鯪	la5
+蘿	la5
 抐	la6
 鬧	la7	1%
 曆	lah8
@@ -188,6 +191,7 @@ columns:
 合	hah8
 箬	hah8
 查	ca1
+查[漳]	cee1
 楂	ca1
 臢	ca1
 喳	ca1
@@ -199,6 +203,8 @@ columns:
 詐	ca3
 蚱	ca3
 扎	cah4
+查	ca5
+查[漳]	cee5
 昨	ca6
 乍	ca7
 閘	cah8
@@ -209,11 +215,13 @@ columns:
 炒	cha2
 插	chah4
 查	cha5
+查[漳]	chee5
 柴	cha5
 捎	sa1
 沙	sa1	5%
 紗	sa1	5%
-莎	sa1
+痧	sa1	5%
+莎	sa1	5%
 灑	sa2
 耍	sa2
 嗄	sa3
@@ -334,12 +342,34 @@ columns:
 霸灰	pa her
 豹皮	pa pher
 豹尾	pa ber
-百萬
-百萬項
-百億
+百一	pah it
+百一[漳]	peeh it
+百二	pah ji
+百二[漳]	peeh ji
+百三	pah sann
+百三[漳]	peeh sann
+百四	pah si
+百四[漳]	peeh si
+百五	pah goo
+百五[漳]	peeh goo
+百六	pah lak
+百六[漳]	peeh lak
+百七	pah chit
+百七[漳]	peeh chit
+百八	pah pereh
+百八[漳]	peeh pereh
+百九	pah kau
+百九[漳]	peeh kau
+百萬	pah ban
+百萬[漳]	peeh ban
+百萬項	pah ban hang
+百萬項[漳]	peeh ban hang
+百億	pah ik
+百億[漳]	peeh ik
 百外	pah gua
 百外	peeh gua
-百項
+百項	pah hang
+百項	peeh hang
 百樣	pah iunn
 百樣	peeh iunn
 百年	pah ni
@@ -382,12 +412,11 @@ columns:
 拋拋走	pha pha cau
 拋網	pha bang
 拋網	phua bang
-拋車輪	pha chia lin
 拋船	pha cun
 拋魚	pha hIR
 拋荒	pha huInn
 拋碇	pha tiann
-拋車輪	pha chia lin
+拋捙輪	pha chia lin1
 拍拚	phah piann
 拍報	phah po
 拍醒	phah chenn
@@ -406,7 +435,7 @@ columns:
 拍交落	phah4 ka1 lauh8
 拍賣	phah bere
 拍某	phah boo
-拍囝
+拍囝	phah kirann
 拍尻川	phah kha chuInn
 拍咳啾	phah4 ka1 chiunn3{*}
 拍咳啾	phah4 kha1 chiunn3{*}
@@ -422,7 +451,7 @@ columns:
 拍毋見	phah m kinn
 拍毋見	phah ang3 kinn{音變}
 拍毋見	phang3 kinn3{合音}
-拍噗仔	phah phok a
+拍噗仔	phah phok8 a
 拍戲	phah hi
 拍攝	phah liap
 拍算	phah suInn
@@ -459,6 +488,7 @@ columns:
 肉色	bah sik
 肉骨	bah kut
 肉骨茶	bah kut tee
+肉拊	bah hu
 麻雀	ba chIak
 麻煩	ba huan
 麻藥	ba ioh
@@ -490,6 +520,7 @@ columns:
 搭粒	tah liap
 搭儂	tah lang
 搭嚇	tah hiannh
+搭乘	tah sing5
 貼貼	tah tah
 貼底	tah tere
 答應	tah ing3
@@ -507,7 +538,9 @@ columns:
 拉涼	la liang
 拉涼	lah liang
 拉閒	la aInn
-拉圇	la lun
+拉圇	la lun5
+拉圇仔	la lun5 a
+拉圇仔燒	la lun5 a sio
 拉丁	la ting
 拉丁語	la ting gir
 拉丁文	la ting bun
@@ -534,13 +567,16 @@ columns:
 臘肉	lah bah
 臘月	lah gerh
 臘梅	lah mue
+加圇	ka lun5
+交圇	ka lun5
+加圇	ka nuI5
+交圇	ka nuI5
 加減	ka kiam
-加減乘除	ka kiam sing tir
+加減乘除	ka kiam sing5 tir
 加法	ka huat
 加工	ka kang
 加入	ka jip
 加倍	ka per
-加輪	ka lun
 加添	ka thiam
 加油	ka iu
 加油站	ka iu cam
@@ -596,7 +632,7 @@ columns:
 鉸斷	ka tuInn
 膠水	ka cui
 膠州	ka ciu
-膠州灣	ka ciu uan
+膠州灣	ka ciu uan1
 茭白筍	ka pik sun
 茭白筍	ka peeh sun
 交落	ka lauh
@@ -613,7 +649,7 @@ columns:
 假設	ka siat
 假定	ka ting
 假借	ka cia
-假使	ka sur
+假使	ka sur2
 假若	ka na7
 假說	ka suat
 假期	ka ki
@@ -623,9 +659,12 @@ columns:
 教冊	ka cheeh
 教乖	ka kuai
 教歹
+價值	ka tit
 嫁接	ka ciap
 嫁禍	ka ho
 嫁禍	ka hoO
+嫁禍[漳]	kee ho
+嫁禍[漳南]	kee hua
 較車	ka chia
 架勢	ka se
 駕臨	ka lim5
@@ -635,10 +674,13 @@ columns:
 駕駛證	ka sai cing
 駕照	ka ciau
 甲子	kah ci
+甲子	kah cur
 甲乙	kah it
 甲魚	kah hIR
 甲等	kah ting
 甲等	kah terng
+甲板	kah pan
+甲胄	kah tiu
 佮意	kah i
 佮喙	kah chui
 蓋被	kah pher
@@ -654,7 +696,10 @@ columns:
 跤後蹬	kha au tenn
 跤指頭仔	kha cng thau a
 跤指頭仔	kha cing thau a
-跤後肚	kha au too
+跤肚	kha too2
+跤肚骨	kha too2 kut
+跤肚仁	kha too2 jin
+跤後肚	kha au too2
 跤跡	kha jiah
 跤步	kha poo
 跤數	kha siau
@@ -677,10 +722,8 @@ columns:
 尻川	kha chuInn
 尻川縫	kha chuInn phang
 尻川後	kha chuInn au
-尻川䫌	kha chuInn phue
+尻川䫌	kha chuInn phere
 尻川爿	kha chuInn paInn
-奇數	khia soo
-奇數	kha soo
 巧物	kha2 mngh8
 巧物	kha2 mih8
 巧合	kha2 hap8
@@ -703,6 +746,7 @@ columns:
 較慘死	khah cham si
 較快	khah khuai
 較快	khah kere
+較易	khah kere
 較輸	khah su
 較贏	khah iann
 卡片	khah4 phinn
@@ -777,30 +821,27 @@ columns:
 合身	hah sin
 合用	hah ing
 合儂意	hah lang i
-查某	ca boo
-查某儂	ca boo lang
-查某仔	ca boo a
-查某囡仔	ca boo kin a
-查某囡仔	ca boo gin a
-查某囡仔	ca boo kan a
-查某囝	ca boo kiann
-查某囝	ca boo kann
-查某仔囝	ca boo a kiann
-查某仔囝	ca boo a kann
-查某嬰	ca boo enn
-查某嬰[廈]	ca boo ENN1
-查某孫	ca boo sun
-查某外甥	ca boo gue sing
-查某外甥	ca boo gue serng
-查某𡢃	ca boo kan
-查某體	ca boo there
-查某款	ca boo khuan
-查某楔	ca boo sereh
-查埔	ca poo
+查某	ca1 boo
+查某儂	ca1 boo lang
+查某仔	ca1 boo a
+查某囡仔	ca1 boo kin a
+查某囡仔	ca1 boo gin a
+查某囡仔	ca1 boo kan a
+查某囝	ca1 boo kirann
+查某仔囝	ca1 boo a kirann
+查某嬰	ca1 boo enn
+查某嬰[廈]	ca1 boo ENN1
+查某孫	ca1 boo sun
+查某外甥	ca1 boo gue sing
+查某外甥	ca1 boo gue serng
+查某𡢃	ca1 boo kan
+查某體	ca1 boo there
+查某款	ca1 boo khuan
+查某楔	ca1 boo sereh
+查埔	ca1 poo1
 查埔	ta1 poo1{*}
-查埔囝	ca poo kiann
-查埔囝	ta1 poo1 kiann{*}
-查埔囝	ta1 poo1 kann{*}
+查埔囝	ca1 poo1 kiann
+查埔囝	ta1 poo1 kirann2{*}
 早起	ca2 khi2
 早起	cai2 khi2{*}
 早頓	ca tuInn
@@ -811,15 +852,15 @@ columns:
 早春	ca chun
 早課	ca kho
 早課[雲霄]	ca kher
-早操	ca chau
+早操	ca chau1
 早讀	ca thak
 早睏	ca khun
 早產	ca san
 早年	ca ni
 早死	ca si
 早期	ca ki
-炸彈	ca3 tuann2
-炸彈	ca3 tan2
+炸彈	ca3 tuann5
+炸彈	ca3 tan5
 炸藥	ca ioh
 詐騙	ca phian
 詐欺	ca khi
@@ -862,16 +903,28 @@ columns:
 插班	chah pan
 插曲	chah khik
 插頭	chah thau
-查證	cha cing
-查數	cha siau
-查明	cha bing
-查詢	cha sun
-查封	cha hong
-查看	cha khuann
+查證	ca5 cing
+查證[漳]	cee5 cing
+查證[漳]	cee5 cin3
+查證	cha5 cing
+查數	ca5 siau
+查數[漳]	cee5 siau
+查數	cha5 siau
+查明	ca5 bing
+查明[漳]	cee5 bing
+查明	cha5 bing
+查詢	ca5 sun
+查詢[漳]	cee5 sun
+查詢	cha5 sun
+查封	ca5 hong
+查封[漳]	cee5 hong
+查封	cha5 hong
+查看	ca5 khuann
+查看[漳]	cee5 khuann
+查看	cha5 khuann
 柴頭	cha thau
 柴草	cha chau
-柴屐	cha kiah
-柴屐	cha kah
+柴屐	cha kirah
 柴魚	cha hIR
 柴門	cha muI
 柴桶	cha thang
@@ -886,8 +939,11 @@ columns:
 捎食	sa ciah
 捎掠	sa liah
 沙場	sa tIang
+沙場[漳]	see tIang
 沙發	sa huat
+沙發[漳]	see huat
 沙發椅	sa huat i
+沙發椅[漳]	see huat i
 灑脫	sa thuat
 煠卵	sah nuI
 煠雞卵	sah kere nuI
@@ -914,7 +970,7 @@ columns:
 徘	pai5
 棑	pai5
 俳	pai5
-敗	pai7
+敗	pai7	10
 歹	phai2	10
 歹	phainn2{異}	10
 派	phai3
@@ -1034,6 +1090,7 @@ columns:
 宰	cai2
 載	cai2	1%
 載	cainn2{又}	1%
+仔	cai2	1%
 再	cai3	10
 載	cai3
 債	cai3	0%
@@ -1105,6 +1162,9 @@ columns:
 愛戴	ai tai
 愛撫	ai3 hu2
 愛撫	ai3 bu2
+愛欲	ai3 berh
+愛欲	ai3 beh
+愛欲	ai3 boh
 隘門	ai muI
 曖昧	ai mue
 擺佈	pai poo
@@ -1151,6 +1211,8 @@ columns:
 排祉	pai ci
 排比	pai pi
 排序	pai sir
+俳優	pai5 iu1
+俳句	pai5 ku3
 牌仔	pai a
 牌照	pai ciau
 牌匾	pai pian
@@ -1166,20 +1228,25 @@ columns:
 敗北	pai pok
 敗訴	pai soo
 敗空	pai khang1
+敗價	pai kee
+# 袂使換做「䆀」
+歹囝	phainn kirann
+歹囝	phai kirann
+歹囝頭	phainn kirann thau
+歹囝頭	phai kirann thau
+# 會使換做「䆀」
 歹勢
 歹面
+歹面像
+歹面色
 歹看面
-歹囝
-歹囝頭
 歹看
 歹代
 歹儂
 歹講
-歹說
+歹說[泉]	phainn serh
 歹後進
 歹夢
-歹面像
-歹面色
 歹症
 歹手
 歹手勢
@@ -1234,12 +1301,71 @@ columns:
 歹年冬
 歹聽
 歹事
+歹價	phainn kee
+歹價	phai kee
 派頭	phai thau
 派遣	phai khian
 派出所	phai chut soo
 派額	phai giah
 派駐	phai cu
 䆀勢	bai si
+䆀面
+䆀面像
+䆀面色
+䆀看面
+䆀看
+䆀代
+䆀儂
+䆀講
+䆀後進
+䆀夢
+䆀症
+䆀手
+䆀手勢
+䆀喙
+䆀喙斗
+䆀食
+䆀運
+䆀神氣
+䆀貨
+䆀用
+䆀啉
+䆀戲拖棚
+䆀意
+䆀姻緣
+䆀飼
+䆀日子	bai jit ci
+䆀天時
+䆀竹出好筍
+䆀空	bai khang1
+䆀款	bai khuan
+䆀體	bai the
+䆀去
+䆀看相	bai khuann siunn3
+䆀行
+䆀鼻
+䆀𤆬頭
+䆀局
+䆀瓜厚子	bai kuee kau ci
+䆀命
+䆀命儂
+䆀歹
+䆀話
+䆀辦
+䆀腹肚
+䆀癖
+䆀品
+䆀性地	bai sing te
+䆀死
+䆀聲嗽
+䆀心肝
+䆀心腸
+䆀心毒行	bai sim tok hing7
+䆀銅舊錫
+䆀年冬
+䆀聽
+䆀事
+䆀價	bai kee
 㝥火	bai her
 眉目	bai bak
 埋名	bai bing
@@ -1264,7 +1390,7 @@ columns:
 臺灣省	tai uan2 sing
 臺灣省[漳]	tai uan2 senn2
 臺灣府	tai uan2 hu
-臺灣話	tai uan2 khiunn
+臺灣腔	tai uan2 khiunn
 臺灣話	tai uan2 uee
 臺灣儂	tai uan2 lang
 臺灣島	tai uan2 to2
@@ -1483,7 +1609,7 @@ columns:
 芥茉	kai buah
 丐幫	kai pang
 開錢	khai cinn
-開查某	khai ca boo
+開查某	khai ca1 boo2
 開始	khai si
 開支	khai ci
 開戰	khai cian
@@ -1517,6 +1643,8 @@ columns:
 開辟	khai1 phik4{*俗讀，應以「闢」及pit8/pik8爲正}
 開闢	khai1 pit8
 開闢	khai1 pik8
+開墾	khai1 khun2
+開墾[泉]	khai1 khern2
 開元寺	khai guan si
 凱旋	khai suan
 凱歌	khai ko
@@ -1527,7 +1655,7 @@ columns:
 概論	khai lun
 概況	khai hong
 概念	khai liam
-概要	khai iau
+概要	khai iau3
 概率	khai lut
 慨然	khai jian
 慨嘆	khai than
@@ -1614,7 +1742,7 @@ columns:
 骸骨	hai kut
 亥時	hai si
 駭然	hai jian
-駭人聽聞	hai jin thing bun
+駭人聽聞	hai jin thing1 bun
 害害去	hai hai khIR
 害囉	hai loo
 害儂	hai lang
@@ -1637,7 +1765,8 @@ columns:
 災害	cai hai
 災禍	cai ho
 災禍	cai hoO
-災難	cai lan
+災禍[漳南]	cai hua
+災難	cai lan7
 齋戒	cai kai
 齋日	cai jit
 再會	cai hue
@@ -1782,10 +1911,10 @@ columns:
 西北風	sai pak hong
 西北雨	sai pak hoo
 西照日	sai cio jit
-私奇	sai khia
-私奇	sai kha
-私奇錢	sai khia cinn
-私奇錢	sai kha cinn
+私奇	sai khira
+私奇	sur khira
+私奇錢	sai khira cinn
+私奇錢	sur kha cinn
 犀牛角	sai gu kak
 犀牛照角	sai gu cio kak
 犀牛夢月	sai gu bang gerh
@@ -1798,7 +1927,7 @@ columns:
 使目角	sai2 bak kak
 使弄	sai2 long
 駛𧮙	sai choh
-駛姦𧮙	sai kan choh
+駛姦𧮙	sai kan3 choh
 駛船	sai cun
 駛車	sai chia
 屎礐	sai hak
@@ -1822,10 +1951,12 @@ columns:
 包	pau1
 胞	pau1
 苞	pau1
+鮑	pau1
 飽	pau2	5%
 豹	pau3	5%
 㿺	pauh4
 鮑	pau5
+袍	pau5{文}	1%
 庖	pau5
 刨	pau5
 拋	phau1
@@ -1833,6 +1964,7 @@ columns:
 泡	phau3
 炮	phau3
 砲	phau3
+袍	phau3{俗}
 炮	phauh4
 袍	phau5
 卯	bau2
@@ -1905,10 +2037,12 @@ columns:
 跤	khau1	5%
 敲	khau1
 剾	khau1
+鬮	khau1
 口	khau2	10
 巧	khau2	0%
 哭	khau3
 扣	khau3
+銬	khau3
 𠢕	gau5	10
 爻	gau5
 肴	gau5
@@ -1952,16 +2086,42 @@ columns:
 稍	sau3
 漚肥	au1 pui5
 漚鹹菜	au1 kiam5 chai3
-拗鬱	au ut
+漚雨	au1 hoo6
+拗鬱	au2 ut4
+拗理	au2 li2
+拗裒	au2 poo5
+拗衭	au2 poo5
+拗價	au2 kee3
+拗手	au2 chiu2
+拗喙	au2 chui
+拗曲	au2 khiau1
+拗蹺	au2 khiau1
+拗彎	au2 uan1
+拗蠻	au2 ban5
+拗屈	au2 khut
+拗痕	au2 hun5
+拗落拖	au2 loh8 thua1
 嘔紅	au ang
 嘔血	au huih
 嘔心血	au sim hiat
-漚臭	au chau
-漚面	au bin
-漚屎面	au sai bin
-漚面漚孔	au bin au khang
-漚頭漚面	au thau au bin
-漚味	au bi
+漚臭	au3 chau
+漚屎	au3 sai
+漚潲	au3 siau
+漚面	au3 bin
+漚屎面	au3 sai bin
+漚潲面	au3 siau bin
+漚面漚孔	au3 bin au3 khang2
+漚頭漚面	au3 thau au3 bin
+漚步	au3 poo
+漚屎步	au3 sai poo
+漚潲步	au3 siau poo
+漚味	au3 bi
+漚翕	au3 hip
+漚熻	au3 hip
+漚熁	au3 hiap
+漚翕熱	au3 hip juah
+漚熻熱	au3 hip juah
+漚熁熱	au3 hiap juah
 懊惱	au nau
 懊惱	au lau
 拗紙	auh cua
@@ -2018,6 +2178,8 @@ columns:
 飽滿	pau buan
 㿺齒	pauh khi
 㿺疱	pauh pha
+袍澤	pau5 tik
+袍澤	phau5 tik
 拋繡球	phau siu kiu
 拋妻離子	phau che li7 cur
 拋磚引玉	phau cuan in giok
@@ -2025,7 +2187,8 @@ columns:
 泡藥	phau ioh
 泡麵	phau mi
 炮臺	phau tai
-炮彈	phau tuann
+炮彈	phau tuann5
+炮彈	phau tan5
 炮火	phau her
 炮仔	phau a
 炮仔	phauh a
@@ -2040,12 +2203,16 @@ columns:
 矛盾	bau tun
 矛盾	mau tun
 斗仔	tau a
-斗籠	tau lang
+斗籠	tau lang2
 鬥陣	tau tin
 鬥相共	tau sann kang
 鬥相共	tau sio kang
-鬥相贊	tau sann can
-鬥相贊	tau sio can
+鬥贊	tau can7
+鬥贈	tau can7
+鬥相贊	tau sann can7
+鬥相贊	tau sio can7
+鬥相贈	tau sann can7
+鬥相贈	tau sio can7
 鬥跤手	tau kha chiu
 鬥伴	tau phuann
 鬥無閒	tau bo aInn
@@ -2077,8 +2244,10 @@ columns:
 豆餡	tau ann
 豆莢	tau gereh
 豆莢	tau ngereh
+豆莢	tau ngeh
+豆莢	tau kereh
 豆油	tau iu
-豆腐	tau hu
+豆腐	tau hu7
 豆醬	tau ciunn
 豆粉	tau hun
 豆奶
@@ -2087,7 +2256,9 @@ columns:
 豆乾糋	tau kuann cinn
 豆皮	tau pher
 豆餅	tau piann
+豆沙	tau sa
 豆沙	tau see
+豆沙糕	tau sa ko
 豆沙糕	tau see ko
 豆豉
 豆花	tau huee
@@ -2138,10 +2309,8 @@ columns:
 透露	thau loo
 透支	thau ci
 頭殼	thau khak
-頭毛	thau mng
-頭毛碎	thau mng chui
-頭毛	thau moo
-頭毛碎	thau moo chui
+頭毛	thau mNG
+頭毛碎	thau mNG chui
 頭鬃	thau cang
 頭摠	thau cang
 頭額	thau hiah
@@ -2185,8 +2354,7 @@ columns:
 頭部	thau poo
 頭頂	thau ting
 頭殼頂	thau khak ting
-頭𩑾𩑾	thau chirh chirh
-頭𩑾𩑾	thau chih chih
+頭𩑾𩑾	thau chIRh chIRh
 頭生日	thau senn jit
 頭眩	thau hin
 頭眩目暗	thau hin bak am
@@ -2240,7 +2408,8 @@ columns:
 老奸	lau6 kan
 老猴	lau6 kau
 老去	lau6 khIR
-老硞硞	lau6 khok khok
+老硞硞	lau6 khok4 khok4
+老硞硞	lau6 khok8 khok8
 老翁某	lau6 ang boo
 老父	lau6 pee
 老母	lau6 bu
@@ -2249,6 +2418,7 @@ columns:
 老阿婆	lau6 a po
 老不修	lau6 put siu
 老本	lau6 pun
+老本	lau6 puInn
 老的	lau6 e
 老兮	lau6 e
 老个	lau6 e
@@ -2260,6 +2430,8 @@ columns:
 漏稅	lau6 ser
 鬧熱	lau6 jiat
 鬧熱	nau6 jiat
+鬧熱𩑾𩑾	lau6 jiat chIRh chIRh
+鬧熱𩑾插	lau6 jiat chIRh chah
 鬧鐘
 交陪	kau pue
 交友	kau iu
@@ -2360,7 +2532,8 @@ columns:
 夠夠	kau kau
 夠氣	kau khui
 夠錢	kau cinn
-夠本
+夠本	kau pun
+夠本	kau puInn
 校訂	kau ting
 校正	kau cing3
 校對	kau tui
@@ -2399,7 +2572,7 @@ columns:
 哭五更	khau goo kenn
 哭疼	khau thiann
 𠢕早	gau ca
-𠢕囝
+𠢕囝	gau kirann
 𠢕開𠢕用	gau khai gau ing
 𠢕做儂	gau cue lang
 𠢕做儂	gau co lang
@@ -2493,14 +2666,26 @@ columns:
 抄錄	chau lok
 抄寫	chau sia
 抄家	chau ka
-操演	chau ian
-操練	chau lian
-操心	chau sim
-操煩	chau huan
-操行	chau hing7
-操縱	chau chiong
-操作	chau cok
-操守	chau siu
+操場	chau1 tiunn5
+操持	chau1 chi
+操辦	chau1 pan
+操辦	cho1 pan
+操演	chau1 ian
+操演	cho1 ian
+操練	chau1 lian
+操練	cho1 lian
+操心	chau1 sim
+操心	cho1 sim
+操煩	chau1 huan
+操煩	cho1 huan
+操行	chau1 hing7
+操行	cho1 hing7
+操縱	chau1 chiong
+操縱	cho1 chiong
+操作	chau1 cok
+操作	cho1 cok
+操守	chau1 siu
+操守	cho1 siu
 鈔票	chau phio
 草木	chau bak
 草藥	chau ioh
@@ -2537,7 +2722,7 @@ columns:
 臭腹內	chau pak lai
 臭汗鉎味	chau kuann sSan bi
 臭汗酸味	chau kuann suInn bi
-臭囝
+臭囝	chau kirann
 臭酸	chau suInn
 臭酸味	chau suInn bi
 臭酸步	chau suInn poo
@@ -2552,8 +2737,8 @@ columns:
 臭腥味	chau chenn bi
 臭儂	chau lang
 臭殕	chau phu
-臭豆腐	chau tau hu
-臭彈	chau tuann
+臭豆腐	chau tau hu7
+臭彈	chau tuann6
 臭凊	chau chin
 梢聲	sau siann
 掃帚	sau ciu
@@ -2651,7 +2836,7 @@ columns:
 嬤仔	ma2 a
 媽祖	ma2 coo
 媽仔	ma2 a
-媽媽	ma ma{*}
+媽媽	ma5 ma5
 媽媽[臺]	ma2 mah4{*}
 嘛是	ma6 si
 嘛會	ma6 ere
@@ -2660,6 +2845,7 @@ columns:
 嘛著	ma6 tioh
 嘛欲	ma6 berh
 嘛欲	ma6 beh
+嘛欲	ma6 boh
 嘛知	ma6 cai
 罵儂
 罵天怨地
@@ -2683,22 +2869,26 @@ columns:
 他鄉	thann hIang
 他人	thann jin
 他殺	thann sat
-哪會	na ere
-哪會	na e
-哪通	na thang
-哪堪	na kham
-哪欲	na berh
-哪欲	na beh
-哪毋	na m
-哪未	na ber
-哪知	na cai
-哪著	na tioh
-哪有	na u
-哪使	na sai2
-哪仔	na a
-哪物	na mih8
-哪物	na mih4
-哪貨	na her
+哪會	na2 ere
+哪會	na2 e
+哪通	na2 thang
+哪堪	na2 kham
+哪欲	na2 berh
+哪欲	na2 beh
+哪欲	na2 boh
+哪毋	na2 m
+哪未	na2 ber
+哪知	na2 cai
+哪著	na2 tioh
+哪有	na2 u
+哪使	na2 sai2
+哪仔	na2 a
+哪物	na2 mih8
+哪物	na2 mih4
+哪物仔	na2 mih8 a
+哪物仔	na2 mih4 a
+哪貨	na2 her
+哪貨仔	na2 her a
 那來那	na lai na
 若像	na2 chiunn
 若親像	na2 chin chiunn
@@ -2719,6 +2909,7 @@ columns:
 若是	na7 si
 若欲	na7 berh
 若欲	na7 beh
+若欲	na7 boh
 若無	na7 bo
 若準	na7 cun2
 若準講	na7 cun2 kong2
@@ -2751,9 +2942,10 @@ columns:
 三更半暝	sann kenn puann mee
 三跤貓	sann kha niau
 三跤椅仔	sann kha i a
-三輪車
-三長兩短	sann tng5 nng tEr
-三長兩短	sann tng5 noo tEr
+三輪車	sann1 lun2 chia1
+三輪車	sann1 lian2 chia1
+三輦車	sann1 lian2 chia1
+三長兩短	sann tng5 nNG tEr
 三除四扣	sann tir si khiO
 三除四扣	sann tir si khau
 三叉路口	sann chee loo khau
@@ -2808,38 +3000,46 @@ columns:
 相瞞
 相騎
 相涵	sann ann
-相觸	sann tak
-相知	sann cai
-相共	sann kang
-相爭	sann cenn
-相食穿	sann ciah ching
-相招	sann cio
-相借問	sann cioh muI
-相駛	sann sai
-相扴	sann keeh
-相倚	sann ua
-相挨	sann ere
-相同	sann tang
-相交插	sann kau chap
-相見	sann kinn
-相送	sann sang
-相辭	sann si
 相涵	sio ann
+相觸	sann tak
 相觸	sio tak
+相知	sann cai
 相知	sio cai
+相共	sann kang
 相共	sio kang
+相爭	sann cenn
 相爭	sio cenn
+相食穿	sann ciah ching
 相食穿	sio ciah ching
+相招	sann cio
 相招	sio cio
+相借問	sann cioh muI
 相借問	sio cioh muI
+相駛	sann sai
 相駛	sio sai
+相扴	sann keeh
 相扴	sio keeh
+相倚	sann ua
 相倚	sio ua
+相挨	sann ere
 相挨	sio ere
+相同	sann tang
 相交插	sio kau chap
+相交插	sann kau chap
 相見	sio kinn
+相見	sann kinn
 相送	sio sang
+相送	sann sang
 相辭	sio si
+相辭	sann si
+相伨	sann thin
+相伨	sio thin
+相媵	sann thin
+相媵	sio thin
+相伨頭	sann thin thau
+相伨頭	sio thin thau
+相媵頭	sann thin thau
+相媵頭	sio thin thau
 衫褲	sann khoo
 衫仔	sann a
 衫櫥	sann tu
@@ -2875,7 +3075,7 @@ columns:
 哼哼呻	hainn hainn chan
 怎樣	cainn iunn
 怎樣	cuann iunn
-##	aInn/aInnh
+##	aInn/aInnh（泉 uinn <> 同安、南安/安溪局部 ainn <> 漳泉 ing）
 閒	aInn5
 反	paInn2
 爿	paInn5
@@ -2894,7 +3094,7 @@ columns:
 貺	haInn7
 莧	haInn7
 指	caInn2	5%
-前	caInn5
+前	caInn5	10
 千	chaInn1
 筅	chaInn2
 先	saInn1
@@ -2904,7 +3104,7 @@ columns:
 閒閒無代誌	aInn aInn bo tai ci
 反來反去	paInn lai paInn khIR
 反倒吊	paInn to2 tiau
-反肚	paInn too
+反肚	paInn too6
 反覆	paInn phak
 買櫝還珠	mai tok huan cu
 店仔
@@ -2912,9 +3112,10 @@ columns:
 店門
 店面
 橂空空	taInn khong1 khong1
-橂硞硞	taInn khok khok
+橂硞硞	taInn khok4 khok4
+橂硞硞	taInn khok8 khok8
 橂篤	taInn tauh
-蓮花	naI hue
+蓮花	naI huee
 肩頭	kaInn thau
 肩胛	kaInn kah
 肩胛頭	kaInn kah thau
@@ -2936,6 +3137,15 @@ columns:
 前暗	caInn am
 前世儂	caInn si lang
 前儂	caInn lang
+千一	chaInn it
+千二	chaInn ji
+千三	chaInn sann
+千四	chaInn si
+千五	chaInn goo
+千六	chaInn lak
+千七	chaInn chit
+千八	chaInn pereh
+千九	chaInn kau
 千千	chian chian
 千拄千	chian tu chian
 千萬	chaInn ban
@@ -2956,7 +3166,7 @@ columns:
 爻	ngau5
 藕	ngau6
 樂	ngau7
-藃	haunnh
+藃	haunnh7
 藃皮	haunnh pher
 藃殼	haunnh khak
 ##	am/ap
@@ -3004,6 +3214,7 @@ columns:
 譚	tham5
 覃	tham5
 罈	tham5
+窞	tham7
 攬	lam2
 覽	lam2
 欖	lam2
@@ -3065,18 +3276,21 @@ columns:
 巖	gam5
 癌	gam5
 儑	gam6
-蚶	ham1
+蚶	ham1	10
 酣	ham1
 䈄	ham1
 憨	ham1
+邯	ham1	5%
 喊	ham2
 譀	ham3
 顑	ham3
-翕	hap4
+欱	hap4
+翕	hap4	1%
 咸	ham5
 含	ham5	10
 涵	ham5
 函	ham5
+銜	ham5
 鹹	ham5	0%
 陷	ham7	10
 憾	ham7
@@ -3105,6 +3319,7 @@ columns:
 蠶	cham5
 慚	cham5
 㴙	chap8
+眨	chap8
 三	sam1
 衫	sam1	5%
 杉	sam1
@@ -3116,13 +3331,20 @@ columns:
 圾	sap4
 霎	sap4
 颯	sap4
+雪	sap4
 儳	sam5
-闇囝
-腌臢
+闇囝	am kirann
+腌臢	a ca
+腌臢	a cam
+腌臢	am cam
 腌臢種
 腌臢種物
-鵪鶉	am sun
-鵪鶉卵	am sun nuI
+鵪鶉	am1 sun5
+鵪鶉	ian1 chhun1
+鵪鶉[雲霄]	gan1 chhun1
+鵪鶉卵	am1 sun5 nuI
+鵪鶉卵	ian1 chhun1 nuI
+鵪鶉卵[雲霄]	gan1 chhun1 nuI
 泔糜	am ber
 泔糜	am mue
 泔糜	am muai
@@ -3180,7 +3402,7 @@ columns:
 擔任	tam jim7
 擔保	tam po
 擔帶	tam tai
-擔當	tam tng
+擔當	tam tng1
 沾著	tam tioh
 膽量	tam lIang7
 膽識
@@ -3229,7 +3451,8 @@ columns:
 探訪	tham hong
 探身	tham sin
 探問	tham bun
-探查	tham ca
+探查	tham ca1
+探查[漳]	tham cee1
 探親	tham chin
 探險	tham hiam
 探花	tham huee
@@ -3243,7 +3466,8 @@ columns:
 探討	tham tho
 探測	tham chik
 探戈	tham ko
-塌本
+塌本	thap pun
+塌本	thap puInn
 塌底	thap tere
 塌底	lap tere
 塌落	lap loh8
@@ -3251,6 +3475,9 @@ columns:
 潭窟	tham khut
 痰罐	tham kuan
 痰瀾	tham nua
+窞肚	tham7 too2
+窞墜	tham7 thui
+窞䖳	tham7 thee
 荏爛	lam nua
 垃圾
 湳田	lam chan
@@ -3322,6 +3549,9 @@ columns:
 敢欲	kam berh
 敢欲	kiam berh
 敢欲	kam beh
+敢欲	kiam beh
+敢欲	kam boh
+敢欲	kiam boh
 敢有	kam u
 敢有	kiam u
 敢無	kam bo
@@ -3347,7 +3577,7 @@ columns:
 感想	kam sIang
 感傷	kam sIang
 感嘆	kam than
-感冒	kam moo
+感冒	kam mo
 感著	kam tioh
 感官	kam kuan
 感念	kam liam
@@ -3360,7 +3590,8 @@ columns:
 監視	kam3 si
 監察	kam3 chat
 監禁	kam3 kim
-監查	kam3 ca
+監查	kam3 ca1
+監查[漳]	kam3 cee1
 監控	kam3 khong
 監工	kam3 kang
 監聽	kam3 thiann
@@ -3368,8 +3599,7 @@ columns:
 贛語	kam gir
 鑑賞	kam sIang
 鑑定	kam ting
-佮囝	kap kiann
-佮囝	kap kann
+佮囝	kap kirann
 佮我	kap gua
 佮我	kah gua
 佮汝	kap lIR
@@ -3384,7 +3614,7 @@ columns:
 佮恁	kah lin
 佮𪜶	kap in
 佮𪜶	kah in
-甲版	kap pan
+甲板	kap pan
 蛤仔泅	kap a siu
 洽食	kap ciah
 洽洽	kap kap
@@ -3396,7 +3626,7 @@ columns:
 歁潲	kham siau
 歁神	kham sin
 歁話	kham uee
-歁囝
+歁囝	kham kirann
 歁戇	kham gong
 歁笑	kham chio
 歁呆	kham tai
@@ -3408,7 +3638,8 @@ columns:
 崁蓋	kham kua
 崁頭崁面	kham thau kham bin
 恰似	khap sur
-勘查	kham ca
+勘查	kham ca1
+勘查[漳]	kham cee1
 勘問	kham bun
 勘探	kham tham
 勘驗	kham giam
@@ -3430,29 +3661,11 @@ columns:
 譀譀代	ham ham tai
 䫲浡	ham phuh
 顑腫	ham cing
+欱價	hap4 kee
+欱仙	hap4 sian
+欱風	hap4 hong
+欱仔	hap4 a
 翕相	hip4 sIang3
-翕像	hip4 sIang6
-翕像[泉]	hap4 sIang6
-翕像[漳]	hip4 chIang6
-翕像[漳]	hip4 siong6{俗}	1%
-翕相	hip4 sIang6	1%
-翕相[泉]	hap4 sIang6	1%
-翕相[漳]	hip4 chIang6	1%
-翕相[漳]	hip4 siong6{俗}	1%
-翕相機	hip4 sIang3 ki1
-翕像機	hip4 sIang6 ki1
-翕像機[泉]	hap4 sIang6 ki1
-翕像機[漳]	hip4 chIang6 ki1
-翕相機	hip4 sIang6 ki1	1%
-翕相機[泉]	hap4 sIang6 ki1	1%
-翕相機[漳]	hip4 chIang6 ki1	1%
-翕相館	hip4 sIang3 kuan2
-翕像館	hip4 sIang6 kuan2
-翕像館[泉]	hap4 sIang6 kuan2
-翕像館[漳]	hip4 chIang6 kuan2
-翕相館	hip4 sIang6 kuan2	1%
-翕相館[泉]	hap4 sIang6 kuan2	1%
-翕相館[漳]	hip4 chIang6 kuan2	1%
 含口算	ham khau suInn
 含恨	ham hern
 含糊	ham hoo
@@ -3463,6 +3676,7 @@ columns:
 含笑	ham siau
 含冤	ham uan
 含蓄	ham thiok
+含蓄[漳]	ham hiok
 含三缺四	ham sann kherh si
 含梢	ham sau
 含罅	ham hee
@@ -3579,9 +3793,9 @@ columns:
 參考冊	cham khonn cheeh
 參考	cham kho
 參考冊	cham kho cheeh
-參觀	cham kuan
+參觀	cham kuan1
 參拜	cham pai
-參禪	cham sian
+參禪	cham sian5
 參詳	cham sIang
 參訪	cham hong
 參見	cham kian
@@ -3607,11 +3821,13 @@ columns:
 蠶繭	cham kian
 蠶絲	cham si
 蠶豆	cham tau
-蠶豆	chan tau
+蠶豆	chan5 tau7{*俗}
 慚愧	cham khui
 㴙㴙落	chap chap loh8
 㴙㴙滴	chap chap tih
 㴙㴙唸	chap chap liam
+眨眨𥍉	chap chap nih
+眨眨睰	chap chap nih
 三棧肉	sam1 can hik
 三棧肉	sam1 can bah
 三八	sam1 pat
@@ -3659,7 +3875,7 @@ columns:
 三思	sam3 sur1
 三思	sam1 sur1
 圾片	sap phinn
-雪文	sap bun
+雪文	sap4 bun5
 ##	an/at
 安	an1	10
 鞍	an1
@@ -3710,6 +3926,7 @@ columns:
 單	tan1	10
 釘	tan1
 丹	tan1
+鄲	tan1
 等	tan2	10
 誕	tan3
 擲	tan3	10
@@ -3805,11 +4022,13 @@ columns:
 罕	han2
 漢	han3	10
 韓	han5
+喝	hat4
 寒	han5
 閒	han5
 閑	han5
 樊	han5
 嫻	han5
+邯	han5
 汗	han5	1%
 限	han6	10
 旱	han6
@@ -3836,6 +4055,7 @@ columns:
 層	can5
 殘	can5
 贈	can7{白}
+贊	can7
 實	cat8
 賊	cat8	1%
 呻	chan1	5%
@@ -3885,7 +4105,7 @@ columns:
 安危	an gui
 安胎	an thai
 安份	an hun
-安份守己	an hun siu ki
+安份守己	an hun siu ki2
 安養	an Iang
 安然	an jian
 安寧	an ling
@@ -3908,20 +4128,29 @@ columns:
 俺嬤	an ma
 俺父	an pee
 俺娘	an nia
-按呢	an nee{*}
-按呢生	an nee senn1{*}
-按呢	an ne{*}
-按呢生	an ne senn1{*}
-按怎	an cuann2{*}
-按怎樣	an cuann2 iunn7{*}
-按怎樣	an cainn2 iunn7{*}
+按呢	an2 nee1{*}
+按呢	an3 nee1{*}
+按呢生	an2 nee1 senn1{*}
+按呢生	an2 nee2 senn1{*}
+按呢生	an3 nee2 senn1{*}
+按呢	an2 ne1{*}
+按呢	an3 ne1{*}
+按呢生	an2 ne1 senn1{*}
+按呢生	an2 ne2 senn1{*}
+按呢生	an3 ne2 senn1{*}
+按怎	an2 cuann2{*}
+按怎	an3 cuann2{*}
+按怎樣	an2 cuann2 iunn7{*}
+按怎樣	an3 cuann2 iunn7{*}
+按怎樣	an2 cainn2 iunn7{*}
+按怎樣	an3 cainn2 iunn7{*}
 按時	an3 si
 按額	an3 giah
 按日	an3 jit
 按看	an3 khuann
 按脈	an3 beeh
 按脈	an3 meeh
-按摩	an3 moo
+按摩	an3 mo
 按兵不動	an3 ping put tong
 按算	an3 suInn
 按照	an3 ciau
@@ -3932,6 +4161,7 @@ columns:
 案頭	an thau
 案底	an tere
 案例	an le
+案例[漳]	an li
 遏折	at cih
 遏斷	at tuInn
 揠苗助長	at biau coo tIang2
@@ -3951,12 +4181,13 @@ columns:
 板鞋	pan ere
 版本	pan pun
 版圖	pan too
-版權
+版權	pan kuan
+版權	pan khuan
 版面	pan bin
 八仙	pat sian
-八仙桌	pat sian to
+八仙桌	pat sian toh
 八仙過海	pat sian ker hai
-八家將	pat ka cIang
+八家將	pat ka cIang3
 八方	pat hong
 八音	pat im
 八卦	pat kua
@@ -3977,21 +4208,21 @@ columns:
 辦代誌	pan tai ci
 辦事處	pan sur chir3
 範勢	pan se
-別儂	pat lang
-別个	pat e
-別位	pat ui
-別搭	pat tah
-別搭	pat tiah
-別跡	pat jiah
-別項	pat hang
-別號	pat ho
-別日	pat jit
-別物	pat mih8
-別物	pat mih4
+別儂	pat8 lang
+別个	pat8 e
+別位	pat8 ui
+別搭	pat8 tah4
+別搭	pat8 tiah4{*}
+別跡	pat8 jiah
+別項	pat8 hang
+別號	pat8 ho
+別日	pat8 jit
+別物	pat8 mih8
+別物	pat8 mih4
 別物仔	pat mih8 a
 別物仔	pat mih4 a
 別日仔	pat jit a
-別種	pat ciong
+別種	pat ciong2
 別塊	pat tEr
 攀登	phan ting
 攀岩
@@ -4043,6 +4274,8 @@ columns:
 萬歲爺	ban sue ia
 萬事如意	ban sur jir i
 萬有引力	ban iu in lik
+萬乘	ban sing7
+萬乘之國	ban sing7 ci kok
 慢慢	ban ban
 慢慢仔	ban ban a
 慢呻呻	ban chan chan
@@ -4098,12 +4331,15 @@ columns:
 誕辰	tan sin
 擲捒	tan sak
 旦夕	tan sik
-妲己	tat ki
+妲己	tat ki2
 韃靼	tat tat
 陳三五娘	tan sann goo niu
-彈跳	tan tiau
-彈奏	tan cau
-彈簧	tan hong
+彈跳	tan5 tiau
+彈奏	tan5 cau
+彈簧	tan5 hong5
+彈簧	than5 hong5{*}
+彈藥	tan5 ioh
+彈藥	tuann5 ioh
 霆雷	tan lui
 霆雷公	tan lui kong
 亭仔
@@ -4113,7 +4349,7 @@ columns:
 蛋糕	tan ko
 蛋白質	tan pik cit
 達到	tat kau
-達摩	tat moo
+達摩	tat mo
 達成	tat sing
 值得	tat tit
 值錢	tat cinn
@@ -4121,8 +4357,7 @@ columns:
 攤手	than chiu
 坦直	than tit
 坦橫	than huainn
-坦徛	than khia
-坦徛	than kha
+坦徛	than khira
 坦敧	than khi
 坦倒	than to2
 坦覆	than phak
@@ -4152,32 +4387,33 @@ columns:
 咱厝	lan chu
 咱地	lan tEr
 懶散	lan san3
-難免	lan bian
-難怪	lan kuai
-難產	lan san
-難題	lan tere
-難度	lan too
-難得	lan tit
-難關	lam kuan
-難忘	lan bong
+難免	lan5 bian
+難怪	lan5 kuai
+難產	lan5 san
+難題	lan5 tere
+難度	lan5 too
+難得	lan5 tit
+難關	lan5 kuan
+難忘	lan5 bong
 欄杆	lan kan
 蘭花	lan huee
 零星	lan san
 𡳞鳥	lan ciau
 𡳞鳥面	lan ciau bin
 𡳞脬	lan pha
-𡳞核	lan hert
 𡳞核	lan hut
+𡳞核	lan hert
 𡳞𦉎	lan sui
-難民	lan bin
-難兄難弟	lan hing lan te
+難民	lan7 bin
+難兄難弟	lan7 hing lan7 te
+難兄難弟	lan7 hiann lan7 ti
 力頭	lat thau
 力草	lat chau
 栗子	lat ci
 艱苦	kan khoo
 艱計	kan ke
 艱辛	kan sin
-艱難	kan lan
+艱難	kan lan1
 干焦	kan ta
 干擾	kan jiau
 干了	kan liau
@@ -4201,12 +4437,12 @@ columns:
 奸雄	kan hiong
 矸仔	kan a
 矸仔蓋	kan a kua
-肝腸寸斷	kan tIang chun tuan
-姦淫	kan im
-姦情	kan cing
+肝腸寸斷	kan tIang chun tuan6
+姦淫	kan1 im
+姦情	kan1 cing
 簡單	kan tan
 簡明	kan bing
-簡要	kan iau
+簡要	kan iau3
 簡易	kan i
 簡潔	kan kiat
 簡化	kan hua
@@ -4220,7 +4456,7 @@ columns:
 簡報	kan po
 簡體	kan the
 簡體字	kan the ji
-簡稱	kan ching
+簡稱	kan ching1
 簡章	kan cIang
 柬帖	kan thiap
 幹部	kan poo
@@ -4228,7 +4464,7 @@ columns:
 幹線	kan suann
 諫言	kan gian
 間隔	kan3 keeh
-間斷	kan3 tuan
+間斷	kan3 tuan6
 間諜	kan3 tiap
 間接	kan3 ciap
 姦撟	kan3 kiau
@@ -4263,9 +4499,9 @@ columns:
 刊物	khan but
 刊載	khan cai3
 侃侃	khan khan
-看護	khan hoo
-看守	khan siu
-看守所	khan siu soo
+看護	khan1 hoo
+看守	khan1 siu
+看守所	khan1 siu soo
 克苦	khat khoo
 克根	khat kern
 𣁳飯	khat puInn
@@ -4287,7 +4523,7 @@ columns:
 罕討	han tho
 罕得	han tit
 罕時	han si
-罕時陣	han si cuan
+罕時陣	han si cun
 罕得幾時	han tit kui si
 漢語	han gir
 漢族	han cok
@@ -4328,34 +4564,44 @@ columns:
 限定	an ting
 限度	an too
 限乏	an hat
-汗顏	han gan
-汗馬功勞	han ma kong lo
-汗馬功勞	han ma kong loO
+汗顏	han7 gan
+汗馬功勞	han7 ma kong lo
+汗馬功勞	han7 ma kong loO
+汗青	han7 ching
 捍衛	han ue
 翰林	han lim
 翰林院	han lim inn
 乏乏	hat hat
 曾孫	can sun
 曾孫	cing1 sun
-曾孫	cerng sun
+曾孫	cerng1 sun
 曾祖	can coo
 曾祖	cing1 coo
-曾祖	cerng coo
-曾祖母
-曾子	can cur
+曾祖	cerng1 coo
+曾祖母	can1 coo2 bu2
+曾祖母	can1 coo2 bo2
+曾祖母	cing1 coo2 bu2
+曾祖母	cing1 coo2 bo2
+曾祖母	can1 coo2 biO2
+曾祖母	can1 coo2 bIO2
+曾祖母	cing1 coo2 biO2
+曾祖母	cing1 coo2 bIO2
+曾祖母	cerng1 coo2 biO2
+曾祖母	cerng1 coo2 bIO2
+曾子	can1 cur
 曾子	cing1 cur
-曾子	cerng cur
-贊助	can coo
-贊助方	can coo hong
-贊助商	can coo sIang
-贊成	can sing
-贊頌	can siong
-贊同	can tong
-贊聲	can siann
-讚賞	can sIang
-讚美	can bi
-讚揚	can Iang
-讚嘆	can than
+曾子	cerng1 cur
+贊助	can3 coo
+贊助方	can3 coo hong
+贊助商	can3 coo sIang
+贊成	can3 sing
+贊頌	can3 siong
+贊同	can3 tong
+贊聲	can3 siann
+讚賞	can3 sIang
+讚美	can3 bi
+讚揚	can3 Iang
+讚嘆	can3 than
 節撙	cat cun
 節用	cat ing
 節力	cat lat
@@ -4376,13 +4622,19 @@ columns:
 殘障	can cIang
 殘酷	can khok
 殘疾	can cit
+贊錢	can7 cinn
+贈錢	can7 cinn
+贊工	can7 kong
+贈工	can7 kong
+贊後手	can7 au chiu
+贈後手	can7 au chiu
 實鼻	cat phi
 實鼻	cat phinn
 實實	cat cat
 實腹	cat pak
 餐飲	chan im
 餐廳	chan thiann
-餐點	cham tiam
+餐點	chan tiam
 餐會	chan hue
 孱弱	chan jIak
 襯衫	chan sann
@@ -4503,6 +4755,7 @@ columns:
 蚌	pang7
 縛	pak8	10
 蔔	pak8
+蔔	tak8{異}
 芳	phang1	10
 蜂	phang1
 紡	phang2
@@ -4594,6 +4847,7 @@ columns:
 仝	kang7	10
 捔	kak8
 空	khang1
+工	khang1	1%
 孔	khang2
 控	khang2
 空	khang3
@@ -4609,6 +4863,7 @@ columns:
 魴	hang1
 哄	hang2
 肨	hang3
+蓄	hak4
 行	hang5	10
 航	hang5	10
 降	hang5
@@ -4623,6 +4878,7 @@ columns:
 粽	cang3
 齪	cak4
 欉	cang5	10
+叢	cang5
 灇	cang5
 嗾	cak8
 蔥	chang1
@@ -4674,12 +4930,13 @@ columns:
 紅豆冰	ang tau ping
 紅茶	ang tee
 紅帖	ang thiap
-紅膏赤蠘	ang ko ciah chih
+紅膏赤蠘	ang ko chiah chih
 紅紙	ang cua
 紅蛇赤鼠	ang cua chiah chir
 紅塗	ang thoo
 幫忙	pang bang
-幫贊	pang can
+幫贊	pang can7
+幫贈	pang can7
 幫差	pang chee
 幫手	pang chiu
 幫助	pang coo
@@ -4713,6 +4970,8 @@ columns:
 放符	pang hu
 放聲	pang siann
 放數	pang siau
+放裒	pang poo5
+放衭	pang poo5
 北方	pak hng
 北仔	pak a
 北仔話	pak a uee
@@ -4723,12 +4982,12 @@ columns:
 北門	pak muI
 北爿	pak paInn
 北斗	pak tau
-北斗星	pak tau chinn
+北斗星	pak tau chenn
 北部	pak poo
 北區	pak khU
 北面	pak bin
-腹肚	pak too
-腹肚枵	pak too iau
+腹肚	pak too2
+腹肚枵	pak too2 iau
 腹內	pak lai
 腹臍	pak cai
 剝皮	pak pher
@@ -4800,7 +5059,7 @@ columns:
 夢見	bang kinn
 夢境	bang king
 目睭	bak ciu
-目睭仁	bak ciu lin
+目睭仁	bak ciu jin
 目頭	bak thau
 目箍	bak khoo
 目眉	bak bai
@@ -4808,8 +5067,7 @@ columns:
 目後	bak au
 目針	bak cSam
 目皮	bak pher
-目睫毛	bak ciah mng
-目睫毛	bak ciah moo
+目睫毛	bak ciah mNG
 目花	bak huee
 目鏡	bak kiann
 目鏡片	bak kiann phinn
@@ -4820,11 +5078,13 @@ columns:
 目角	bak kak
 目內	bak lai
 目神	bak sin
-目潲	bak siu
+目潲	bak siau
 目油	bak iu
 目色	bak sik
 目空	bak khang1
 目蚶	bak ham
+目睰仔	bak nih a
+目𥍉仔	bak nih a
 木匠	bak chiunn
 木工	bak kang
 木料	bak liau
@@ -4857,7 +5117,7 @@ columns:
 冬尾	tang ber
 冬節	tang cereh
 冬節圓	tang cereh inn
-當中	tang tiong1
+當中	tang1 tiong1
 董事長	tang sur tiunn2
 董事	tang sur
 董事會	tang sur hue
@@ -4882,6 +5142,7 @@ columns:
 銅管	tang kong
 銅牌	tang pai
 銅牁	tang kua
+銅缽	tang puah
 動手	tang chiu
 動粗	tang choo
 動工	tang kang
@@ -4903,7 +5164,7 @@ columns:
 逐家	tak kee
 逐項	tak hang
 逐擺	tak pai
-逐種	tak ciong
+逐種	tak ciong2
 逐位	tak ui
 逐號	tak ho
 逐年	tak ni
@@ -4925,6 +5186,9 @@ columns:
 窗仔門	thang a muI
 窗簾	thang ni
 窗簾	thang liam
+窗外	thang gua
+窗邊	thang pinn
+窗前	thang caInn
 桶仔	thang a
 痛疼	thang thiann
 剔齒	thak khi
@@ -4940,6 +5204,8 @@ columns:
 讀經	thak king
 讀做	thak cue
 讀做	thak co
+籠仔	lang2 a
+籠面	lang2 bin
 攏褲	lang khoo
 閬空	lang khang1
 閬縫	lang phang
@@ -4953,6 +5219,7 @@ columns:
 儂緣	lang ian
 儂影	lang iann
 儂範	lang pan
+籠床	lang5 sng5
 弄獅	lang sai
 弄龍	lang ling
 弄風	lang huang
@@ -4964,7 +5231,7 @@ columns:
 六萬	lak ban
 六億	lak ik
 六月雪	lak gerh sErh
-六月天	lak gerh thin
+六月天	lak gerh thinn
 搦屎搦尿	lak sai lak jio
 磟碡	lak tak
 慄慄掣	lak lak chuah
@@ -4974,7 +5241,10 @@ columns:
 江山	kang san
 江湖	kang oo
 工作	kang cok
-工程
+工作	kong cok
+工程	kang thing
+工程	kang ting
+工程[雲霄]	kang tiann
 工程師	kang thing sur
 工程師	kang ting sur
 工程師[雲霄]	kang tiann sur
@@ -4996,7 +5266,8 @@ columns:
 工期	kang ki
 工地	kang tere
 工商	kang sIang
-工潮
+工潮	kang tiau
+工潮	kang tio
 工商界	kang sIang kai
 工讀生	kang thak sing
 工讀生	kang thak serng
@@ -5030,7 +5301,7 @@ columns:
 港墘	kang kinn
 港路	kang loo
 港區	kang khU
-港灣	kang uan
+港灣	kang uan1
 港都	kang too
 降價	kang kee
 降級	kang khip
@@ -5046,7 +5317,8 @@ columns:
 角度	kak too
 角仔	kak a
 覺醒	kak chenn
-覺悟
+覺悟	kak ngoo
+覺悟	kak goo
 覺察	kak chat
 菊花	kak huee
 菊花茶	kak huee tee
@@ -5074,10 +5346,10 @@ columns:
 仝音	kang im
 捔捒	kak sak
 空縫	khang1 phang
-空間	khang1 khaInn
+空間	khang1 kaInn
 空虛	khang1 hir
 空殼	khang1 khak
-空空	khang1 khang
+空空	khang1 khang1
 空腹	khang1 pak
 空房	khang1 pang
 空心菜	khang1 sim chai
@@ -5131,6 +5403,10 @@ columns:
 哄空	hang khang1
 哄勢	hang se
 哄頭	hang thau
+蓄厝	hak chu
+蓄嫁妝	hak kee cng
+蓄嫁粧	hak kee cng
+蓄家伙	hak kee her
 行情	hang cing
 行貨	hang her
 行家	hang ka
@@ -5149,7 +5425,7 @@ columns:
 降伏	hang hok
 降妖	hang iau
 降敵	hang tik
-降妖除魔	hang iau tir moo
+降妖除魔	hang iau tir mo
 杭州	hang ciu
 項目	hang bok
 巷仔	hang a
@@ -5206,10 +5482,8 @@ columns:
 蔥頭	chang thau
 蔥頭油	chang thau iu
 聳鬚	chang chiu
-聳毛	chang mng
-聳毛猴	chang mng kau
-聳毛	chang moo
-聳毛猴	chang moo kau
+聳毛	chang mNG
+聳毛猴	chang mNG kau
 聳聳	chang chang
 鑿仔	chak a
 鑿目	chak bak
@@ -5254,6 +5528,7 @@ columns:
 椰	ia5
 邪	ia5	5%
 也	ia6	10
+也	a6	10
 夜	ia7	10
 蝶	iah8
 易	iah8	1%
@@ -5277,22 +5552,18 @@ columns:
 揭	kiah4
 揭	giah4{異}
 崎	kia6
-攑	kiah8
+攑	kirah8
 攑	giah8{異}
-攑[泉]	kah8
-屐	kiah8
-屐[泉]	kah8
-奇	khia1	1%
-奇[泉]	kha1	1%
+屐	kirah8
+奇	khira1	1%
+奇	kha1{量詞，只}	1%
 隙	khiah4
-騎	khia5
-騎[泉]	kha5
-徛	khia6	10
-徛[泉]	kha6	10
-徛	khia7
-徛[泉]	kha7
+騎	khira5
+徛	khira6	10
 鵝	gia5
 蜈	gia5
+夯	gia5
+攑	gia5
 額	giah8
 遐	hia1
 靴	hia1
@@ -5356,6 +5627,7 @@ columns:
 榭	sia7
 麝	sia7
 勺	siah8
+席	siah8	1%
 石	siah8	1%
 夕	siah8	1%
 野種	ia cing2
@@ -5394,13 +5666,14 @@ columns:
 野冰	ia ping
 野懸	ia kuAinn
 野低	ia kee
-也許	ia hir
+也許	ia2 hir
 冶金	ia kim
 冶煉	ia lian
 猶有	ia u
 猶是	ia si
 猶欲	ia berh
 猶欲	ia beh
+猶欲	ia boh
 猶未	ia ber
 猶閣	ia koh
 猶著	ia tioh
@@ -5411,6 +5684,7 @@ columns:
 猶是	iau si
 猶欲	iau berh
 猶欲	iau beh
+猶欲	iau boh
 猶未	iau ber
 猶閣	iau koh
 猶著	iau tioh
@@ -5421,6 +5695,7 @@ columns:
 厭厭死	ia ia si
 厭𤺪	ia sian
 厭死	ia si
+益春	iah chun{《荔净記》角色}
 抑是	iah si
 搤空	iah khang1
 搤縫	iah phang
@@ -5436,9 +5711,9 @@ columns:
 椰仔	ia a
 椰仔樹	ia a chiu
 椰仔汁
-也是	ia si
+也是	ia6 si
 也是	a si
-也有	ia u
+也有	ia6 u
 也有	a u
 夜市	ia chi
 夜明珠	ia bing cu
@@ -5474,7 +5749,7 @@ columns:
 爹爹	tia tia
 摘菜	tiah chai
 摘花	tiah huee
-摘要	tiah iau
+摘要	tiah iau3
 摘鑷	tiah nih
 糴米	tiah bi
 拆破	thiah phua
@@ -5488,7 +5763,7 @@ columns:
 拆開	thiah khui
 拆腿	thiah thui
 拆股	thiah koo
-拆散	thiah suann
+拆散	thiah suann3
 拆單	thiah tuann
 拆批	thiah phere
 拆字	thiah ji
@@ -5503,7 +5778,7 @@ columns:
 掠妖	liah iau
 掠影	liah iann
 掠猴	liah kau
-掠姦	liah kan
+掠姦	liah kan1
 掠雞	liah kere
 掠鴨	liah ah
 掠鬼	liah kui
@@ -5512,7 +5787,7 @@ columns:
 掠包	liah pau
 掠直	liah tit
 掠外	liah gua
-掠腳掠手	liah kha liah chiu
+掠跤掠手	liah kha liah chiu
 掠生窒死	liah senn that si
 掠龜走鱉	liah ku cau pih
 掠著	liah tioh
@@ -5525,21 +5800,44 @@ columns:
 寄話	kia uee
 寄望	kia bang
 崎仔	kia a
-騎馬
-騎馬瑯
-騎車
-騎乘
-騎雉雞
-徛起
-徛踏
-徛壽
-徛頭
-徛飛魚
-攑手
-攑箸
-攑頭
-攑枷
-攑目
+奇數	khira soo
+奇偶	khira giO
+奇偶	khira ngoo
+奇箸	khira tIR
+奇箸	kha tIR
+騎馬	khira bee
+騎馬瑯	khira bee long
+騎車	khira chia
+騎乘	khira sing5
+騎雉雞	khira thi kere
+徛起	khira khi
+徛家	khira kee
+徛踏	khira tah
+徛壽	khira siu
+徛頭	khira thau
+徛飛魚	khira per hIR
+攑手	kirah8 chiu2
+攑手	giah8 chiu2
+攑目	kirah8 bak8
+攑目	giah8 bak8
+攑頭	kirah8 thau5
+攑頭	giah8 thau5
+攑箸	kirah8 tIR
+攑箸	giah8 tIR
+夯箸	gia tIR
+攑箸	gia tIR
+攑枷	kirah8 kee5
+攑枷	giah8 kee5
+夯枷	gia kee5
+攑枷	gia kee5
+攑硬篙	kirah ngee ko
+攑硬篙	giah ngee ko
+夯硬篙	gia ngee ko
+攑硬篙	gia ngee ko
+攑石碾	kirah cioh lian
+攑石碾	giah cioh lian
+夯石碾	gia cioh lian
+攑石碾	gia cioh lian
 鵝角
 鵝母
 額數	giah soo
@@ -5557,17 +5855,23 @@ columns:
 瓦窯	hia io
 額角	hiah kak
 遮雨	cia hoo
-遮日
-遮掩
+遮日	cia jit
+遮掩	cia iam
 遮瞞	cia mua
 遮攔	cia nua
 遮閘	cia cah
 遮蔽	cia pe
-遮風擋雨	cia hong tong u
+遮蔽[漳]	cia pi
+遮風擋雨	cia hong tong U
 遮雨	jia hoo
+遮日	jia jit
+遮掩	jia iam
 遮瞞	jia mua
 遮攔	jia nua
 遮閘	jia cah
+遮蔽	jia pe
+遮蔽[漳]	jia pi
+遮風擋雨	jia hong tong U
 遮的	cia e
 遮兮	cia e
 遮个	cia e
@@ -5635,9 +5939,10 @@ columns:
 食桌	ciah toh
 食儂	ciah lang
 食苦	ciah khoo
-食虧	ciah kui
+食虧	ciah khui
 食補	ciah poo
 食色	ciah sik
+食福	ciah hok
 食頭路	ciah thau loo
 車仔	chia a
 車頭	chia thau
@@ -5647,7 +5952,10 @@ columns:
 車窗	chia thang
 車燈	chia ting
 車廂	chia siunn
-車輪
+車輪	chia lun2
+車輪	chia lun5
+車輪	chia lian2
+車輦	chia lian2
 車手	chia chiu
 車鍊	chia lian
 車頂	chia ting
@@ -5672,8 +5980,9 @@ columns:
 車型	chia hing
 車號	chia ho
 車牌	chia pai
-車禍	chia er
+車禍	chia Er
 車禍	chia hoO
+車禍[漳南]	chia hua
 車況	chia hong
 車庫	chia khoo
 車輛	chia lIang
@@ -5698,7 +6007,7 @@ columns:
 赤肉	chiah bah
 赤色	chiah sik
 赤塗	chiah thoo
-赤跤	chiah ka
+赤跤	chiah kha
 赤身	chiah sin
 赤手	chiah chiu
 赤目	chiah bak
@@ -5709,7 +6018,7 @@ columns:
 刺心	chiah sim
 刺疫	chiah iah
 刺字	chiah ji
-刺查某	chiah ca boo
+刺查某	chiah ca1 boo2
 刺爬爬	chiah pee pee
 斜目	chia bak
 惹熊惹虎	jia him jia hoo
@@ -5782,7 +6091,7 @@ columns:
 石硯	siah hinn
 ##	iau/iauh
 枵	iau1	10
-要	iau1
+要	iau1	5%
 腰	iau1	0%
 妖	iau1
 邀	iau1
@@ -5815,7 +6124,7 @@ columns:
 飆	phiau1
 飈	phiau1
 票	phiau3	0%
-漂	phiau3
+漂	phiau3	1%
 嫖	phiau5
 秒	biau2
 渺	biau2
@@ -5843,6 +6152,7 @@ columns:
 朝	tiau5
 潮	tiau5
 迢	tiau5
+髫	tiau5
 晁	tiau5
 兆	tiau6
 肇	tiau6
@@ -5962,11 +6272,11 @@ columns:
 劭	siau7
 枵腹	iau pak
 枵枵腹	iau iau pak
-枵飢失頓	iau ki sit tng
+枵飢失頓	iau ki sit tuInn
 枵鬼	iau kui
 枵儂	iau lang
 枵死	iau si
-要求	iau kiu
+要求	iau1 kiu
 妖怪	iau kuai
 妖女	iau lir
 妖女	iau lu{俗}
@@ -5974,8 +6284,8 @@ columns:
 妖精	iau ciann
 妖嬌	iau kiau
 妖法	iau huat
-妖魔	iau moo
-妖魔鬼怪	iau moo kui kuai
+妖魔	iau mo
+妖魔鬼怪	iau mo kui kuai
 妖術	iau sut
 妖道
 妖孽	iau giat
@@ -5987,13 +6297,13 @@ columns:
 夭折	iau ciat
 窈窕	iau thiau
 杳無音信	iau bu im sin
-要緊	iau kin
-要件	iau kiann
-要領	iau ling
-要事	iau sur
-要點	iau tiam
-要談	iau tam
-要素	iau soo
+要緊	iau3 kin
+要件	iau3 kiann
+要領	iau3 ling
+要事	iau3 sur
+要點	iau3 tiam
+要談	iau3 tam
+要素	iau3 soo
 遙遠	iau uan
 遙想	iau sIang
 遙控	iau khong
@@ -6011,7 +6321,7 @@ columns:
 標示	piau si
 標點	piau tiam
 標誌	piau ci
-標簽	piau chiam
+標籤	piau chiam
 飆車
 飈車
 表示	piau si
@@ -6036,16 +6346,17 @@ columns:
 表小妹	piau sio ber
 表小妹	piau sio mue
 婊仔	piau a
-婊囝
+婊囝	piau kirann
 婊間	piau kaInn
 標頭	phiau thau
-飄撇	phiau phiat
+飄撇	phiau phiat4
 飄逸	phiau it
 飄揚	phiau Iang
-漂流	phiau liu
-漂泊	phiau pok
-漂浪	phiau long
-漂洋過海	phiau iunn ker hai
+漂流	phiau1 liu
+漂泊	phiau1 pok
+漂浪	phiau1 long
+漂洋過海	phiau1 iunn ker hai
+漂亮	phiau3 liang7{官話}
 嫖客	phiau kheeh
 嫖娼	phiau chIang
 秒鐘	biau cing
@@ -6061,14 +6372,17 @@ columns:
 妙齡	biau ling
 妙想	biau sIang
 妙方	biau hng
+妙音	biau im
 妙計	miau ke
 妙齡	miau ling
 妙想	miau sIang
 妙方	miau hng
-刁難	tiau lan
+妙音	miau im
+刁難	tiau lan5
 刁蠻	tiau ban
 雕刻	tiau khik
 雕像	tiau sIang
+雕像[漳]	tiau chIang
 雕塑	tiau sok
 雕琢	tiau tok
 雕花	tiau huee
@@ -6098,7 +6412,8 @@ columns:
 條目	tiau bok
 條款	tiau khuan
 條規	tiau kui
-條例
+條例	tiau le
+條例[漳]	tiau li
 條直	tiau tit
 條文	tiau bun
 牢牢	tiau tiau
@@ -6106,7 +6421,8 @@ columns:
 牢酒	tiau ciu
 調養	tiau5 Iang
 調解	tiau5 kai
-調查	tiau5 ca
+調查	tiau5 ca1
+調查[漳]	tiau5 cee1
 調整	tiau5 cing
 調理	tiau5 li
 調頻	tiau5 pin
@@ -6127,11 +6443,13 @@ columns:
 迢迢	tiau tiau
 調兵	tiau7 ping
 調動	tiau7 tong
-調派	tiau7 phai
-調遣	tiau7 khian
-調換	tiau7 uann
-調號	tiau7 ho
-調值	tiau7 tat
+調派	tiau7 phai3
+調遣	tiau7 khian2
+調換	tiau7 uann7
+調號	tiau7 ho7
+調號[泉]	tiau7 hoO7
+調值	tiau7 tit8
+調值	tiau7 tat8
 調類	tiau7 lui
 掉以輕心	tiau i khing sim
 挑選	thiau suan
@@ -6144,7 +6462,7 @@ columns:
 跳級	thiau khip
 跳級	thiau kip
 跳索	thiau soh
-跳針	thaiu cSam
+跳針	thiau cSam
 跳遠	thiau uan
 跳樓	thiau lau
 跳海	thiau hai
@@ -6152,7 +6470,10 @@ columns:
 跳動	thiau tong
 跳棋	thiau ki
 跳童	thiau tang
-𤶃仔	thiau a
+𤶃仔	thiau5 a
+𤶃仔	thiau7 a
+𤶃仔子	thiau5 a tsi
+𤶃仔子	thiau7 a tsi
 柱仔	thiau a
 了了	liau liau
 了盡	liau cin
@@ -6160,17 +6481,19 @@ columns:
 了尾	liau ber
 了尾仔	liau ber a
 了錢	liau cinn
-了本
+了本	liau pun
+了本	liau puInn
 了然	liau jian
 了解	liau kai
 了結	liau kiat
 了不起	liau put khi
+了捷	liau ciat
 瞭解	liau kai
 瞭然	liau jian
-瞭然於心	liau jian	ir1 sim
-瞭然於心	liau jian	ir2 sim
-瞭然於胸	liau jian	ir1 hiong
-瞭然於胸	liau jian	ir2 hiong
+瞭然於心	liau jian ir1 sim
+瞭然於心	liau jian ir2 sim
+瞭然於胸	liau jian ir1 hiong
+瞭然於胸	liau jian ir2 hiong
 聊天	liau thian
 聊聊仔	liau liau a
 遼闊	liau khuat
@@ -6222,7 +6545,7 @@ columns:
 僥倖	hiau hing
 僥心	hiau sim
 梟雄	hiau hiong
-囂俳	hiau pai
+囂俳	hiau pai1
 驍勇	hiau iong
 嬈花	hiau huee
 招牌	ciau pai
@@ -6239,7 +6562,7 @@ columns:
 鳥母
 鳥喙	ciau chui
 鳥隻	ciau ciah
-鳥籠	ciau lang
+鳥籠	ciau lang5
 鳥卵	ciau nuI
 鳥仔卵	ciau a nuI
 鳥類	ciau lui
@@ -6311,11 +6634,11 @@ columns:
 擾亂	jiau luan
 爪牙	jiau ga
 抓破	jiau phua
-抓痕	jiau hern
+抓痕	jiau hun
 皺皺	jiau jiau
-皺襞襞	jiau phere phere
-皺襞襞	jiau phereh phereh
-皺痕	jiau hern
+皺襞襞	jiau5 phere2 phere2
+皺襞襞	jiau5 phereh4 phereh4{*}
+皺痕	jiau hun
 饒命	jiau mia
 饒赦	jiau sia
 饒恕	jiau sir
@@ -6364,7 +6687,7 @@ columns:
 小人	siau jin
 小人體	siau jin there
 小便	siau pian
-小楷	siau kai
+小楷	siau khai
 小局	siau kiok
 小髫	siau tiau
 數目	siau bak
@@ -6374,14 +6697,14 @@ columns:
 數想	siau siunn
 數單	siau tuann
 數號	siau ho
-少年	siau lian
-少年家	siau lian kee
-少爺	siau ia
-少年儂	siau lian lang
-少女	siau lir
-少女	siau lu{俗}
-少校	siau hau
-少將	siau cIang
+少年	siau3 lian
+少年家	siau3 lian kee
+少爺	siau3 ia
+少年儂	siau3 lian lang
+少女	siau3 lir
+少女	siau3 lu{俗}
+少校	siau3 hau
+少將	siau3 cIang3
 ##	iann/iannh
 纓	iann1
 影	iann2
@@ -6389,6 +6712,7 @@ columns:
 營	iann5
 颺	iann6
 兵	piann1	1%
+抨	piann1
 餅	piann2
 丙	piann2
 拚	piann3	10
@@ -6406,6 +6730,7 @@ columns:
 碇	tiann3
 庭	tiann5	0%
 埕	tiann5
+呈	tiann5
 程[雲霄]	tiann5
 錠	tiann6
 定	tiann7	10
@@ -6413,6 +6738,7 @@ columns:
 廳	thiann1
 疼	thiann3
 程	thiann5	1%
+呈	thiann5
 領	nia2
 嶺	nia2
 睰	niah4
@@ -6420,8 +6746,7 @@ columns:
 爾	nia7	5%
 驚	kiann1
 京	kiann1
-囝	kiann2
-囝[泉]	kann2
+囝	kirann2
 鏡	kiann3
 行	kiann5
 件	kiann6
@@ -6484,10 +6809,14 @@ columns:
 拚血	piann huih
 拚勢	piann se
 拚輸贏	piann su iann
-摒掃	piann sau
-摒捒	piann sak
-摒水	piann cui
-摒本
+摒掃	piann3 sau
+摒捒	piann3 sak
+摒水	piann3 cui2
+摒本	piann3 pun2
+摒價	piann3 kee
+摒貨底	piann3 her tere
+摒盪	piann3 tng6
+摒挕捒	piann3 hinn3 sak4
 骿支骨	phiann ki kut
 平錢	phiann cinn
 平倒來	phiann to2 lai
@@ -6505,7 +6834,7 @@ columns:
 名單	mia tuann
 名號	mia ho
 名牌	mia pai
-名稱	mia ching
+名稱	mia ching1
 名次	mia chur
 命運	mia un
 命數	mia soo
@@ -6538,8 +6867,7 @@ columns:
 疼痛	thiann thang
 疼愛	thiann ai
 疼惜	thiann sioh
-疼囝	thiann kiann
-疼囝	thiann kann
+疼囝	thiann kirann
 疼心肝	thiann sim kuann
 疼儂	thiann lang
 疼死	thiann si
@@ -6577,9 +6905,9 @@ columns:
 京城	kiann siann
 京畿	kiann ki
 京官	kiann kuann
-囝兒
-囝孫
-囝婿
+囝兒	kirann ji
+囝孫	kirann sun
+囝婿	kirann sai
 鏡仔	kiann a
 鏡框	kiann khing
 鏡片	kiann phinn
@@ -6705,7 +7033,7 @@ columns:
 誠低	ciann kee
 誠𠢕	ciann gau
 誠實	ciann sit
-誠實	siann sit
+誠實	ciann sit
 誠夠	ciann kau
 成樣	ciann iunn
 成款	ciann kui
@@ -6774,6 +7102,7 @@ columns:
 貓	niau1
 鳥	niau2
 擽	ngiau1
+擽[雲霄]	ngiu1
 蟯	ngiauh8
 貓咪	niau bi
 貓咪	iaunn bi
@@ -6846,6 +7175,7 @@ columns:
 疊	thiap8
 臉	liam2
 斂	liam2
+膁	liam2
 捻	liam3	10
 攝	liap4	5%
 聶	liap4
@@ -6881,6 +7211,7 @@ columns:
 夾	kiap4
 鹹	kiam5	10
 謙	khiam1
+歉[臺]	khiam1{俗}
 歉	khiam2
 欠	khiam3	10
 歉	khiam3
@@ -6904,6 +7235,8 @@ columns:
 薟	hiam1
 險	hiam2
 喊	hiam3	5%
+熁	hiap4
+吸	hiap4	1%
 嫌	hiam5
 協	hiap8
 脅	hiap8
@@ -6969,13 +7302,17 @@ columns:
 厭倦	iam kuan
 鹽水	iam cui
 鹽埕	iam tiann
-鹽酸	iam sng
+鹽酸	iam suInn
+鹽酸仔	iam suInn a
+鹽酸仔欉	iam suInn a cang
+鹽酸仔草	iam suInn a chau
 鹽分	iam hun7
+鹽份	iam hun7
 豔麗	iam le
 豔羨	iam sian
 點火	tiam her
 點名	tiam mia
-點斷	tiam tuan
+點斷	tiam tuan3
 點穴	tiam hiat
 點歌	tiam kua
 點香	tiam hiunn
@@ -6995,8 +7332,8 @@ columns:
 點選	tiam suan
 點菜	tiam chai
 點不采	tiam put chai
-點主	tiam chu
-點主[漳]	tiam chU
+點主	tiam cu
+點主[漳]	tiam cU
 玷污	tiam u
 恬去	tiam6 khIR30
 恬靜	tiam6 cing
@@ -7005,6 +7342,12 @@ columns:
 諜報	tiap po
 添丁	thiam ting
 添壽	thiam siu
+添妝	thiam cng
+添粧	thiam cng
+添油	thiam iu
+添油香	thiam iu hiunn
+添香油	thiam hiunn iu
+添福壽	thiam hok siu
 忝死	thiam si
 帖仔	thiap a
 貼錢	thiap cinn
@@ -7018,6 +7361,7 @@ columns:
 疊懸	thiap kuAinn
 疊環	thiap khuan
 疊盤	thiap puann
+膁肚	liam2 too2
 攝影	liap4 iann2
 攝影機	liap4 iann2 ki1
 黏黏	liam liam
@@ -7026,12 +7370,12 @@ columns:
 黏膠	liam ka
 黏貼	liam thiap
 黏膜	liam boh
-黏膜	liam mooh
+黏膜	liam moh
 黏塗	liam thoo
 連鞭	liam pinn
 臨邊	liam pinn
-連鞭	liam mi
-臨邊	liam mi
+連鞭	liam mi1{*}
+臨邊	liam mi1{*}
 廉恥	liam thi
 廉政	liam cing
 廉價	liam kee
@@ -7065,14 +7409,16 @@ columns:
 減產	kiam san
 減稅	kiam ser
 減歲壽	kiam her siu
-檢查	kiam ca
+檢查	kiam ca1
+檢查[漳]	kiam cee1
 檢采	kiam chai
 檢驗	kiam giam
 檢閱	kiam iat
 檢閱	kiam uat
 檢點	kiam tiam
-檢察官	khiam chat kuann
-檢察院	khiam chat inn
+檢察	kiam chat
+檢察官	kiam chat kuann
+檢察院	kiam chat inn
 檢舉	kiam kir
 檢討	kiam tho
 檢方	kiam hong
@@ -7090,7 +7436,7 @@ columns:
 劍術	kiam sut
 劍觳	kiam khok
 劫數	kiap soo
-劫難	kiap lan
+劫難	kiap lan7
 劫案	kiap an
 劫犯	kiap huan
 劫機	kiap ki
@@ -7120,13 +7466,15 @@ columns:
 欠缺	khiam kherh
 欠血	khiam huih
 欠點	khiam tiam
-歉意	khiam i
+歉意	khiam3 i
+歉收	khiam3 siu
 怯勢	khiap si
 愜意	khiap i
 㾀屎	khiap sai
 黔驢技窮	khiam lir ki kiong
 儉用
-儉腸捩肚	khiam tng lErh too
+儉腸捩肚	khiam tng lerh too6
+儉腸捩肚	khiam tng nerh too6
 嚴肅
 嚴格	giam keeh
 嚴刑	giam hing
@@ -7134,7 +7482,7 @@ columns:
 嚴禁	giam kim3
 嚴厲	giam le
 嚴重	giam tiong6
-嚴密	biam bit
+嚴密	giam bit
 嚴謹	giam kin
 嚴峻	giam cun
 驗屍	giam si
@@ -7161,6 +7509,8 @@ columns:
 喊毋聽	hiam m thiann
 喊袂聽	hiam bere thiann
 喊儂	hiam lang
+熁死	hiap si
+吸鐵	hiap thih
 嫌疑	hiam gi
 嫌東嫌西	hiam tang hiam sai
 嫌犯	hiam huan
@@ -7258,8 +7608,10 @@ columns:
 簽字	chiam ji
 簽仔	chiam a
 簽約	chiam Iak
-簽到
-簽署	chiam su
+簽到	chiam to
+簽到	chiam kau
+簽署	chiam sU7
+簽署	chiam sU2
 簽訂	chiam ting
 簽證	chiam cing
 籤詩	chiam si
@@ -7358,7 +7710,7 @@ columns:
 𥐵	phiat4
 瞥	phiat4
 蹁	phian5
-撇	phiat8
+#撇	phiat8	0%
 免	bian2	10
 勉	bian2
 冕	bian2
@@ -7462,7 +7814,8 @@ columns:
 犬	khian2
 繾	khian2
 譴	khian3
-焮	khian3
+芡	khian3{替}
+焮	khian3{替}
 揭	khiat4
 詰	khiat4
 鍥	khiat4
@@ -7518,6 +7871,7 @@ columns:
 薦	cian7
 荐	cian7
 截	ciat8
+捷	ciat8
 千	chian1
 遷	chian1
 韆	chian1
@@ -7551,6 +7905,7 @@ columns:
 涎	sian5
 蟬	sian5
 禪	sian5
+禪	siam5{俗}
 嬋	sian5
 𤺪	sian6
 善	sian6	10
@@ -7569,7 +7924,7 @@ columns:
 煙火	ian her
 煙筒	ian tang
 煙腸	ian chiang
-煙腸[臺]	ian chian
+煙腸[臺]	ian1 chian5{*}
 煙花	ian huee
 煙塵	ian thun
 煙霧	ian bu
@@ -7603,7 +7958,7 @@ columns:
 燕窩	ian3 o
 宴會	ian hue
 宴席	ian sik
-宴席	ian sit
+宴席[泉]	ian sit
 宴客	ian kheeh
 宴請	ian chiann
 嚥氣	ian khi
@@ -7776,7 +8131,7 @@ columns:
 遍身	phian sin
 片刻	phian khik
 片段	phian tuann
-撇步	phiat poo
+撇步	phiat4 poo
 𥐵仔	phiat a
 免錢	bian cinn
 免罪	bian cue
@@ -7808,7 +8163,7 @@ columns:
 顛覆	tian hok
 顛峰	tian hong
 典故	tian koo
-典當	tian tng
+典當	tian tng3
 典籍	tian cik
 典籍	tian cip
 典禮	tian le
@@ -7871,8 +8226,7 @@ columns:
 電磁爐	tian cur loo
 電冰箱	tian ping siunn
 電錶	tian pio
-電頭毛	tian thau mng
-電頭毛	tian thau moo
+電頭毛	tian thau mNG
 電梯	tian thui
 電子	tian cur
 電壓	tian ap
@@ -7914,14 +8268,16 @@ columns:
 天王星	thian ong chenn
 天后	thian hiO
 天后[臺]	thian hIO
+天后宮	thian hiO kiong
+天后宮[臺]	thian hIO kiong
 天賦	thian hu
 天然	thian jian
 天狗	thian kau
 天狗食日	thian kau ciah jit
 天狗食月	thian kau ciah gerh
-天干	thian ka
+天干	thian kan
 天機	thian ki
-天國	thian kik
+天國	thian kok
 天主	thian cu
 天誅地滅	thian tu te biat
 天理	thian li
@@ -7932,19 +8288,19 @@ columns:
 天文	thian bun
 天文學	thian bun hak
 天文學家	thian bun hak ka
-天兵天將	thian ping thian cIang
+天兵天將	thian ping thian cIang3
 天平	thian ping
 天性	thian sing
 天生一對	thian sing it tui
 天數	thian soo
 天賜	thian sur
 天書	thian sir
-天使	thian sur
+天使	thian sur2
 天地	thian te
 天燈	thian ting
 天臺	thian tai5
 天台	thian thai1
-天朝	thian tiau
+天朝	thian tiau5
 天條	thian tiau
 天竺	thian tiok
 天道	thian to
@@ -7963,8 +8319,10 @@ columns:
 天份	thian hun
 天橋	thian kio
 天踱	thian thoh
-天篷	thian phong
-天篷	thian pong
+天篷	thian phong5
+天篷	thian pong5
+天潢	thian hong
+天潢貴冑	thian hong kui tiu
 徹底	thiat tere
 徹套	thiat tho
 鐵面無私	thiat bian bu sur
@@ -7978,7 +8336,7 @@ columns:
 連任	lian jim7
 連連	lian lian
 連連出	lian lian chut
-連累	lian lui
+連累	lian lui7
 連紲	lian sua
 連回	lian hue
 連環	lian khuan
@@ -7987,7 +8345,8 @@ columns:
 連貫	lian kuan
 連續劇	lian siok kIak
 連線	lian suann
-連署	lian su
+連署	lian sU7
+連署	lian sU2
 連名	lian mia
 連鎖	lian so
 連鎖店
@@ -8010,9 +8369,13 @@ columns:
 聯播	lian poo
 聯手	lian chiu
 聯誦	lian siong
+聯席	lian sik
+聯席會	lian sit
+聯席	lian sik hue
+聯席會	lian sit hue
 年庚	lian king
 年齡	lian ling
-年少	lian siau
+年少	lian siau3
 憐憫	lian bin
 憐惜	lian sioh
 漣漪	lian i
@@ -8033,7 +8396,7 @@ columns:
 列印	liat in
 列舉	liat kir
 列席	liat sik
-列席	liat sit
+列席[泉]	liat sit
 列出	liat chut
 堅強	kian kIang5
 堅固	kian koo
@@ -8047,8 +8410,6 @@ columns:
 堅定	kian ting
 堅決	kian kuat
 堅信	kian sin
-見若	kian3 na7
-見若	kinn3 na7
 見聞	kian bun
 見解	kian kai
 見怪	kian kuai
@@ -8059,6 +8420,10 @@ columns:
 見習	kian sip
 見長	kian tIang5
 見證	kian cing
+見若	kian3 na7
+見若	kinn3 na7
+見擺	kian3 pai2
+見擺	kian3 mai2
 建設	kian siat
 建議	kian gi
 建築	kian tiok
@@ -8111,9 +8476,19 @@ columns:
 吉普車	kiat phoo chia
 吉普賽	kiat phoo sai
 孑然一身	kiat jian it sin
-桔仔
-桔仔汁
-桔梗
+桔仔	kiat a
+桔仔[漳]	kit a
+橘仔	kiat a
+橘仔[漳]	kit a
+桔仔	kiat a
+桔仔[漳]	kit a
+橘仔	kiat a
+橘仔[漳]	kit a
+桔仔汁	kiat a cSap
+桔仔汁[漳]	kit a cSap
+橘仔汁	kiat a cSap
+橘仔汁[漳]	kit a cSap
+桔梗	kiat king6
 潔淨	kiat cing
 潔身自愛	kiat sin cur ai
 拮据	kiat kir
@@ -8131,9 +8506,15 @@ columns:
 遣送	khian sang
 遣派	khian phai
 遣回	khian hue
-遣散	khian san
+遣散	khian san3
 繾綣	khian khuan
-譴責	khian cik
+譴責	khian3 cik
+芡芳	khian3 phang
+焮芳	khian3 phang
+譴芳	khian3 phang
+芡滷	khian3 loo2
+焮滷	khian3 loo2
+譴滷	khian3 loo2
 揭發	khiat huat
 揭示	khiat si
 揭曉	khiat hiau
@@ -8164,7 +8545,7 @@ columns:
 言行	gian hing5
 言論	gian lun
 言談	gian tam
-言聽計從	gian thing ke ciong
+言聽計從	gian thing1 ke ciong
 言辭	gian sur
 孽潲	giat siau
 孽子	giat cur
@@ -8220,6 +8601,7 @@ columns:
 現狀	hian cong
 現世	hian se
 現象	hian sIang
+現象[漳]	hian chIang
 現代	hian tai
 現實	hian sit
 現場	hian tiunn
@@ -8260,8 +8642,8 @@ columns:
 節目	ciat bok
 節制	ciat ce
 節制[漳]	ciat ci
-節操	ciat cho
-節操	ciat choo
+節操	ciat cho3
+節操	ciat choO3
 節哀	ciat ai
 節約	ciat Iak
 節省	ciat sing
@@ -8283,7 +8665,7 @@ columns:
 前言	cian gian
 前人	cian jin
 前例	cian le
-前例	cian li
+前例[漳]	cian li
 前鋒	cian hong
 前沿	cian ian
 前緣	cian ian
@@ -8293,7 +8675,7 @@ columns:
 前功盡棄	cian kong cin khi
 前輩	cian pue
 前世	cian se
-前朝	cian tiau
+前朝	cian tiau5
 前程	cian thing
 前程	cian ting
 前程[雲霄]	cian tiann5
@@ -8310,11 +8692,14 @@ columns:
 踐踏	cian tap
 截止	ciat ci
 截稿	ciat ko
+截斷	ciat tuInn
+截斷	ciat tuan6
+捷運	ciat un
 千萬	chian ban
 千門萬戶	chian bun ban hoo
-千載難逢	chian cai2 lan hong
+千載難逢	chian cai2 lan5 hong
 千秋萬代	chian chiu ban tai
-千手觀音	chian chiu kuan im
+千手觀音	chian chiu kuan1 im
 千言萬語	chian gian ban gir
 千金	chian kim
 千字文	chian ji bun
@@ -8330,6 +8715,8 @@ columns:
 千歲	chian sue
 千古	chian koo
 千辛萬苦	chian sin ban khoo
+千乘	chian sing7
+千乘之國	chian sing7 ci kok
 遷走	chian cau
 遷移	chian i
 遷居	chian kir
@@ -8374,6 +8761,8 @@ columns:
 熱誠	jiat sing
 熱線	jiat suann
 熱切	jiat chiat
+熱忱	jiat sim
+熱誠	jiat sing
 仙草	sian chau
 仙草蜜	sian chau bit
 仙法	sian huat
@@ -8407,18 +8796,23 @@ columns:
 先輩	sian pue
 先生	sian senn
 先生	sin senn
+先生娘	sian senn niu
+先生娘	sin senn niu
+先生媽	sian senn ma2
+先生媽	sin senn ma2
+先生公	sian senn kong2
+先生公	sin senn kong2
 先代	sian tai
 先帝	sian te
 先知	sian ti
 先覺	sian kak
-先生娘	sian senn niu
-先生娘	sin senn niu
 先民	sian bin
 先鋒	sian hong
 鮮明	sian1 bing
 鮮花	sian1 huee
 鮮為人知	sian2 ui5 jin ti
 煽動	sian tong
+搧喙䫌	sian chui phere
 設計	siat ke
 設局	siat kiok
 設法	siat huat
@@ -8428,7 +8822,7 @@ columns:
 設便	siat pian
 設便便	siat pian pian
 設想	siat sIang
-設使	siat sur
+設使	siat sur2
 設置	siat ti
 設施	siat si
 設定	siat ting
@@ -8436,9 +8830,10 @@ columns:
 褻瀆	siat tok
 褻體	siat thai
 蟬蛻	sian thue
-禪宗	sian cong
-禪學	sian hak
-禪師	sian sur
+禪宗	sian5 cong
+禪學	sian5 hak
+禪師	sian5 sur
+禪師	siam5 sur{俗}
 嬋娟	sian kuan
 善良	sian lIang
 善終	sian ciong
@@ -8456,8 +8851,8 @@ columns:
 腎子	sian ci
 𤺪儂	sian lang
 𤺪𤺪	sian sian
-單于	sian ir
-禪讓	sian jIang
+單于	sian5 ir5
+禪讓	sian7 jIang
 ##	iang/iak
 偝	iang7
 偝[泉]	iannh8
@@ -8507,7 +8902,8 @@ columns:
 唱聲	chiang siann
 唱票	chiang phio
 唱名	chiang mia
-雙頭	sSang	thau
+唱價	chiang kee
+雙頭	sSang thau
 雙頭出
 雙爿
 雙面
@@ -8570,7 +8966,7 @@ columns:
 侗年	siang ni
 侗時	siang si
 侗途	siang too
-##	Iang/Iak
+##	Iang/Iak（泉廈 iong/iok <> 漳 iang/iak）
 央	Iang1	10
 鴦	Iang1
 秧	Iang1
@@ -8586,6 +8982,7 @@ columns:
 楊	Iang5	5%
 洋	Iang5	5%
 揚	Iang5	10
+瘍	Iang5	5%
 恙	Iang7
 漾	Iang7
 樣	Iang7	5%
@@ -8649,6 +9046,7 @@ columns:
 餉	hIang2
 向	hIang3
 嚮	hIang3
+謔	hIak4
 將	cIang1	10
 章	cIang1	10
 彰	cIang1
@@ -8660,12 +9058,13 @@ columns:
 漿	cIang1
 獎	cIang2
 掌	cIang2	10
+長	cIang2	1%
+長[臺]	ciang2	1%
 將	cIang3
 爵	cIak4
 酌	cIak4
 灼	cIak4
 芍	cIak4
-狀	cIang7
 嚼	cIak8
 昌	chIang1
 娼	chIang1
@@ -8711,9 +9110,13 @@ columns:
 翔	sIang5
 上	sIang6
 相	sIang6{同「像」}	1%
+相[漳]	cIang6{同「像」}	1%
 像	sIang6
+像[漳]	cIang6
 象	sIang6
-橡	sIang6
+象[漳]	cIang6
+橡	sIang6	1%
+橡[漳]	cIang6	1%
 上	sIang7	10
 尚	sIang7
 央求	Iang kiu
@@ -8801,7 +9204,7 @@ columns:
 脹膽	tIang tann
 脹膽	tIang tann
 脹大	tIang tua
-脹肚	tIang too
+脹肚	tIang too6
 丈夫	tIang hu
 丈量	tIang lIang5
 丈地	tIang tere
@@ -8834,7 +9237,7 @@ columns:
 兩旁	lIang pong
 兩頭含	lIang thau kann
 兩端	lIang tuan
-兩斷	lIang tuan
+兩斷	lIang tuan6
 兩拄償	lIang tu sIang
 兩跤騎	lIang kha khia
 兩跤行	lIang kha kiann
@@ -8844,7 +9247,7 @@ columns:
 兩岸	lIang gan
 兩方	lIang hong
 兩光	lIang kong
-兩難	lIang lan
+兩難	lIang lan5
 兩敗俱傷	lIang pai kU sIang
 兩廣	lIang kong
 兩廊	lIang long
@@ -8884,14 +9287,17 @@ columns:
 強押	kIang5 ah
 強強	kIang5 kIang5
 強欲	kIang5 berh
-強盜
+強欲	kIang5 beh
+強欲	kIang5 boh
+強盜	kIang5 to
+強盜	kIang5 toO
 強摃	kIang5 kong
 強辯	kIang5 pian
 強大	kIang5 tua
 強化	kIang5 hua
 強求	kIang5 kiu
 強行	kIang5 hing5
-強姦	kIang5 kan
+強姦	kIang5 kan1
 強度	kIang5 too
 強迫	kIang5 pik
 強烈	kIang5 liat
@@ -8984,18 +9390,18 @@ columns:
 漳州腔[泉]	cing1 ciu khiunn
 漳州話[泉]	cing1 ciu uee
 漳州儂[泉]	cing1 ciu lang
-將來	cIang lai
-將領	cIang nia
-將令	cIang ling
+將來	cIang1 lai
+將近	cIang1 kern
+將就	cIang1 ciu
+將軍	cIang1 kun
+將心比心	cIang1 sim pi sim
+將信將疑	cIang1 sin cIang1 gi
+將領	cIang3 nia
+將令	cIang3 ling
 將相	cIang3 sIang3
-將帥	cIang sue
-將士	cIang sur
-將近	cIang kern
-將就	cIang ciu
-將軍	cIang kun
-將心比心	cIang sim pi sim
-將信將疑	cIang sin cIang gi
-將才	cIang cai
+將帥	cIang3 sue
+將士	cIang3 sur
+將才	cIang3 cai
 障礙	cIang gai
 獎狀
 獎金	cIang kim
@@ -9016,24 +9422,20 @@ columns:
 掌櫃	cIang kui
 掌心	cIang sim
 掌聲	cIang siann
+長志	cIang2 ci3
+長志[臺]	ciang2 ci3
 爵士	cIak sur
 爵爺	cIak ia
 爵位	cIak ui
 酌量	cIak lIang7
 酌情	cIak cing
 灼見	cIak kian
-狀元	cIang guan
-狀元紅	cIang guan hong
-狀元餅	cIang guan piann
-狀元地	cIang guan te
-狀元抽	cIang guan thiu
-狀元籌	cIang guan tiu
 昌盛	chIang sing
 娼妓	chIang ki
 猖狂	chIang kong
 倡議	chIang gi
-綽號	chiok ho
-弱冠	jIak kuan
+綽號	chIak ho
+弱冠	jIak kuan1
 弱點	jIak tiam
 弱勢	jIak se
 弱者	jIak cia
@@ -9048,7 +9450,7 @@ columns:
 傷害	sIang hai
 傷寒	sIang han
 傷風	sIang hong
-傷痕	sIang hern
+傷痕	sIang hun
 傷悲	sIang pi
 傷暑	sIang sir
 傷著	sIang tioh
@@ -9080,7 +9482,11 @@ columns:
 商標	sIang piau
 商城	sIang siann
 想像	sIang sIang
+想像[漳]	sIang chIang
 想像力	sIang sIang lik
+想像力	sIang sIang lat
+想像力[漳]	sIang chIang lik
+想像力[漳]	sIang chIang lat
 賞玩	sIang guan
 賞月	sIang guat
 賞罰	sIang huat
@@ -9155,32 +9561,32 @@ columns:
 相框	sIang3 khing
 相冊	sIang3 cheeh
 相底	sIang3 tere
-相卷	sIang3 kuInn
+相卷	sIang3 kuInn2
 相片	sIang3 phinn
 相簿	sIang3 phoo
 像機	sIang6 ki
 像框	sIang6 khing
 像冊	sIang6 cheeh
 像底	sIang6 tere
-像卷	sIang6 kuInn
+像卷	sIang6 kuInn2
 像片	sIang6 phinn
 相機	sIang6 ki	1%
 相框	sIang6 khing	1%
 相冊	sIang6 cheeh	1%
 相底	sIang6 tere	1%
-相卷	sIang6 kuInn	1%
+相卷	sIang6 kuInn2	1%
 相片	sIang6 phinn	1%
 像機	chIang6 ki
 像框	chIang6 khing
 像冊	chIang6 cheeh
 像底	chIang6 tere
-像卷	chIang6 kuInn
+像卷	chIang6 kuInn2
 像片	chIang6 phinn
 相機	chIang6 ki	1%
 相框	chIang6 khing	1%
 相冊	chIang6 cheeh	1%
 相底	chIang6 tere	1%
-相卷	chIang6 kuInn	1%
+相卷	chIang6 kuInn2	1%
 相片	chIang6 phinn	1%
 象徵[泉][廈]	sIang6 cing
 象徵	sIang6 ting
@@ -9238,6 +9644,7 @@ columns:
 上昇	sIang7 sing
 上臺	sIang7 tai
 上課	sIang7 kho
+上癮	sIang7 ern
 尚未	sIang bi
 尚文	sIang bun
 尚武	sIang bu
@@ -9252,6 +9659,7 @@ columns:
 簸	pua3
 撥	puah4
 缽	puah4
+砵	puah4
 跋	puah8
 鈸	puah8
 拋	phua1
@@ -9303,6 +9711,8 @@ columns:
 靠	khua3	5%
 跨	khua3
 胯	khua3
+掛	khua3
+掛[漳南]	khuee3
 闊	khuah4
 渴	khuah4	1%
 我	gua2	5%
@@ -9317,6 +9727,7 @@ columns:
 喝	huah4
 華	hua5
 樺	hua5
+禍[漳南]	hua6
 話	hua7	1%
 畫	hua7	0%
 伐	huah8
@@ -9342,7 +9753,7 @@ columns:
 沙	sua1	10
 砂	sua1
 鯊	sua1
-痧	sua
+痧	sua1
 徙	sua2	10
 紲	sua3	10
 煞	suah4
@@ -9472,8 +9883,8 @@ columns:
 大爿	tua paInn
 大細	tua sere
 大細目	tua sere bak
-大細心	tua sue sim
-大細聲	tua sue siann
+大細心	tua sere sim
+大細聲	tua sere siann
 大管拇	tua kong bu
 大壽	tua siu
 大牌	tua pai
@@ -9487,7 +9898,7 @@ columns:
 大目	tua bak
 大主大意	tua cu tua i
 大欉	tua cang
-大腹肚	tua pak too
+大腹肚	tua pak too2
 大話	tua uee
 大位	tua ui
 大雙
@@ -9523,7 +9934,7 @@ columns:
 拖磨	thua bua
 拖車	thua chia
 拖過月	thua ker gerh
-拖累	thua lui
+拖累	thua lui7
 拖命	thua mia
 拖沙	thua sua
 拖吊	thua tiau
@@ -9536,8 +9947,7 @@ columns:
 汰衫	thua sann
 辣醬	luah ciunn
 辣椒醬	luah cio ciunn
-捋頭毛	luah thau mng
-捋頭毛	luah thau moo
+捋頭毛	luah thau mNG
 捋頭鬃	luah thau cang
 捋仔	luah a
 捋頭	luah thau
@@ -9568,7 +9978,8 @@ columns:
 掛牌	kua pai
 掛礙	kua gai
 掛心	kua sim
-掛心	khua sim
+掛心	khua3 sim
+掛心[漳南]	khuee3 sim
 掛斷	kua tuInn
 掛煩	kua huan
 掛紅	kua ang
@@ -9581,9 +9992,9 @@ columns:
 卦象	kua sIang
 卦象[漳]	kuee chIang
 卦爻
-掛腸掛肚	kua tng kua too
+掛腸掛肚	kua tng kua too6
 掛紙	kua cua
-掛衫	kui sann
+掛衫	kua sann
 掛掛	kua kua
 掛咧	kua lErh
 掛紙錢	kua cua cinn
@@ -9602,12 +10013,12 @@ columns:
 割捒	kuah sak
 割捨	kuah sia
 割粙	kuah tiu
-割腸割肚	kuah tng kuah too
+割腸割肚	kuah tng kuah too6
 割吊	kuah tiau
 割貨	kuah her
 葛薯	kuah cir
 誇耀	khua iau
-誇口	khau khau
+誇口	khua khau
 誇張	khua tiunn
 靠跤	khua kha
 跨越	khua uat
@@ -9618,6 +10029,7 @@ columns:
 我个	gua e
 我欲	gua berh
 我欲	gua beh
+我欲	gua boh
 我有	gua u
 我無	gua bo
 我會	gua ere
@@ -9652,7 +10064,7 @@ columns:
 外孫	gua sun
 外套	gua tho
 外家	gua kee
-外觀	gua kuan
+外觀	gua kuan1
 外場	gua tiunn
 外位	gua ui
 外文	gua bun
@@ -9696,12 +10108,12 @@ columns:
 華山[漳]	huee3 suann1
 華麗	hua5 le7
 華麗[漳]	huee5 le7
-喝拳	huah kun
-喝拳[泉]	hua kun
-喝仙	huah sian
-喝仙[泉]	hua sian
-喝儂	huah lang
-喝儂[泉]	hua lang
+喝拳	huah kun5
+喝拳	hua3 kun5{*泉等}
+喝仙	huah sian5
+喝仙	hua3 sian5{*泉等}
+喝儂	huah lang5
+喝儂	hua3 lang5{*泉等}
 喝價	huah kee
 喝頷	huah am
 華夏	hua5 ha6
@@ -9716,6 +10128,8 @@ columns:
 華人[漳]	huee5 jin
 華僑	hua5 kiau
 華僑[漳]	huee5 kiau
+禍星[漳南]	hua6 chenn
+禍根[漳南]	hua6 kern
 話梅	hua mue
 伐步	huah poo
 伐跤	huah kha
@@ -9762,6 +10176,9 @@ columns:
 熱毒天	juah tak thinn
 熱天	juah thinn
 熱著	juah tioh
+熱翕翕	juah hip hip
+熱熻熻	juah hip hip
+熱熁熁	juah hiap hiap
 沙塗	sua thoo
 沙微	sua bui
 沙母
@@ -9772,7 +10189,7 @@ columns:
 沙袋	sua tEr
 沙地	sua tere
 沙挑	sua thio
-沙畫	sua uee
+沙畫	sua Uee
 沙線	sua suann
 沙埔	sua poo
 砂石	sua cioh
@@ -9792,7 +10209,6 @@ columns:
 撒鹽	suah iam
 撒汁
 ##	uai/uaih
-
 跩	cuai6
 乖	kuai1
 拐	kuai2
@@ -9811,7 +10227,7 @@ columns:
 拐弄	kuai long
 拐騙	kuai phian
 枴仔	kuai a
-乖囝
+乖囝	kuai kirann
 乖乖	kuai kuai
 乖囡仔
 乖巧	kuai kha
@@ -9830,6 +10246,7 @@ columns:
 怪孽	kuai giat
 快樂	khuai lok
 快捷	khuai ciap
+快捷	khuai ciat
 快便	khuai pian
 快艇	khuai thing
 快車	khuai chia
@@ -10021,13 +10438,14 @@ columns:
 判官	phuann kuann
 判決	phuann kuat
 判刑	phuann hing
-判斷	phuann tuan
-判斷	phuan tuan
+判斷	phuann tuan3
+判斷	phuan tuan3
 盤牆	phuann chiunn
 盤山過嶺	phuann suann ker nia
 盤牆	puann chiunn
 盤山過嶺	puann suann ker nia
-伴手	phuann ciu
+伴手	phuann chiu
+伴手禮	phuann chiu le
 伴食	phuann ciah
 伴讀	phuann thak
 伴嫁	phuann kee
@@ -10056,8 +10474,8 @@ columns:
 瞞騙	mua phian
 明年	mua ni
 端的	tuann tiah
-彈琴	tuann khim
-彈奏	tuann cau
+彈琴	tuann5 khim
+彈奏	tuann5 cau
 檀香	tuann hiunn
 檀香	tan hIang
 段落	tuann loh8
@@ -10073,11 +10491,12 @@ columns:
 欄位	nua ui
 攔阻	nua coo
 攔路	nua loo
-瀾垂	nua se
+瀾垂	nua se5
 爛去	nua khIR
 爛糊糊	nua koo koo
 爛塗	nua thoo
 官職	kuann cit
+官銜	kuann ham
 官衙	kuann gee
 官話	kuann uee
 官位	kuann ui
@@ -10137,7 +10556,7 @@ columns:
 鼾鼾叫	huann huann kio
 鼾鼾吼	huann huann hau
 岸邊	huann pinn
-扞家	huann ke
+扞家	huann kee
 煎藥	cuann ioh
 煎藥仔	cuann ioh a
 榨油	cuann iu
@@ -10212,7 +10631,7 @@ columns:
 橫直	huainn tit
 橫扴	huainn keeh
 橫霸霸	huainn pa pa
-橫財	huainn ca
+橫財	huainn cai
 橫向	huainn hIang
 橫披	huainn5 phi1
 橫批	huainn5 phi1{*訓讀「橫披」}
@@ -10222,6 +10641,8 @@ columns:
 懸	kuAinn5
 縣	kuAinn7
 慣勢	kuAinn si
+慣勢[廈]	kuan si
+慣勢落例[雲霄]	kuAinn si loh8 li
 懸低	kuAinn kee
 懸度	kuAinn too
 懸懸	kuAinn kuAinn
@@ -10476,10 +10897,10 @@ columns:
 璇	suan5
 檨	suan7
 冤家	uan kee
-冤家量債	uan kee niu cee
+冤家量債	uan kee niu5 cee
 冤魂	uan hun
 冤屈	uan khut
-冤屈	un khut
+冤屈	un1 khut4{*}
 冤枉	uan ong
 冤仇	uan siu
 冤仇儂	uan siu lang
@@ -10556,13 +10977,13 @@ columns:
 半島	puan toO
 半途而廢	puan too ji hue
 半吊	puan tiau
-半吊囝	puan tiau kiann
-半吊囝	puan tiau kann
+半吊囝	puan tiau kirann
 撥亂反正	puat luan huan cing3
 般若	puat jia
 叛徒	puan too
 叛亂	puan luan
 叛逆	puan gik
+叛國	puan kok
 叛黨	puan tong
 跋涉	puat siap
 盤踞	phuan kir
@@ -10579,9 +11000,9 @@ columns:
 滿洲	buan ciu
 滿漢	buan han
 滿漢全席	buan han cuan sik
-滿漢全席	buan han cuan sit
+滿漢全席[泉]	buan han cuan sit
 滿清	buan ching
-末將	buat cIang
+末將	buat cIang3
 末日	buat jit
 末世	buat se
 端正	tuan ciann3
@@ -10594,15 +11015,13 @@ columns:
 短見	tuan kian
 鍛鍊	tuan lian
 鍛造	tuan co
-斷斷	tuan tuan
-斷案	tuan an
-斷言	tuan gian
-斷然	tuan jian
-斷送	tuan sang
-斷約	tuan Iak
-斷定	tuan ting
-斷算	tuan suInn
-斷額	tuan giah
+斷斷	tuan3 tuan3
+斷案	tuan3 an
+斷言	tuan3 gian
+斷然	tuan3 jian
+斷定	tuan3 ting
+斷算	tuan3 suInn
+斷額	tuan3 giah
 輟學	tuat hak
 傳言
 傳輸
@@ -10616,7 +11035,8 @@ columns:
 傳承
 傳道
 傳位
-傳奇
+傳奇	tuan5 ki5
+傳奇	thuan5 ki5
 傳球
 傳神
 傳遞
@@ -10636,12 +11056,16 @@ columns:
 傳教	thuan5 kau
 傳送	thuan5 sang
 傳媒	thuan5 mue
-斷絕	tuan cuat
-斷交	tuan kau
-斷食	tuan sit
-斷腸	tuan tIang
+斷送	tuan6 sang
+斷約	tuan6 Iak
+斷絕	tuan6 cuat
+斷交	tuan6 kau
+斷食	tuan6 sit
+斷腸	tuan6 tIang
 篆刻	tuan khik
 傳記	tuan7 ki
+奪取	tuat8 chU
+奪冠	tuat8 kuan
 湍急	thuan kip
 脫離	thuat li7
 脫險	thuat hiam
@@ -10667,8 +11091,8 @@ columns:
 戀情	luan cing
 鸞鳳	luan hong
 亂糟糟	luan cau cau
-亂操操	luan chau chau
-亂操操	luan chauh chauh
+亂操操	luan chau1 chau1
+亂操操	luan chauh4 chauh4{*}
 亂來	luan lai
 亂講	luan kong
 亂子	luan cur
@@ -10679,9 +11103,9 @@ columns:
 亂世	luan se
 亂臣賊子	luan sin cik cur
 亂臣賊子	luan sin cerk cur
-亂臣賊子	luan sin cak cur
-亂碼	luan be
+亂碼	luan bee
 亂象	luan sIang
+亂象[漳]	luan chIang
 劣跡	luat cik
 劣等	luat ting
 劣等	luat terng
@@ -10690,6 +11114,9 @@ columns:
 關公	kuan kong
 關老爺	kuan lo2 ia
 關老爺[泉]	kuan noo2 ia
+關帝	kuan te
+關帝廟	kuan te bio
+關帝爺	kuan te ia
 關聯	kuan lian
 關心	kuan sim
 關中	kuan tiong1
@@ -10708,17 +11135,17 @@ columns:
 關照	kuan ciau
 關注	kuan cu
 官官相護	kuan kuan sIang1 hoo
-觀察	kuan chat
-觀望	kuan bong
-觀音	kuan im
-觀音媽	kuan im ma2
-觀測	kuan chik
-觀念	kuan liam
-觀光	kuan kong
-觀看	kuan khuann
-觀世音	kuan se im
-觀星	kuan sing
-觀點	kuan tiam
+觀察	kuan1 chat
+觀望	kuan1 bong
+觀音	kuan1 im
+觀音媽	kuan1 im ma2
+觀測	kuan1 chik
+觀念	kuan1 liam
+觀光	kuan1 kong
+觀看	kuan1 khuann
+觀世音	kuan1 se im
+觀星	kuan1 sing
+觀點	kuan1 tiam
 棺木	kuan bok
 捐資	kuan cur
 捐獻	kuan hian
@@ -10747,7 +11174,7 @@ columns:
 捲土重來	kuan thoo tiong5 lai
 慣用	kuan ing
 慣例	kuan le
-慣例	kuan li
+慣例[漳]	kuan li
 罐頭	kuan thau
 罐仔	kuan a
 灌木	kuan bok
@@ -10760,7 +11187,7 @@ columns:
 貫通	kuan thong
 貫穿	kuan chuan
 貫串	kuan chuan
-冠軍	kuan kun
+冠軍	kuan3 kun
 眷戀	kuan luan
 眷顧	kuan koo
 眷屬	kuan siok
@@ -10771,7 +11198,7 @@ columns:
 決議	kuat gi
 決心	kuat sim
 決意	kuat i
-決斷	kuat tuan
+決斷	kuat tuan3
 決賽	kuat sai
 決戰	kuat cian
 決策	kuat chik
@@ -10781,7 +11208,6 @@ columns:
 寬限	khuan han
 寬限	khuan an
 寬心	khuan sim
-寬宏大量	khuan hing tai lIang7
 寬宏大量	khuan hong tai lIang7
 寬容	khuan iong
 寬恕	khuan sir
@@ -10804,7 +11230,7 @@ columns:
 缺憾	khuat ham
 缺少	khuat cio
 缺席	khuat sik
-缺席	khuat sit
+缺席[泉]	khuat sit
 缺點	khuat tiam
 缺欠	khuat khiam
 缺漏	khuat lau
@@ -10819,8 +11245,10 @@ columns:
 權力	kuan lik
 權利	khuan li
 權利	kuan li
-權勢	kuan se
 權勢	khuan se
+權勢	kuan se
+權益	khuan ik
+權益	kuan ik
 阮的	guan e
 阮的	gun e
 阮兮	guan e
@@ -10855,7 +11283,6 @@ columns:
 原籍	guan cip
 原則	guan cik
 原則	guan cerk
-原則	guan cak
 原罪	guan cue
 原形	guan hing
 原意	guan i
@@ -10903,9 +11330,12 @@ columns:
 歡迎	huan ging
 歡送	huan sang
 歡呼	huan hoo
-番薯	huan cir
-番薯	han cir
-番薯	an cir
+番薯	huan1 cir5
+番薯	han1 cir5
+番薯	an1 cir5{*}
+番薯粉	huan1 cir5 hun2
+番薯粉	han1 cir5 hun2
+番薯粉	an1 cir5 hun2{*}
 番仔	huan a
 番仔火	huan a her
 番鴨	huan ah
@@ -10913,10 +11343,9 @@ columns:
 番國	huan kok
 番梨	huan lai
 番邦	huan pang
-番查某	huan ca boo
+番查某	huan ca1 boo2
 番婆	huan po
 番癲	huan tian
-番薯粉
 番仔樓	huan a lau
 番麥	huan beeh
 番黍	huan sere
@@ -10957,9 +11386,11 @@ columns:
 反射	huan sia
 反義	huan gi
 反義詞	huan gi sur
-反彈	huan tuann
+反彈	huan tuann5
 反饋	huan kui
-反查	huan cha
+反查	huan cha5
+反查	huan ca5
+反查[漳]	huan cee5
 反之亦然	huan ci ik jian
 幻想	huan sIang
 幻影	huan ing
@@ -10994,7 +11425,6 @@ columns:
 法庭	huat ting
 法則	huat cik
 法則	huat cerk
-法則	huat cak
 法定	huat ting
 法盲	huat bong
 法網	huat bang
@@ -11049,8 +11479,8 @@ columns:
 發問	huat muI
 髮型	huat hing
 豁免	huat bian
-煩惱	huan lo
-煩惱	huan ho
+煩惱	huan5 lo2
+煩惱	huan5 ho2{*}
 煩死	huan si
 煩心	huan sim
 繁華	huan hua5
@@ -11083,7 +11513,7 @@ columns:
 犯著	huan tioh
 犯錯	huan cho
 患者	huan cia
-患難	huan lan
+患難	huan lan7
 梵語	huan gir
 梵文	huan bun
 梵天	huan thian
@@ -11178,7 +11608,7 @@ columns:
 全班	cuan pan
 全省	cuan sing
 全市	cuan chi
-全勝	cuan sing
+全勝	cuan sing3
 全屍	cuan si
 全體	cuan the
 全家	cuan kee
@@ -11212,7 +11642,7 @@ columns:
 絕地	cuat tere
 絕招	cuat ciau
 川七	chuan chit
-川貝	chuat pue
+川貝	chuan pue
 穿插	chuan chah
 穿心	chuan sim
 詮釋	chuan sik
@@ -11241,7 +11671,7 @@ columns:
 宣誓	suan se
 宣示	suan si
 宣讀	suan thak
-宣稱	suan ching
+宣稱	suan ching1
 訕削	suan siah
 訕潲	suan siau
 選舉	suan kir
@@ -11386,12 +11816,14 @@ columns:
 冊	cheeh4
 砂	see1
 紗	see1
+沙	see1
+痧	see1
 裟	see1
 洒	see3
 灑	see3
 屑	seeh4
-啞狗	ee kau
-啞狗[泉]	ik kau
+啞狗	ee2 kau2
+啞狗[泉]	ik4 kau2{*}
 啞喉	ee au
 下跤	ee kha
 下底	ee tere
@@ -11454,9 +11886,12 @@ columns:
 耙癢	pee5 ciunn
 扒龍船	pee5 ling cun
 爬龍船	pee5 ling cun
-父母
-父仔囝
-父頭母骨
+父母	pee bu
+父母	pee bo
+父仔囝	pee a kirann
+父頭母骨	pee thau bu kut
+父頭母骨	pee thau bo kut
+父老囝幼	pee lau6 kirann iu
 白色	peeh sik
 白白	peeh peeh
 白馬	peeh bee
@@ -11477,8 +11912,7 @@ columns:
 白煠狗頭	peeh sah kau thau
 白金	peeh kim
 白旗	peeh ki
-白毛	peeh mng
-白毛	peeh moo
+白毛	peeh mNG
 白雪	peeh sErh
 白說	peeh serh
 白講	peeh kong
@@ -11539,6 +11973,7 @@ columns:
 脈搏	beeh phok
 脈管	meeh kuInn
 脈象	meeh sIang
+脈象[漳]	meeh chIang
 脈搏	meeh phok
 硩死	teeh si
 硩著	teeh tioh
@@ -11553,8 +11988,8 @@ columns:
 茶葉	tee hioh
 茶心	tee sim
 茶觳	tee khok
-茶攑	tee kiah
-茶攑	tee kah
+茶攑	tee kirah
+茶攑	tee giah
 茶樹	tee chiu
 茶晶	tee cing
 茶杯	tee pue
@@ -11610,7 +12045,7 @@ columns:
 假空	kee khang1
 假睏	kee khun
 假名	kee mia
-假病	kee pnn
+假病	kee penn
 假好	kee ho
 假聲	kee siann
 假鬼假怪	kee kui kee kuai
@@ -11619,15 +12054,18 @@ columns:
 假痟	kee siau
 假齒	kee khi
 嫁翁	kee ang
-嫁查某仔	kee ca boo a
+嫁查某仔	kee ca1 boo2 a
 嫁儂	kee lang
 嫁妝	kee cng
 嫁娶	kee chua
 價錢	kee cinn
 價數	kee siau
+價值	kee tit
 價值	kee tat
 價格	kee keeh
 價差	kee cha
+價聲	kee siann
+價跤	kee kha
 架仔	kee a
 架勢	kee se
 格仔	keeh a
@@ -11659,7 +12097,7 @@ columns:
 客車	kheeh chia
 客船	kheeh cun
 客氣	kheeh khi
-客觀	kheeh kuan
+客觀	kheeh kuan1
 客官	kheeh kuann
 客商	kheeh sIang
 客套	kheeh tho
@@ -11728,8 +12166,9 @@ columns:
 ##	uee/ueeh
 椏	uee1
 話	uee7
-畫	uee7
-畫	ueeh8
+畫	Uee7
+畫	Ueeh8
+劃	Ueeh8
 瓜	kuee1
 怪	kuee3
 卦[漳]	kuee3
@@ -11744,35 +12183,26 @@ columns:
 話母
 話尾	uee ber
 話劇	uee kIak
-畫面	uee bin
-畫卷	uee kuInn
-畫報	uee po
-畫像	uee sIang
-畫冊	uee cheeh
-畫家	uee ka
-畫面	uee bin
-畫廊	uee long
-畫筆	uee pit
-畫展	uee tian
-畫質	uee cit
-畫畫	ueeh uee
-畫圖	ueeh too
-畫圖畫	ueeh too uee
-畫虎𡳞	ueeh hoo lan
-畫龍畫鳳	ueeh ling ueeh hong
-畫眉	ueeh bai
-畫押	ueeh ah
-畫痕	ueeh hern
-畫蛇添足	ueeh cua thiam tisok
-畫畫	uee uee
-畫圖	uee too
-畫圖畫	uee too uee
-畫虎𡳞	uee hoo lan
-畫龍畫鳳	uee ling uee hong
-畫眉	uee bai
-畫押	uee ah
-畫痕	uee hern
-畫蛇添足	uee cua thiam tisok
+畫卷	Uee kuInn3
+畫報	Uee po
+畫像	Uee sIang
+畫像[漳]	Uee chIang
+畫冊	Uee cheeh
+畫家	Uee ka
+畫面	Uee bin
+畫廊	Uee long
+畫筆	Uee pit
+畫展	Uee tian
+畫質	Uee cit
+畫畫	Ueeh Uee
+畫圖	Ueeh too
+畫圖畫	Ueeh too Uee
+畫虎𡳞	Ueeh hoo lan
+畫龍畫鳳	Ueeh ling Ueeh hong
+畫眉	Ueeh bai
+畫押	Ueeh ah
+畫痕	Ueeh hun
+畫蛇添足	Ueeh cua thiam ciok
 瓜子	kuee ci
 怪儂	kuee lang
 花仔	huee a
@@ -11817,6 +12247,7 @@ columns:
 裔[漳]	i7
 閉	pe3	0%
 蔽	pe3
+蔽[漳]	pi3
 陛	pe6
 敝	pe7
 幣	pe7
@@ -11831,7 +12262,7 @@ columns:
 氐	te1
 抵	te2
 底	te2	0%
-邸	te2
+邸	te2	0%
 帝	te3
 締	te3
 渧	te3
@@ -11885,7 +12316,7 @@ columns:
 溪	khe1	0%
 啟	khe2
 棨	khe2
-稽	khe2
+稽	khe2	1%
 憩	khe3
 契	khe3	5%
 倪	ge5
@@ -11931,7 +12362,7 @@ columns:
 細	se3	5%
 婿	se3	5%
 洒	se3
-垂	se5	10
+垂	se5{替}	10
 誓	se7	10
 逝	se7	10
 筮	se7
@@ -11970,6 +12401,9 @@ columns:
 帝國	te kok
 帝都	te too
 帝位	te ui
+帝君	te kun
+帝君爺	te kun ia
+帝君公	te kun kong
 締約	te Iak
 締結	te kiat
 弟子	te cur
@@ -12020,7 +12454,7 @@ columns:
 䖙倒	the to2
 䖙椅	the i
 體面	the bin
-體操	the chau
+體操	the chau1
 體質	the cit
 體型	the hing
 體會	the hue
@@ -12029,7 +12463,7 @@ columns:
 體式	the sik
 體勢	the se
 體例	the le
-體例	the li
+體例[漳]	the li
 體諒	the lIang
 體態	the thai
 體貼	the thiap
@@ -12100,7 +12534,11 @@ columns:
 黎民	le bin
 黎民百姓	le bin peeh senn
 例外	le gua
-例外	li gua
+例外[漳]	li gua
+例子	le cur
+例子[漳]	li cur
+例俗	le siok
+例俗[漳]	li siok
 麗斗	le tau
 厲鬼	le kui
 厲害	le hai
@@ -12116,13 +12554,20 @@ columns:
 計算機	ke suInn ki
 計智	ke ti
 計劃	ke hik
-計畫	ke uee
+計畫	ke Uee
+# {都}
 計欲	ke berh
 計欲	ke beh
+計欲	ke boh
+計是	ke si
 繼續	ke siok
 繼業	ke giap
 繼承	ke sing
-稽查	khe ca
+稽查	khe1 ca1
+稽查[漳]	khe1 cee1
+稽查[漳]	khe1 cee
+稽核	khe1 hert
+稽核	khe1 hik
 啟明星	khe bing chenn
 啟發	khe huat
 啟示	khe si
@@ -12314,7 +12759,7 @@ columns:
 病床	penn chng
 病患	penn huan
 病例	penn le
-病例	penn li
+病例[漳]	penn li
 病理	penn li
 病菌	penn khun
 病歷	penn lik
@@ -12335,17 +12780,19 @@ columns:
 佯假	tenn kee
 佯死	tenn si
 佯生	tenn chenn
-佯笑	tenn cio
+佯笑	tenn chio
+佯凊笑	tenn3 chin3 chio3
+佯凊笑	tenn3 cin3 chio3{*}
 佯戇	tenn gong
 佯痟	tenn siau
 佯痟六癲	tenn siau lak tian
 佯毋知	tenn m cai
 佯病	tenn penn
-佯睏	tenn kun
-佯假睏	tenn kee kun
+佯睏	tenn khun
+佯假睏	tenn kee khun
 佯癲佯戇	tenn tian tenn gong
-佯天踱	thenn thian thoh
-佯天佯踱	thenn thian tenn thoh
+佯天踱	tenn thian thoh
+佯天佯踱	tenn thian tenn thoh
 撜力	tenn lat
 撜屎	tenn sai
 牚懸	thenn kuAinn
@@ -12378,7 +12825,7 @@ columns:
 奶胎	lin thai
 奶胎	ling thai
 躡跤前	neeh kha caInn
-躡腳尾	neeh kha ber
+躡跤尾	neeh kha ber
 晾衫	nee sann
 經布	kenn poo
 經絲	kenn si
@@ -12431,9 +12878,12 @@ columns:
 生驚	chenn kiann
 星光月現	chenn kuInn gerh hian
 星斗	chenn tau
-腥臊	chenn chau
-腥臊	che chau
-清凊	chenn chenn
+腥臊	chenn1 chau1
+腥臊	che1 chau1{*}
+腥臊	chenn1 cho1
+清清	chenn chenn
+醒悟	chenn goo
+醒悟	chenn ngoo
 醒眠	chenn bin
 醒喙	chenn chui
 醒醒	chenn chenn
@@ -12446,8 +12896,7 @@ columns:
 生分	chenn hun7
 生分儂	senn hun7 lang
 生分儂	chenn hun7 lang
-生囝	senn kiann
-生囝	senn kann
+生囝	senn kirann
 生囡仔	senn kin a
 生囡仔	senn gin a
 生囡仔	senn kan a
@@ -12490,8 +12939,6 @@ columns:
 珮	pue7
 胚	phue1
 坯	phue1
-䫌	phue2
-襞	phue2
 配	phue3
 綴	tue3
 頹	tue5
@@ -12529,6 +12976,7 @@ columns:
 繪	hue7
 潰	hue7
 做	cue3	10
+做	cere3{《廈英》老泉}
 最	cue3
 贅	cue3
 罪	cue6
@@ -12555,8 +13003,8 @@ columns:
 培養	pue Iang
 賠罪	pue cue
 賠禮	pue le
-背叛	pue puan
-背叛	pue phuan
+背叛	pue7 puan7
+背叛	pue7 phuan7{*}
 背冊	pue cheeh
 背誦	pue siong
 背後	pue au
@@ -12584,11 +13032,12 @@ columns:
 配備	phue pi
 配送	phue sang
 配頭	phue thau
-配套	phue to
+配套	phue tho
 頹廢	tue hue
-兌現	tue hian
-兌換	tue uann
-兌卦
+兌現	tue7 hian
+兌換	tue7 uann
+兌卦	tue7 kua
+兌卦[漳]	tue7 kuee
 疊衫	tueh sann
 疊衫褲	tueh sann khoo
 疊被	tueh pher
@@ -12644,7 +13093,8 @@ columns:
 回憶	hue ik
 回顧	hue koo
 回想	hue sIang
-回潮
+回潮	hue tiau
+回潮	hue tio
 回避	hue pi
 迴避	hue pi
 會晤	hue goo
@@ -12707,7 +13157,6 @@ columns:
 做敬
 做客
 做儂客
-做囝
 做鬼
 做兵
 做出
@@ -12723,70 +13172,79 @@ columns:
 做臭儂
 做意致
 做致
+做囝	cue kirann
+做囝	co kirann
 做木	cue bak
-做藝	cue gere
-做議量	cue gi niu
-做會到	cue ere kau
-做會到	cue e kau
-做袂到	cue bere kau
-做會來	cue ere lai
-做會來	cue e lai
-做袂來	cue bere lai
-做會得來	cue ere tit lai
-做會得來	cue e tit lai
-做袂得來	cue bere tit lai
-做未	cue ber
-做了未	cue liau ber
-做無了	cue bo liau
-做未了	cue ber liau
-做一下	cue cit ee
-做一下	cue cee
-做一時	cue cit si
-做一擺	cue cit pai
-做作	cue coh
-做禍做業	cue er cue giap
-做牛做馬	cue gu cue bee
-做竅	cue khio
-做乞食	cue khit ciah
-做官	cue kuann
-做大官	cue tua kuann
-做半剸	cue puann tuInn
-做生日	cue senn jit
-做生理	cue sing li
-做生理	cue serng li
-做親情	cue chin ciann
-做大水	cue tua cui
-做苦旱	cue khoo uann
 做木	co bak
+做藝	cue gere
 做藝	co gere
-做議量	co gi niu
+做議量	cue gi niu7
+做議量	co gi niu7
+做會到	cue ere kau
 做會到	co ere kau
+做會到	cue e kau
+做會到	co e kau
+做袂到	cue bere kau
 做袂到	co bere kau
+做會來	cue ere lai
 做會來	co ere lai
+做會來	cue e lai
+做會來	co e lai
+做袂來	cue bere lai
 做袂來	co bere lai
+做會得來	cue ere tit lai
 做會得來	co ere tit lai
+做會得來	cue e tit lai
+做會得來	co e tit lai
+做袂得來	cue bere tit lai
 做袂得來	co bere tit lai
+做未	cue ber
 做未	co ber
+做了未	cue liau ber
 做了未	co liau ber
+做無了	cue bo liau
 做無了	co bo liau
+做未了	cue ber liau
 做未了	co ber liau
-做一下	co cit e
-做一下	co cee
+做一下	cue5 cit ee
+做一下	co cit ee
+做一下	cue5 cee6{*}
+做一下	co3 cee6{*}
+做一時	cue cit si
 做一時	co cit si
+做一擺	cue cit pai
 做一擺	co cit pai
+做作	cue coh
 做作	co coh
-做禍做業	co er co giap
+做作	cue cok
+做作	co cok
+做作業	cue cok giap
+做作業	co cok giap
+做禍做業	cue Er cue giap
+做禍做業	co Er co giap
+做牛做馬	cue gu cue bee
 做牛做馬	co gu co bee
+做竅	cue khio
 做竅	co khio
+做乞食	cue khit ciah
 做乞食	co khit ciah
+做官	cue kuann
 做官	co kuann
+做大官	cue tua kuann
 做大官	co tua kuann
+做半剸	cue puann tuInn
 做半剸	co puann tuInn
+做生日	cue senn jit
 做生日	co senn jit
-做生理	co sing li
+做親情	cue chin ciann
 做親情	co chin ciann
+做大水	cue tua cui
 做大水	co tua cui
+做苦旱	cue khoo uann
 做苦旱	co khoo uann
+做生理	cue sing li
+做生理	co sing li
+做生理[泉]	cue serng li
 最後	cue au
 最終	cue ciong
 最近	cue kern
@@ -12912,6 +13370,7 @@ columns:
 疲	phi5
 鼻	phi7	10
 鼻	phinn7{異}
+咇	phih8
 咪	bi1
 米	bi2	10
 美	bi2	10
@@ -12936,6 +13395,7 @@ columns:
 知	ti1	10
 蜘	ti1
 抵	ti2
+邸	ti2
 戴	ti3	10
 致	ti3
 緻	ti3
@@ -13043,11 +13503,12 @@ columns:
 騎	ki5	5%
 祇	ki5
 祁	ki5
+沂	ki5
 鰭	ki5
 碁	ki5
 伎	ki6
 忌	ki7	10
-己	ki7
+己	ki7	5%
 騎	ki7	5%
 欺	khi1
 敧	khi1
@@ -13055,6 +13516,7 @@ columns:
 起	khi2	10
 齒	khi2
 豈	khi2
+紀	khi2
 綺	khi2
 企	khi3	10
 器	khi3	10
@@ -13070,6 +13532,7 @@ columns:
 疑	gi5
 宜	gi5
 儀	gi5
+沂	gi5{反切音}
 義	gi7
 議	gi7
 誼	gi7
@@ -13126,6 +13589,8 @@ columns:
 癡	chi1
 鰓	chi1
 鴟	chi1
+淒	chi1{俗}
+悽	chi1{俗}
 侈	chi2
 齒	chi2	0%
 試	chi3	10
@@ -13133,7 +13598,6 @@ columns:
 莿	chi3
 熾	chi3
 翅	chi3
-𩑾	chih4
 爍	chih4
 持	chi5
 溡	chi5
@@ -13184,6 +13648,9 @@ columns:
 嗜	si7
 諡	si7
 蝕	sih8
+伊的	i e
+伊兮	i e
+伊个	i e
 醫院	i inn
 醫學	i hak
 醫學院	i hak inn
@@ -13199,7 +13666,7 @@ columns:
 醫藥	i ioh
 醫護	i hoo
 醫療	i liau
-衣冠	i kuan
+衣冠	i kuan1
 衣衫不整	i sam put cing
 依靠
 依倚	i ua
@@ -13247,6 +13714,7 @@ columns:
 意識	i sik
 意識	i sit
 意象	i sIang
+意象[漳]	i chIang
 意圖	i too
 薏仁	i jin
 姨仔	i a
@@ -13295,8 +13763,8 @@ columns:
 悲慘	pi cham
 悲喜交加	pi hi kau ka
 悲歡離合	pi huan li7 hap
-悲觀	pi kuan
-悲劇	pi kiok
+悲觀	pi kuan1
+悲劇	pi kIak
 悲情	pi cing
 卑鄙	pi phi
 卑微	pi bi
@@ -13315,8 +13783,10 @@ columns:
 比範	pi pan
 比喻	pi jU
 比照	pi ciau
-比例
-比並
+比例	pi le
+比例[漳]	pi li
+比並	pi ping
+比並	pi phing
 比長論短	pi tng5 lun tor
 比率	pi lut
 比重	pi tang
@@ -13356,10 +13826,12 @@ columns:
 脾氣	pi khi
 脾土	pi thoo
 脾胃	pi ui
-琵琶	pi pee
-琵琶	ki pee
-枇杷	pi pee
-枇杷	ki pee
+琵琶	pi5 pee5
+琵琶	ki5 pee5{*}
+琵琶	gi5 pee5{*}
+枇杷	pi5 pee5
+枇杷	ki5 pee5{*}
+枇杷	gi5 pee5{*}
 被動	pi tong
 被害	pi hai
 被害人	pi hai jin
@@ -13370,7 +13842,7 @@ columns:
 備辦	pi pan
 備註	pi cu
 避免	pi bian
-避難	pi lan
+避難	pi lan7
 避諱	pi hui
 避亂	pi luan
 避雷針	pi lui cSam
@@ -13386,7 +13858,7 @@ columns:
 譬相	phi siunn3
 譬相[漳]	phe2 sIang3
 譬相[漳]	phe2 siunn3
-譬如	phi ju
+譬如	phi jir
 譬論講	phi lun kong
 皮蛋	phi tan
 皮皮	phi phi
@@ -13414,6 +13886,8 @@ columns:
 鼻鞍	phinn uann
 鼻著	phi tioh
 鼻著	phinn tioh
+咇咇掣	phih8 phih8 chuah
+咇噗跳	phih8 phok thiau
 米粉	bi hun
 米糊	bi koo
 米蟲	bi thang
@@ -13446,7 +13920,7 @@ columns:
 美人	bi jin
 美色	bi sik
 美容	bi iong
-美觀	bi kuan
+美觀	bi kuan1
 美術	bi sut
 美德	bi tik
 美滿	bi buan
@@ -13492,7 +13966,7 @@ columns:
 篾蓆	bih chioh
 篾䉔	bih chuann
 篾瓤	bih nng
-知己	ti ki
+知己	ti ki2
 知足	ti ciok
 知音	ti im
 蜘蛛	ti tu
@@ -13511,7 +13985,7 @@ columns:
 致意	ti i
 致病	ti penn
 致身命	ti sin mia
-致使	ti sur
+致使	ti sur2
 致詞	ti sur
 致辭	ti sur
 致謝	ti sia
@@ -13531,7 +14005,7 @@ columns:
 池塘	ti tng
 遲到
 遲疑	ti gi
-遲鈍	ti tun
+遲鈍	ti tun6
 弟兄	ti hiann
 痔瘡	ti chng
 底時	ti si
@@ -13559,7 +14033,9 @@ columns:
 底一頭	ti cit thau
 底一尾	ti cit ber
 底一粒	ti cit liap
-底一卷	ti cit kuInn
+底一卷	ti cit kuInn2{圓筒狀物}
+底一卷	ti cit kuInn3{書卷}
+底一卷	ti cit kuan3{書卷}
 底一本	ti cit pun
 底一臺	ti cit tai
 底一條	ti cit tiau
@@ -13617,6 +14093,7 @@ columns:
 鐵塔	thih thah
 鐵皮	thih pher
 鐵皮厝	thih pher chu
+鐵缽	thih puah
 剃面	thih bin
 剃頭	thih thau
 剃頭店	thi thau taInn
@@ -13651,8 +14128,8 @@ columns:
 理想	li sIang
 理智	li ti
 理所當然	li soo tong1 jian
-理科	li ko
-理科	li ker
+理科	li kho
+理科	li kher
 李仔	li a
 李仔樹	li a chiu
 李仔膏	li a ko
@@ -13684,7 +14161,8 @@ columns:
 離譜	li7 phoo
 離手	li7 chiu
 離窵	li7 tiau
-離卦
+離卦	li7 kua
+離卦[漳]	li7 kuee
 利益	li ik
 利用	li iong
 利便	li pian
@@ -13726,7 +14204,7 @@ columns:
 機動車	ki tong chia
 機制	ki ce
 機制[漳]	ki ci
-機種	ki ciong
+機種	ki ciong3
 枝葉	ki hioh
 枝香小細	ki hiunn sio sere
 枝仔冰	ki a ping
@@ -13838,6 +14316,7 @@ columns:
 旗號	ki ho
 旗艦	ki lam
 旗艦店
+旗袍	ki phau3
 旗杆	ki kuann
 旗杆石	ki kuann cioh
 棋子	ki ji
@@ -13846,8 +14325,9 @@ columns:
 棋局	ki kiok
 棋譜	ki phoo
 棋逢敵手	ki hong tik chiu
-騎兵	ki ping
-騎士	ki sur
+騎兵	ki5 ping
+騎士	ki5 sur
+沂蒙	ki bong
 忌日	ki jit
 忌喙	ki chui
 忌床	ki chng
@@ -13884,7 +14364,7 @@ columns:
 起性地	khi sing te
 起訴	khi soo
 起碇	khi tiann
-起凊瘼	khi chin mooh
+起凊瘼	khi chin moh
 起凊瘼	khi chin boh
 起厝	khi chu
 起床	khi chng
@@ -13914,6 +14394,8 @@ columns:
 起沫	khi pherh
 起動	khi tong
 起笡	khi chia
+起帆	khi phang
+起初	khi choo
 齒刷	khi suat
 齒刷	khi sua
 齒抿	khi bin
@@ -13961,8 +14443,9 @@ columns:
 氣死	khi si
 氣色	khi sik
 氣怫怫	khi phut phut
-氣怫怫	khi put put
+氣怫怫	khi3 put4 put4{*}
 氣象	khi sIang
+氣象[漳]	khi chIang
 氣溫	khi un
 氣數	khi soo
 氣身惱命	khi sin loo mia
@@ -13975,7 +14458,7 @@ columns:
 氣派	khi phai
 缺角	khih kak
 缺喙	khih chui
-缺痕	khih hern
+缺痕	khih hun
 缺缺裂裂	khih khih lih lih
 柿餅	khi piann
 柿粿	khi ker
@@ -13993,7 +14476,7 @@ columns:
 疑神疑鬼	gi sin gi kui
 疑點	gi tiam
 疑悟
-疑難	gi lan
+疑難	gi lan5
 儀器	gi khi
 儀式	gi sik
 義氣	gi khi
@@ -14020,7 +14503,7 @@ columns:
 議長	gi tiunn2
 議場	gi tiunn
 議程
-議量	gi niu
+議量	gi niu7
 希望	hi bang
 希罕	hi han
 稀奇	hi ki
@@ -14044,7 +14527,7 @@ columns:
 喜劇	hi kIak
 喜氣	hi khi
 喜宴	hi ian
-喜事	hi su
+喜事	hi sur
 戲弄	hi lang
 戲班	hi pan
 戲文	hi bun
@@ -14107,7 +14590,9 @@ columns:
 膣屄	ci bai
 只有	ci u
 只欲	ci berh
-只要	ci iau
+只欲	ci beh
+只欲	ci boh
+只要	ci iau3
 只好	ci ho
 只是	ci si
 姊妹	ci mue
@@ -14227,12 +14712,12 @@ columns:
 飼豬	chi tIR
 飼牛	chi gu
 飼貓	chi niau
-飼囝
+飼囝	chi kirann
 飼金魚	chi kim hIR
 飼奶
 飼囡仔
 飼料	chi liau
-飼查某	chi ca boo
+飼查某	chi ca1 boo2
 蠘仔	chih a
 蠘仔殼	chih a khak
 蠘仔膏	chih a ko
@@ -14258,9 +14743,8 @@ columns:
 字運	ji un
 字眼	ji gan
 字爿	ji paInn
-字劃	ji uih
-字劃	ji uah
-字紙籠	ji cua lang
+字劃	ji Ueeh
+字紙籠	ji cua lang2
 字紙	ji cua
 字幕	ji boo
 字樣	ji iunn
@@ -14317,7 +14801,7 @@ columns:
 死冊	si cheeh
 死手	si chiu
 死錢	si cinn
-死諍	si cinn
+死諍	si cenn
 死泉	si cuann
 死罪	si cue
 死囡仔
@@ -14389,8 +14873,9 @@ columns:
 四句聯	si ku lian
 四片仔	si phinn a
 四爿	si paInn
-四輪	si lun
-四輪	si lian
+四輪	si lun2
+四輪	si lian2
+四輦	si lian2
 四邊	si pinn
 四十	si cap
 四百
@@ -14423,7 +14908,7 @@ columns:
 時代	si tai
 時運	si un
 時到	si kau
-時到時當	si kau si tng
+時到時當	si kau si tng1
 時價	si kee
 時候	si hau
 時空	si khong1
@@ -14497,11 +14982,11 @@ columns:
 偏	phinn1	1%
 篇	phinn1
 片	phinn3
-物	mih4
+物	mih4	10
 綿	mi5
 棉	mi5
 麵	mi7
-物	mih8
+物	mih8	10
 甜	tinn1
 纏	tinn5
 滇	tinn6
@@ -14514,6 +14999,7 @@ columns:
 邇	ni2
 你	ni2	0%
 睰	nih4
+𥍉	nih4
 躡	nih4
 鑷	nih4
 年	ni5
@@ -14646,9 +15132,11 @@ columns:
 天猶未光	thinn ia ber kuInn
 天猶未光	thinn iau ber kuInn
 天欲光	thinn berh kuInn
-天則欲光	thinn ciah berh kuInn
 天欲光	thinn beh kuInn
+天欲光	thinn boh kuInn
+天則欲光	thinn ciah berh kuInn
 天則欲光	thinn ciah beh kuInn
+天則欲光	thinn ciah boh kuInn
 天差仔地	thinn cha a tere
 天註定	thinn cu tiann
 天氣	thinn khi
@@ -14677,13 +15165,16 @@ columns:
 䋎褲	thinn khoo
 䋎紐	thinn liu
 染色	ni sik
-染頭毛	ni thau mng
-染頭毛	ni thau moo
+染頭毛	ni thau mNG
 染頭鬃	ni thau cang
 染料	ni liau
 染布	ni poo
+𥍉光	nih kuInn
 睰光	nih kuInn
+𥍉目	nih bak
 睰目	nih bak
+𥍉𥍉看	nih nih khuann
+睰睰看	nih nih khuann
 年頭	ni thau
 年尾	ni ber
 年兜	ni tau
@@ -14720,14 +15211,18 @@ columns:
 捏拳頭母	nih kun thau bo
 捏死	nih si
 見面	kinn bin
-見欲	kinn berh
-見欲	kinn beh
-見閣	kinn koh
 見鬼	kinn kui
 見儂	kinn lang
+見著	kinn tioh
+見欲	kinn berh
+見欲	kinn beh
+見欲	kinn beh
+見欲	kian berh
+見欲	kian beh
+見欲	kian beh
+見閣	kinn koh
 見按呢	kinn3 an nee{*}
 見按呢	kinn3 an ne{*}
-見著	kinn tioh
 墘頭	kinn thau
 墘墘頭	kinn kinn thau
 鉗仔	khinn a
@@ -14820,6 +15315,7 @@ columns:
 錦	gim2	1%
 吟	gim5
 岑	gim5
+焮[漳南]	him3
 翕	hip4
 熻	hip4
 熊	him5
@@ -14870,6 +15366,7 @@ columns:
 溼	sip4
 濕	sip4
 尋	sim5
+忱	sim5
 甚	sim6	10
 葚	sim6
 愖	sim7
@@ -15003,7 +15500,7 @@ columns:
 金庫	kim khoo
 金枝玉葉	kim ki gik hioh
 金金	kim kim
-金金相	kim kim sIang
+金金相	kim kim sIang3
 金剛	kim kong
 金剛石	kim kong cioh
 金滑	kim kut
@@ -15100,7 +15597,41 @@ columns:
 吟詩作對	gim si cok tui
 吟唱	gim chiunn
 吟誦	gim siong
-熻死	hip si
+焮甌	him3 au
+翕像	hip4 sIang6
+翕像[泉]	hap4 sIang6
+翕像[漳]	hip4 chIang6
+翕像[漳]	hip4 siong6{俗}	1%
+翕相	hip4 sIang6	1%
+翕相[泉]	hap4 sIang6	1%
+翕相[漳]	hip4 chIang6	1%
+翕相[漳]	hip4 siong6{俗}	1%
+翕相機	hip4 sIang3 ki1
+翕像機	hip4 sIang6 ki1
+翕像機[泉]	hap4 sIang6 ki1
+翕像機[漳]	hip4 chIang6 ki1
+翕相機	hip4 sIang6 ki1	1%
+翕相機[泉]	hap4 sIang6 ki1	1%
+翕相機[漳]	hip4 chIang6 ki1	1%
+翕相館	hip4 sIang3 kuan2
+翕像館	hip4 sIang6 kuan2
+翕像館[泉]	hap4 sIang6 kuan2
+翕像館[漳]	hip4 chIang6 kuan2
+翕相館	hip4 sIang6 kuan2	1%
+翕相館[泉]	hap4 sIang6 kuan2	1%
+翕相館[漳]	hip4 chIang6 kuan2	1%
+翕死	hip4 si
+翕汗	hip4 kuann
+翕甌	hip4 au
+翕豆菜	hip4 tau chai
+翕豆生	hip4 tau senn
+翕豆芽	hip4 tau gee
+熻死	hip4 si
+熻汗	hip4 kuann
+熻甌	hip4 au
+熻豆菜	hip4 tau chai
+熻豆生	hip4 tau senn
+熻豆芽	hip4 tau gee
 熊掌	him ciunn
 熊膽	him tann
 熊貓	him niau
@@ -15240,7 +15771,7 @@ columns:
 心肝	sim kuann
 心肝頭	sim kuann thau
 心肝內	sim kuann lai
-心肝囝
+心肝囝	sim kuann kirann
 心肝底	sim kuann tere
 心理學	sim li hak
 心念	sim liam
@@ -15270,7 +15801,8 @@ columns:
 心寶寶	sim po po
 心爽	sim song
 心潮
-審查	sim ca
+審查	sim ca1
+審查[漳]	sim cee1
 審判	sim phuann
 審察	sim chat
 審議	sim gi
@@ -15286,6 +15818,8 @@ columns:
 溼地	sip tere
 溼度	sip too
 溼疹	sip cin
+尋覓	sim bik
+尋找	sim cau
 甚至	sim ci
 習慣	sip kuan
 十全十美	sip cuan sip bi
@@ -15352,6 +15886,8 @@ columns:
 岷	bin5
 閩	bin5	0%
 面	bin7	10
+蝒	bin7
+蝒	bun7
 蜜	bit8
 密	bit8
 宓	bit8
@@ -15371,6 +15907,7 @@ columns:
 秩	tit8	0%
 𨑨	thit4
 斟	thin5
+伨	thin7
 媵	thin7
 輪	lin1	0%
 恁	lin2
@@ -15398,6 +15935,7 @@ columns:
 靳	kin3
 絹	kin3
 吉	kit4	0%
+沂	kin5{替，舀去湯汁，宜蘭}	1%
 覲	kin7
 僅	kin7
 汔	kit8
@@ -15408,8 +15946,12 @@ columns:
 煡	khit4
 吃	khit4
 契	khit4	1%
+仡	git4
+屹	git4
 睨	gin5
 猌	gin7
+仡	git8
+屹	git8
 彼	hit4	10
 迄	hit4
 眩	hin5
@@ -15469,6 +16011,7 @@ columns:
 新	sin1	10
 新	sim1{～婦}	1%
 身	sin1	10
+先	sin1{～生}	1%
 伸	sin1
 辛	sin1
 紳	sin1
@@ -15564,6 +16107,7 @@ columns:
 印花	in huee
 印堂	in tong
 印象	in sIang
+印象[漳]	in chIang
 一生	it sing
 一生	it serng
 一味	it bi
@@ -15610,7 +16154,7 @@ columns:
 一問三不知	it bun sam1 put ti
 一概	it khai
 一致	it ti
-一刀兩斷	it to lIang tuan
+一刀兩斷	it to lIang tuan6
 一貫	it kuan
 一流	it liu
 一連串	it lian chuan
@@ -15627,18 +16171,20 @@ columns:
 稟告
 鬢角	pin kak
 鬢邊	pin pinn
-必須	pit su
-必要	pit iau
+必須	pit sU
+必需	pit sU
+必需品	pit sU phin
+必要	pit iau3
 必然	pit jian
 必然性	pit jian sing
 必定	pit ting
 必開	pit khui
-必痕	pit hern
+必痕	pit hun
 必修	pit siu
 必修課	pit siu kho
 必修課[雲霄]	pit siu kher
-筆劃	pit uih
-筆劃	pit uah
+筆劃	pit Ueeh
+筆畫	pit Ueeh
 筆順	pit sun
 筆記	pit ki
 筆記本	pit ki pun
@@ -15692,7 +16238,7 @@ columns:
 品性	phin sing
 品德	phin tik
 品牌	phin pai
-品種	phin ciong
+品種	phin ciong2
 品名	phin mia
 品並
 𥰔仔	phin a
@@ -15739,9 +16285,9 @@ columns:
 眠一下	bin cit ee
 明仔	bin a
 明仔日	bin a jit
-明仔日	mia jit
+明仔日	mia5 jit8{*}
 明仔載	bin a cai3
-明仔載	mia cai3
+明仔載	mia5 cai3{*}
 明仔暗	bin a am
 面子	bin cur
 面像	bin chiunn
@@ -15758,16 +16304,19 @@ columns:
 面巾	bin kern
 面桶	bin thang
 面骨	bin kut
-面𤶃	bin thiau
+面𤶃	bin thiau5
+面𤶃	bin thiau7
 面盆	bin phun
 面色	bin sik
 面熟	bin sik
 面神	bin sin
-面相	bin sIang
+面相	bin sIang3
 面頂	bin ting
 面頂衫	bin ting sann
 面紅紅	bin ang ang
 面路	bin loo
+蝒蟲	bin thang
+蝒蟲	bun thang
 蜜蜂	bit phang
 蜜水	bit cui
 蜜糖	bit thng
@@ -15834,7 +16383,7 @@ columns:
 直徑	tit king
 直行	tit kiann
 直儂講直話	tit lang kong tit uee
-直腸直肚	tit tng tit too
+直腸直肚	tit tng tit too6
 直透	tit thau
 直系	tit he
 直覺	tit kak
@@ -15856,7 +16405,14 @@ columns:
 斟茶	thin tee
 斟水	thin cui
 斟酒	thin ciu
+伨頭	thin thau
+媵頭	thin thau
+伨重	thin tang
 媵重	thin tang
+伨儂	thin lang
+媵儂	thin lang
+伨儂矣	thin lang ah40
+媵儂矣	thin lang ah40
 恁的	lin e
 恁兮	lin e
 恁个	lin e
@@ -15865,7 +16421,7 @@ columns:
 恁娘較好	lin nia khah ho
 恁父	lin pee
 恁兵	lin ping
-恁囝
+恁囝	lin kirann
 恁某	lin boo
 恁翁	lin ang
 恁兜	lin tau
@@ -15884,7 +16440,7 @@ columns:
 囡仔
 囡仔儂
 緊跤捷手	kin kha ciap ciu
-緊要	kin iau
+緊要	kin iau3
 緊急	kin kip
 緊性	kin sing
 緊手	kin chiu
@@ -15895,6 +16451,7 @@ columns:
 謹防	kin hong
 謹言慎行	kin gian sin hing5
 覲見	kin kian
+沂泔	kin5 am2
 輕輕	khin khin
 輕輕仔	khin khin a
 輕聲	khin siann
@@ -15933,7 +16490,10 @@ columns:
 乞兮	khit e
 乞个	khit e
 契丹	khit tan
+屹立	git4 lip
+屹立	git8 lip
 彼个	hit e
+彼聲	hit siann
 彼位	hit ui
 彼搭	hit tah
 彼搭	hit tiah
@@ -15946,11 +16506,12 @@ columns:
 彼款	hit khuan
 彼號	hit ho
 彼項	hit hang
-彼種	hit ciong
+彼種	hit ciong2
 彼支	hit ki
 彼擺	hit pai
 彼幫	hit pang
 彼陣	hit cun
+彼陣仔	hit cun a
 彼站	hit cam
 彼站時	hit cam si
 彼氣	hit khui
@@ -15962,19 +16523,26 @@ columns:
 彼內	hit lai
 彼爿	hit paInn
 彼時	hit si
+彼絲	hit si
 彼絲仔	hit si a
+彼點	hit tiam
 彼點仔	hit tiam a
+彼屑	hit sut
 彼屑仔	hit sut a
 彼當時	hit tong1 si
 彼當時	hit tang1 si
 彼當時	hit tng1 si
+彼寡	hit kua
 彼塊	hit tEr
 彼棟	hit tong
 彼頭	hit thau
 彼尾	hit ber
 彼粒	hit liap
-彼卷	hit kuInn
+彼卷	hit kuInn2{圓筒狀物}
+彼卷	hit kuInn3{書卷}
+彼卷	hit kuan3{書卷}
 彼本	hit pun
+彼杯	hit pue
 彼臺	hit tai
 彼條	hit tiau
 彼幅	hit pak
@@ -15996,11 +16564,24 @@ columns:
 彼張	hit tiunn
 彼場	hit tiunn
 彼齣	hit chut
+彼份	hit hun
+彼楝	hit ling
+彼簇	hit chok
 彼段	hit tuann
+彼片	hit phinn
+彼鉼	hit phiann
+彼枝	hit ki
+彼間	hit kaInn
 彼型	hit hing
 彼體	hit the
 彼領	hit nia
 彼身	hit sin
+彼頓	hit tuInn
+彼奇	hit kha
+彼部	hit pho
+彼部冊	hit pho cheeh
+彼個月	hit ko gerh
+彼個月	hit koo gerh
 眩車	hin chia
 眩船	hin cun
 眩眩	hin hin
@@ -16024,8 +16605,10 @@ columns:
 真材實料	cin cai sit liau
 真真	cin cin
 真知	cin cai
+真知	cin ti
+真知灼見	cin ti cIak kian
 真心	cin sim
-真相	cin sIang
+真相	cin sIang3
 真實	cin sit
 真傳	cin tuan5
 真傳	cin thuan5
@@ -16063,11 +16646,13 @@ columns:
 震動	cin3 tong
 震盪	cin2 tong
 震盪	cin3 tong
-震卦
-振興	cin2 hing
+震卦	cin2 kua3
+震卦	cin3 kua3
+震卦[漳]	cin2 kuee3
+振興	cin2 hing1
 拯救	cin kiu
 診所	cin soo
-診斷	cin tuan
+診斷	cin tuan3
 診療	cin liau
 賑災	cin cai
 縝密	cin bit
@@ -16107,14 +16692,16 @@ columns:
 這款	cit khuan
 這號	cit ho
 這項	cit hang
-這種	cit ciong
+這種	cit ciong2
 這支	cit ki
 這擺	cit pai
 這幫	cit pang
 這陣	cit cun
+這陣仔	cit cun a
 這馬	cit ma
 這滿	cit mua
 這站	cit cam
+這站仔	cit cam a
 這站時	cit cam si
 這氣	cit khui
 這氣仔	cit khui a
@@ -16126,18 +16713,24 @@ columns:
 這內	cit lai
 這爿	cit paInn
 這時	cit si
+這絲	cit si
 這絲仔	cit si a
+這點	cit tiam
 這點仔	cit tiam a
+這屑	cit sut
 這屑仔	cit sut a
 這當時	cit tong1 si
 這當時	cit tang1 si
 這當時	cit tng1 si
+這寡	cit kua
 這塊	cit tEr
 這棟	cit tong
 這頭	cit thau
 這尾	cit ber
 這粒	cit liap
-這卷	cit kuInn
+這卷	cit kuInn2{圓筒狀物}
+這卷	cit kuInn3{書卷}
+這卷	cit kuan3{書卷}
 這本	cit pun
 這杯	cit pue
 這臺	cit tai
@@ -16158,20 +16751,31 @@ columns:
 這盤	cit puann
 這𥐵	cit phiat
 這下	cit ee
-這下子	cit ee ci
-這下子	ce ci
+這下子	cit ee ci{官話}
+這下子	cit ee cur{官話}
 這張	cit tiunn
 這場	cit tiunn
 這齣	cit chut
-這世儂	cit si lang
+這份	cit hun
+這楝	cit ling
+這簇	cit chok
 這蕊	cit lui
 這段	cit tuann
-這片	cit phian
+這片	cit phinn
+這鉼	cit phiann
+這枝	cit ki
 這間	cit kaInn
 這型	cit hing
 這體	cit the
 這領	cit nia
 這身	cit sin
+這頓	cit tuInn
+這奇	cit kha
+這部	cit pho
+這部冊	cit pho cheeh
+這世儂	cit si lang
+這個月	cit ko gerh
+這個月	cit koo gerh
 職業	cit giap
 職場	cit tiunn
 職務	cit bu
@@ -16197,8 +16801,8 @@ columns:
 績效	cit hau
 積極	cik kik
 積極	cit kik
-積累	cik lui
-積累	cit lui
+積累	cik lui2
+積累	cit lui2
 積分	cik hun1
 積分	cit hun1
 積德	cik tik
@@ -16226,6 +16830,7 @@ columns:
 一萬	cit ban
 一億	cit ik
 一个	cit e
+一聲	cit siann
 一位	cit ui
 一跡	cit jiah
 一日	cit jit
@@ -16243,6 +16848,8 @@ columns:
 一陣	cit cun
 一陣仔	cit cun a
 一站	cit cam
+一站仔	cit cam a
+一站時	cit cam si
 一氣	cit khui
 一氣仔	cit khui a
 一樣	cit iunn
@@ -16263,8 +16870,12 @@ columns:
 一絲仔久	cit si a ku
 一絲一毫	cit si cit ho
 一點一滴	cit tiam cit tih
+一點	cit tiam
 一點仔	cit tiam a
+一點露	cit tiam loo
+一屑	cit sut
 一屑仔	cit sut a
+一滴	cit tih
 一滴仔	cit tih a
 一疕仔	cit phi a
 一滓疕仔	cit tai phi a
@@ -16275,7 +16886,9 @@ columns:
 一頭	cit thau
 一尾	cit ber
 一粒	cit liap
-一卷	cit kuInn
+一卷	cit kuInn2{圓筒狀物}
+一卷	cit kuInn3{書卷}
+一卷	cit kuan3{書卷}
 一本	cit pun
 一杯	cit pue
 一臺	cit tai
@@ -16296,6 +16909,11 @@ columns:
 一盤	cit puann
 一𥐵	cit phiat
 一下	cit ee
+一下仔	cit ee a
+一下手	cit ee chiu
+一下手仔	cit ee chiu a
+一下子	cit ee ci{官話}
+一下子	cit ee cur{官話}
 一張	cit tiunn
 一場	cit tiunn
 一齣	cit chut
@@ -16303,22 +16921,42 @@ columns:
 一楝	cit ling
 一簇	cit chok
 一蕊	cit lui
-一片	cit pinn
-一鉼	cit phiann
-一世儂	cit si lang
 一段	cit tuann
+一片	cit phinn
+一鉼	cit phiann
+一枝	cit ki
+一枝草	cit ki chhau
+一枝草一點露	cit ki chhau cit tiam loo
+一間	cit kaInn
+一型	cit hing
+一體	cit the
+一領	cit nia
+一身	cit sin
+一頓	cit tuInn
+一奇	cit kha
+一部	cit pho
+一部冊	cit pho cheeh
+一世儂	cit si lang
 一久仔	cit ku a
 一仔久	cit a ku
-一間	cit kaInn
+一分	cit hun
+一分錢	cit hun chinn
 一小時	cit sio si
 一點鐘	cit tiam cing
+一字鐘	cit ji cing
 一分鐘	cit hun1 cing
 一秒鐘	cit biau cing
 一秒	cit biau
 一秒	cit bio
 一仔	cit a
 一仔久	cit a ku
-一頓	cit tuInn
+一目𥍉	cit bak nih
+一目睰	cit bak nih
+一目𥍉仔	cit bak nih a
+一目睰仔	cit bak nih a
+一紀年	cit khi ni
+一個月	cit ko gerh
+一個月	cit koo gerh
 疾苦	cit khoo
 親愛	chin ai
 親目	chin bak
@@ -16345,8 +16983,7 @@ columns:
 親筆	chin pit
 親王	chin ong
 親生	chin senn
-親生囝	chin senn kiann
-親生囝	chin senn kann
+親生囝	chin senn kirann
 親阿兄	chin a hiann
 親小弟	chin sio ti
 親阿姊	chin a ci
@@ -16371,7 +17008,7 @@ columns:
 秤仔	chin a
 秤錘	chin thui
 秤頭	chin thau
-秤仔花	chin a hue
+秤仔花	chin a huee
 秤重	chin tang
 秤斤	chin kern
 凊彩	chin chai
@@ -16463,6 +17100,7 @@ columns:
 人和	jin ho
 人禍	jin ho
 人禍	jin hoO
+人禍[漳南]	jin hua
 人群	jin kun
 人世	jin se
 人世間	jin se kan1
@@ -16470,12 +17108,13 @@ columns:
 人事局	jin sur kiok
 人士	jin sur
 人選	jin suan
-人潮
-人種	jin ciong
+人潮	jin tiau
+人潮[漳南]	jin tio
+人種	jin ciong2
 人質	jin cit
 人次	jin chur
-人工
-人稱	jin ching
+人工	jin kang
+人稱	jin ching1
 人云亦云	jin un ik un
 人云亦云[漳]	jin in ik in
 仁愛	jin ai
@@ -16513,6 +17152,7 @@ columns:
 日後	jit au
 日欲落	jit berh loh8
 日欲落	jit beh loh8
+日欲落	jit boh loh8
 日暮	jit boo
 日出	jit chut
 日落	jit loh8
@@ -16534,7 +17174,7 @@ columns:
 日式	jit sik
 日晝	jit tau
 日晝中	jit tau tiong1
-日晝頓	jit tau tng
+日晝頓	jit tau tuInn
 日頭公	jit thau kong
 日月潭	jit guat tham
 日時仔	jit si a
@@ -16543,7 +17183,7 @@ columns:
 日光燈	jit kong ting
 日頭花	jit thau huee
 日誌	jit ci
-日間	jit kan
+日間	jit kan1
 日劇	jit kIak
 日程
 日思夜夢	jit sur1 ia bang
@@ -16571,7 +17211,7 @@ columns:
 新鮮	sin sian1
 新意	sin i
 新陳代謝	sin tin tai sia
-新興	sin hing
+新興	sin hing1
 新婦仔	sin pu a
 新娘房	sin niu pang
 新點點	sin tiam tiam
@@ -16589,14 +17229,19 @@ columns:
 新增	sin cerng
 身世	sin se
 身命	sin mia
-身命	sim mia
+身命	sim1 mia7{*}
 身軀	sin khu
 身頂	sin ting
 身軀頂	sin khu ting
 身亡	sin bong
 身懸	sin kuAinn
 身價	sin kee
-身份	sin hun
+身份	sin hun7
+身分	sin hun7
+身份證	sin hun7 cing3
+身分證	sin hun7 cing3
+身份證[漳]	sin hun7 cin3
+身分證[漳]	sin hun7 cin3
 身邊	sin pinn
 身體	sin the
 身屍	sin si
@@ -16687,6 +17332,7 @@ columns:
 神通	sin thong
 神位	sin ui
 神像	sin sIang
+神像[漳]	sin chIang
 神轎	sin kio
 神桌	sin toh
 神祕	sin pi
@@ -16728,7 +17374,7 @@ columns:
 實體	sit the
 實踐	sit cian
 實例	sit le
-實例	sit li
+實例[漳]	sit li
 實況	sit hong
 實地	sit tere
 翼股	sit koo
@@ -16795,6 +17441,7 @@ columns:
 亦	ik8
 翼	ik8	5%
 驛	ik8
+繹	ik8
 域	ik8
 液	ik8
 奕	ik8
@@ -17042,6 +17689,7 @@ columns:
 戟	kik4
 窮	king5	10
 楗	king6
+梗	king6{傳統舊讀}
 競	king7
 極	kik8	10
 局	kik8	1%
@@ -17194,7 +17842,7 @@ columns:
 銃	ching3	10
 衝	ching3
 熗	ching3
-稱	ching3
+稱	ching3	5%
 凊	ching3	0%
 測	chik4
 策	chik4
@@ -17259,13 +17907,17 @@ columns:
 城	sing5
 誠	sing5
 繩	sing5
-乘	sing5
-慂	sing6
+乘	sing5	10
+乘	sin5
+慂	sing6{寵愛}
+倖	sing6{寵愛，臺教用字}	1%
 盛	sing7
 剩	sing7
 乘	sing7
+乘	sin7
 熟	sik8	10
 席	sik8
+席[泉]	sit8
 夕	sik8
 汐	sik8
 碩	sik8
@@ -17279,13 +17931,15 @@ columns:
 英名	ing bing
 英里	ing li
 英靈	ing ling
-英鎊	ing ping
+英鎊	ing pong
 英商	ing sIang
 英才	ing cai
 英尺	ing chioh
 英吋	ing chun
 應該	ing1 kai
 應該	ing3 kai{又}
+應當	ing1 tong1
+應當	ing3 tong1{又}
 應該然	ing1 kai jian
 應付	ing3 hu
 應景	ing3 king2
@@ -17316,7 +17970,7 @@ columns:
 應許	ing3 hir
 應承	ing3 sing5
 應答	ing3 tap
-應當	ing3 tong
+應允	ing3 un
 應允	ing3 ern
 蕹菜	ing chai
 壅田	ing chan
@@ -17325,7 +17979,7 @@ columns:
 益壽	ik siu
 營業	ing giap
 營業廳	ing giap thiann
-營養	ing iong
+營養	ing Iang
 營建	ing kian
 營收	ing siu
 營運	ing un
@@ -17368,7 +18022,7 @@ columns:
 翌日	ik jit
 兵仔	ping a
 兵馬
-兵將	ping cIang
+兵將	ping cIang3
 兵書
 兵法	ping huat
 兵卒	ping cut
@@ -17439,6 +18093,9 @@ columns:
 平等	ping ting
 平等	ping terng
 平面	ping bin
+平穩	ping un
+平允	ping un
+平允	ping ern
 朋友	ping iu
 朋友弟兄	ping iu ti hiann
 朋黨	ping tong
@@ -17484,7 +18141,7 @@ columns:
 鵬鳥	phing niau
 萍水相逢	phing sui sIang1 hong
 猛烈	bing liat
-猛將	bing cIang
+猛將	bing cIang3
 猛虎	bing hoo
 猛獸	bing siu
 猛禽	bing khim
@@ -17524,11 +18181,11 @@ columns:
 名家	bing ka
 名利	bing li
 名流	bing liu
-名畫	bing uee
+名畫	bing Uee
 名作	bing cok
 名句	bing ku
 名不虛傳
-名勝	bing sing
+名勝	bing sing3
 名譽	bing ir
 冥想	bing sIang
 冥婚	bing hun
@@ -17540,12 +18197,14 @@ columns:
 鳴鑼	bing lo
 鳴鼓	bing koo
 螟蛉	bing ling
+孟母	bing bu
 孟母	bing biO
 孟母[臺]	bing bIO
-孟母[漳]	bing bo
+孟母	bing bo
+孟母三遷	bing bu sam1 chian
 孟母三遷	bing biO sam1 chian
 孟母三遷[臺]	bing bIO sam1 chian
-孟母三遷[漳]	bing bo sam1 chian
+孟母三遷	bing bo sam1 chian
 孟子	bing cur
 命令	bing ling
 命題	bing tere
@@ -17651,7 +18310,7 @@ columns:
 竹箍	tik khoo
 竹管	tik kong
 竹篙叉	tik ko chee
-竹膜	tik mooh
+竹膜	tik moh
 竹膜	tik boh
 竹棑	tik pai
 竹耙	tik pee
@@ -17676,6 +18335,7 @@ columns:
 重播	ting poo
 重播	ting po
 重疊	ting thah
+重價	ting kee
 橙色	ting sik
 澄清	ting ching
 定案	ting an
@@ -17697,7 +18357,7 @@ columns:
 定位	ting ui
 定速	ting sok
 定點	ting tiam
-訂約	ting iok
+訂約	ting Iak
 訂婚	ting hun
 訂戶	ting hoo
 訂貨	ting her
@@ -17709,21 +18369,21 @@ columns:
 訂閱
 特別	tik piat
 特例	tik le
-特例	tik li
+特例[漳]	tik li
 特有	tik iu
 特色	tik sik
 特徵
 特製	tik ce
 特製[漳]	tik ci
 特質	tik cit
-特約	tik iok
+特約	tik Iak
 特價	tik kee
 特權
 特派	tik phai
 特產	tik san
 特赦	tik sia
 特點	tik tiam
-特斷	tik tuan
+特斷	tik tuan3
 特殊	tik su
 特務	tik bu
 特效	tik hau
@@ -17734,7 +18394,7 @@ columns:
 特性	tik sing
 特首	tik siu
 特定	tik ting
-特種	tik ciong
+特種	tik ciong2
 擇日	tik jit
 擇選	tik suan
 敵人	tik jin
@@ -17749,8 +18409,10 @@ columns:
 挺拔	thing puat
 逞強	thing kIang5
 寵慂	thing2 sing
+寵倖	thing2 sing
+寵寵	thing2 sing
 聽便	thing3 pian
-聽便便	thing pian pian
+聽便便	thing3 pian pian
 聽政	thing3 cing
 聽候	thing3 hau
 聽任	thing3 jim7
@@ -17801,7 +18463,13 @@ columns:
 騰雲駕霧	thing un ka bu
 騰雲駕霧[漳]	thing in kee bu
 呈現	thing hian
+呈請	thing ching
 呈報	thing po
+呈報	thiann po
+呈報	tiann po
+呈送	thing sang
+呈送	thiann sang
+呈送	tiann sang
 謄本	thing pun
 謄寫	thing sia
 冷冷	ling ling
@@ -17917,7 +18585,7 @@ columns:
 綠茶	lik tee
 匿名	lik mia
 溺愛	lik ai
-暱稱	lik ching
+暱稱	lik ching1
 經濟	king ce
 經文	king bun
 經手	king chiu
@@ -17956,6 +18624,7 @@ columns:
 更新	king1 sin
 更新	kerng1 sin
 宮廟	king bio
+宮公	king kong
 弓開	king khui
 弓仔	king a
 弓破	king phua
@@ -17974,8 +18643,9 @@ columns:
 景氣	king khi
 景物	king but
 景況	king hong
-景觀	king kuan
+景觀	king kuan1
 景象	king sIang
+景象[漳]	king chIang
 景點	king tiam
 耿耿於懷	king king ir1 huai
 耿耿於懷	king king ir5 huai
@@ -17983,6 +18653,7 @@ columns:
 敬酒	king ciu
 敬意	king i
 敬畏	king ui
+敬畏[漳]	king uinn
 敬重	king tiong6
 敬詞	king sur
 敬佛	king put
@@ -18103,13 +18774,13 @@ columns:
 胸掛骨	hing kua kut
 胸前	hing caInn
 胸槽	hing co
-興亡	hing bong
-興衰	hing sue
-興旺	hing ong
-興建	hing kian
-興味	hing bi
-興興	hing hing
-興酒	hing ciu
+興亡	hing1 bong
+興衰	hing1 sue
+興旺	hing1 ong
+興建	hing1 kian
+興味	hing3 bi
+興興	hing3 hing3
+興酒	hing3 ciu
 興趣	hing3 chu3
 興趣	hing3 chU3
 興頭	hing3 thau
@@ -18163,6 +18834,7 @@ columns:
 核實	hik sit
 精彩	cing chai
 精神	cing sin
+精誠	cing sing
 精力	cing lik
 精華	cing hua5
 精華[漳]	cing huee5
@@ -18172,7 +18844,7 @@ columns:
 精差	cing cha
 精進	cing cin
 精良	cing lIang
-精英	ching ing
+精英	cing ing
 精靈	cing ling
 精牲	cing senn
 精細	cing se
@@ -18223,7 +18895,8 @@ columns:
 偵探	cing tham
 偵辦	cing pan
 偵察	cing chat
-偵查	cing ca
+偵查	cing ca1
+偵查[漳]	cing cee1
 偵測	cing chik
 旌旗	cing ki
 旌表	cing pio
@@ -18237,12 +18910,24 @@ columns:
 爭踖	cing coh
 爭執	cing cip
 爭奪	cing tuat
-蒸發
-蒸汽
+爭權	cing kuan
+爭權	cing khuan
+爭名	cing bing
+爭權奪利	cing kuan tuat li
+爭權奪利	cing khuan tuat li
+爭名奪利	cing bing tuat li
+蒸發	cing huat
+蒸發	cin huat
+蒸汽	cing khi
+蒸汽	cin khi
+蒸餾	cing liu
+蒸餾	cin liu
 蒸餾水	cing liu cui
+蒸餾水	cin liu cui
 蒸蒸日上	cing cing jit sIang7
 蒸蒸日上	cin cin jit sIang7
-貞操	cing cho
+貞操	cing cho5
+貞操	cing choO5
 崢嶸	cing hing
 整理	cing li
 整數	cing soo
@@ -18306,8 +18991,8 @@ columns:
 正果	cing3 koO
 正派	cing3 phai
 正式	cing3 sik
-正統	ching thong
-正當	cing3 tong
+正統	cing3 thong
+正當	cing3 tong3
 正途
 正規	cing3 kui
 正確	cing3 khak
@@ -18395,7 +19080,8 @@ columns:
 情緣	cing ian
 情感	cing kam
 情結	cing kat
-情操	cing cho
+情操	cing cho3
+情操	cing choO3
 情話	cing uee
 曾經	cing5 king
 曾經	cerng5 king
@@ -18485,7 +19171,8 @@ columns:
 清新	ching sin
 清理	ching li
 清算	ching suan
-清查	ching ca
+清查	ching ca1
+清查[漳]	ching cee1
 清早	ching ca
 清代	ching tai
 清醒	ching chenn
@@ -18497,8 +19184,8 @@ columns:
 清華[漳]	ching huee1
 清華[漳]	ching huee5
 清華大學
-稱呼	ching hoo
-稱讚	ching can
+稱呼	ching1 hoo
+稱讚	ching1 can
 青春	ching chun
 青出於藍	ching chut ir1 lam
 青出於藍	ching chut ir5 lam
@@ -18528,12 +19215,12 @@ columns:
 衝起來	ching khi lai
 熗油飯	ching iu puInn
 熗飯	ching puInn
-稱心	ching sim
+稱心	ching3 sim
 測驗	chik giam
 測量	chik lIang7
 測試	chik chi
 策略	chik liok
-策畫	chik uee
+策畫	chik Uee
 粟仔	chik a
 粟青	chik chenn
 粟倉	chik chng
@@ -18545,7 +19232,9 @@ columns:
 促倚	chik ua
 促短	chik tEr
 惻隱	chik un
+惻隱	chik ern
 惻隱之心	chik un ci sim
+惻隱之心	chik ern ci sim
 穿衫	ching sann
 穿褲	ching khoo
 穿鞋	ching ere
@@ -18589,6 +19278,7 @@ columns:
 星辰	sing sin
 星辰	chenn sin
 星象	sing sIang
+星象[漳]	sing chIang
 星夜	sing ia
 星夜	chenn ia
 星宿	sing siu
@@ -18596,7 +19286,7 @@ columns:
 聲色	sing sik
 牲醴	sing le
 牲醴	serng le
-勝任	sing jim7
+勝任	sing1 jim7
 升旗	sing ki
 升國旗	sing kok ki
 升降	sing kang
@@ -18640,9 +19330,10 @@ columns:
 性感	sing kam
 性能	sing ling
 性能	sing lerng
-聖母	sing bio
+聖母	sing bu
+聖母	sing bo
+聖母	sing biO
 聖母[臺]	sing bIO
-聖母[漳]	sing bo
 聖火	sing her
 聖嬰	sing ing
 聖誕	sing tan
@@ -18653,14 +19344,14 @@ columns:
 聖經	sing king
 聖旨	sing ci
 聖典	sing tian
-勝利	sing li
-勝者	sing cia
-勝者為王	sing cia ui5 ong
-勝出	sing chut
-勝訴	sing soo
-勝算	sing suan
-勝地	sing te
-勝負	sing hu
+勝利	sing3 li
+勝者	sing3 cia
+勝者為王	sing3 cia ui5 ong
+勝出	sing3 chut
+勝訴	sing3 soo
+勝算	sing3 suan
+勝地	sing3 te
+勝負	sing3 hu
 飾品	sik phin
 惜福	sik hok
 色緻	sik ti
@@ -18676,7 +19367,7 @@ columns:
 適合	sik hap
 適宜	sik gi
 適用	sik iong
-適當	sik tong
+適當	sik tong3
 適量	sik lIang7
 適應	sik ing3
 釋疑	sik gi
@@ -18721,7 +19412,7 @@ columns:
 成年	sing lian
 成人	sing jin
 成員	sing uan
-丞相	sing sIang
+丞相	sing sIang3
 丞相	sing siunn3
 承認	sing jin
 承受	sing siu
@@ -18739,30 +19430,47 @@ columns:
 城隍爺	sing hong ia
 誠意	sing i
 誠心	sing sim
-誠懇	sing khern
+誠懇	sing khun
+誠懇[泉]	sing khern
 誠實	sing sit
 繩之以法	sing ci i huat
-乘勢	sing se
-乘勢	sin se
-乘除	sing tir
-乘法	sing huat
-乘機	sing ki
-乘客	sing kheh
-乘坐	sing cEr
-乘搭	sing tah
-乘暗烏	sing am oo
-乘續	sing siok
-乘勝追擊	sing sing tui kik
-乘虛而入	sing hir ji jip
-慂囝
-慂囝不孝	sing kiann put hau
-慂囝不孝	sing kann put hau
-慂豬攑灶
+乘勢	sing5 se3
+乘勢	sin7 se3
+乘勢	sin5 se3
+乘勢[漳]	sin7 si3
+乘除	sing5 tir
+乘法	sing5 huat
+乘機	sing5 ki
+乘客	sing5 kheeh
+乘坐	sing5 cEr
+乘坐	sing5 co
+乘搭	sing5 tah
+乘暗烏	sing5 am oo
+乘續	sing5 siok
+乘風破浪	sing5 hong pho long
+乘風破浪	sing7 hong pho long
+乘風破浪	sin7 hong pho long
+乘風起帆	sin7 hong khi2 phang5
+乘風起帆	sing5 hong khi2 phang5
+乘勝追擊	sing5 sing3 tui kik
+乘虛而入	sing7 hir ji jip
+慂囝	sing kirann
+倖囝	sing kirann
+慂囝不孝	sing kirann put hau
+倖囝不孝	sing kirann put hau
+慂豬攑灶	sing tIR kirah cau
+倖豬攑灶	sing tIR kirah cau
+慂豬攑灶	sing tIR giah cau
+倖豬攑灶	sing tIR giah cau
+慂豬攑灶	sing tIR gia cau
+倖豬攑灶	sing tIR gia cau
+慂豬夯灶	sing tIR gia cau
+倖豬夯灶	sing tIR gia cau
 盛會	sing hue
 盛況	sing hong
 盛大	sing tai
 盛意	sing i
-盛情難卻	sing cing lan khiok
+盛情難卻	sing cing lan5 khIak
 熟似	sik sai
 熟鐵	sik thih
 熟手	sik chiu
@@ -18771,6 +19479,9 @@ columns:
 熟兮	sik e
 熟个	sik e
 席次	sik chur
+席次[泉]	sit chur
+席位	sik ui
+席位[泉]	sit ui
 夕陽	sik Iang
 碩士	sik sur
 碩士	sit sur
@@ -18787,6 +19498,7 @@ columns:
 鮪	ui2
 慰	ui3	10
 畏	ui3	10
+畏[漳]	uinn3	10
 蔚	ui3
 挖	uih4
 圍	ui5	10
@@ -18805,8 +19517,7 @@ columns:
 謂	ui7
 緯	ui7
 渭	ui7
-劃	uih8
-劃[漳]	uah8
+蝟	ui7
 痱	pui3
 沸	pui3
 肥	pui5	10
@@ -19016,28 +19727,53 @@ columns:
 慰勞
 慰留	ui liu
 畏畏	ui ui
+畏畏	uinn uinn
 畏嚇	ui hiannh
+畏嚇	uinn hiannh
 畏死	ui si
+畏死	uinn si
 畏生份	ui senn hun
+畏生份	uinn senn hun
 畏某	ui boo
+畏某	uinn boo
 畏疼	ui thiann
+畏疼	uinn thiann
 畏冷	ui ling
+畏冷	uinn ling
 畏寒	ui kuann
+畏寒	uinn kuann
 畏風	ui hong
+畏風	uinn hong
 畏風寒	ui hong kuann
+畏風寒	uinn hong kuann
 畏熱	ui juah
+畏熱	uinn juah
 畏燒	ui sio
+畏燒	uinn sio
 畏擽	ui ngiau
+畏擽	uinn ngiau
+畏擽草	ui ngiau chau2
+畏擽草	uinn ngiau chau2
 畏做	ui co
+畏做	uinn co
 畏做	ui cue
+畏做	uinn cue
 畏煩	ui huan
+畏煩	uinn huan
 畏磨	ui bua
+畏磨	uinn bua
 畏事	ui sur
+畏事	uinn sur
 畏途	ui too
+畏途	uinn too
 畏罪	ui cue
+畏罪	uinn cue
 畏懼	ui khu
+畏懼	uinn khu
 畏懼	ui kU
+畏懼	uinn kU
 畏喙	ui chui
+畏喙	uinn chui
 蔚然	ui jian
 緯度	ui too
 緯線	ui suann
@@ -19068,13 +19804,13 @@ columns:
 圍佔	ui ciam
 圍城	ui siann
 圍困	ui khun
-圍觀	ui kuan
+圍觀	ui kuan1
 圍標	ui pio
 圍捕	ui poo
 圍獵	ui lah
 圍堵	ui too
 圍攻	ui kong
-為難	ui5 lan
+為難	ui5 lan5
 為害	ui5 hai
 為止	ui5 ci
 為限	ui5 han
@@ -19126,8 +19862,14 @@ columns:
 遺書	i sir
 遺容	ui iong
 遺容	i iong
-遺相	ui sIang
-遺相	i sIang
+遺相[泉][廈]	ui sIang6
+遺相[泉][廈]	i sIang6
+遺像	ui sIang6
+遺像	i sIang6
+遺相[臺]	ui sIang3
+遺相[臺]	i sIang3
+遺像[漳]	ui cIang6
+遺像[漳]	i cIang6
 遺訓	ui hun
 遺訓	i hun
 遺言	ui gian
@@ -19176,7 +19918,8 @@ columns:
 違背	ui pue
 違禁	ui kim3
 違禁品	ui kim3 phin
-違例
+違例	ui le
+違例[漳]	ui li
 違憲	ui hian
 違規	ui kui
 違法	ui huat
@@ -19279,7 +20022,8 @@ columns:
 追隨	tui sui
 追蹤	tui cong
 追趕	tui kuann
-追查	tui ca
+追查	tui ca1
+追查[漳]	tui cee1
 追問	tui muI
 追究	tui kiu
 追訴	tui soo
@@ -19303,10 +20047,11 @@ columns:
 對準	tui cun
 對予準	tui hoo cun
 對同	tui tang
-對相	tui sIang
+對相	tui sIang3
 對看	tui khuann
 對親	tui chin
 對象	tui sIang
+對象[漳]	tui chIang
 對半	tui puann
 對半分	tui puann pun
 對分	tui pun
@@ -19441,7 +20186,7 @@ columns:
 推撨	chui chSau
 推測	thui chik
 推算	thui suInn
-推斷	thui tuan
+推斷	thui tuan3
 推定	thui ting
 推移	thui i
 推移圖	thui i too
@@ -19461,7 +20206,7 @@ columns:
 腿庫	thui khoo
 腿肉	thui bah
 腿肉	thui hik
-腿輪	thui lun
+腿輪	thui lun5
 腿頭	thui thau
 腿頭骨	thui thau kut
 槌的	thui e
@@ -19473,23 +20218,24 @@ columns:
 槌球	thui kiu
 錘仔	thui a
 墜墜	thui thui
-墜肚重	thui too tang
+墜腹肚	thui pak too2
+墜肚重	thui too2 tang
 墜仔	thui a
 墜平	thui penn
 墜重	thui tang
 墜直	thui tit
-累儂	lui lang
-累碎	lui chui
-累碎工	lui chui kang
-累累碎碎	lui lui chui chui
-累犯	lui huan
-累次	lui chur
-累積	lui cik
-累積	lui cit
-累計	lui ke
-累進	lui cin
-累進稅率	lui cin ser lut
-累進計費	lui cin ke hui
+累儂	lui2 lang
+累碎	lui2 chui
+累碎工	lui2 chui kang
+累累碎碎	lui2 lui2 chui chui
+累犯	lui2 huan
+累次	lui2 chur
+累積	lui2 cik
+累積	lui2 cit
+累計	lui2 ke
+累進	lui2 cin
+累進稅率	lui2 cin ser lut
+累進計費	lui2 cin ke hui
 壘球	lui kiu
 磊落	lui lok
 雷唚	lui cim
@@ -19505,7 +20251,7 @@ columns:
 雷聲	lui siann
 雷電	lui tian
 雷雨	lui hoo
-雷雨	lui u
+雷雨	lui U
 雷陣雨	lui cun hoo
 雷射	lui sia
 雷達	lui tat
@@ -19516,6 +20262,8 @@ columns:
 類似	lui sur
 類型	lui hing
 類股	lui koo
+類集	lui cip
+彙集	lui cip
 規氣	kui khi
 規勢	kui si
 規千萬	kui chaInn ban
@@ -19544,14 +20292,16 @@ columns:
 規箍	kui khoo
 規節	kui cat
 規捾	kui kuann
-規批	kui phue
+規批	kui phere
 規面	kui bin
 規盒	kui ah
 規盒	kui ap
 規箱	kui siunn
 規片	kui phian
 規本	kui pun
-規卷	kui kuInn
+規卷	kui kuInn2{圓筒狀物}
+規卷	kui kuInn3{書卷}
+規卷	kui kuan3{書卷}
 規篇	kui phinn
 規盤	kui puann
 規套	kui tho
@@ -19588,7 +20338,7 @@ columns:
 規路上	kui loo sIang7
 規路頂	kui loo ting
 規腹	kui pak
-規腹肚	kui pak too
+規腹肚	kui pak too2
 規腹火	kui pak her
 規四界	kui si kere
 規堆	kui tui
@@ -19608,12 +20358,11 @@ columns:
 規定	kui ting
 規則	kui cik
 規則	kui cerk
-規則	kui cak
 規章	kui ciong
 規範	kui huan
 規格	kui keeh
 規劃	kui hik
-規畫	kui uee
+規畫	kui Uee
 規模	kui boo
 規矩	kui kir
 規行矩步	kui hing5 kir poo
@@ -19626,6 +20375,7 @@ columns:
 規頭面塗	kui thau bin thoo
 規手	kui chiu
 規喙	kui chui
+規部	kui pho6
 歸尾	kui ber
 歸倚	kui ua
 歸順	kui sun
@@ -19661,6 +20411,7 @@ columns:
 歸鄉	kui hIang
 歸省	kui sing
 歸隱	kui un
+歸隱	kui ern
 歸心	kui sim
 歸心似箭	kui sim sur cian
 歸期	kui ki
@@ -19718,7 +20469,7 @@ columns:
 幾百	kui peeh
 幾百萬	kui pah ban
 幾百萬	kui peeh ban
-幾千	kui chainn
+幾千	kui chaInn
 幾千萬	kui chaInn ban
 幾萬	kui ban
 幾億	kui ik
@@ -19766,7 +20517,9 @@ columns:
 幾箱	kui siunn
 幾片	kui phinn
 幾本	kui pun
-幾卷	kui kuInn
+幾卷	kui kuInn2{圓筒狀物}
+幾卷	kui kuInn3{書卷}
+幾卷	kui kuan3{書卷}
 幾篇	kui phinn
 幾盤	kui puann
 幾套	kui tho
@@ -19817,7 +20570,7 @@ columns:
 貴族	kui cok
 貴國	kui kok
 貴府	kui hu
-貴寓	kui gu
+貴寓	kui gU
 貴庚	kui kenn
 貴庚	kui king
 貴姓	kui senn
@@ -19852,8 +20605,8 @@ columns:
 桂花巷	kui huee hang
 桂花卵	kui huee nuI
 桂竹	kui tik
-桂竹荀	kui tik sun
-桂冠	kui kuan
+桂竹筍	kui tik sun
+桂冠	kui kuan1
 桂林	kui lim
 瑰麗	kui le
 挂紙	kui cua
@@ -19868,7 +20621,7 @@ columns:
 刮皮	kuih pher
 刮著	kuih tioh
 刮刮咧	kuih kuih lErh
-刮痕	kuih hern
+刮痕	kuih hun
 懷懷	kui kui
 懷水	kui cui
 懷囡仔	kui kin a
@@ -19950,11 +20703,14 @@ columns:
 開道	khui toO
 開溝	khui kau
 開市	khui chi
-開幕
-開幕式
+開幕	khui boo
+開幕	khai boo
+開幕式	khui boo sik
+開幕式	khai boo sik
 開行	khui hang
-開店
-開立	khui jip
+開店	khui taInn
+開店	khui tiam
+開立	khui lip
 開票	khui phio
 開支票	khui ci phio
 開支票	khui ki phio
@@ -20014,12 +20770,12 @@ columns:
 愧疚	khui kiu
 潰瘍	khui Iang
 危險	gui hiam
-危險	hui hiam
+危險	hui5 hiam{*}
 危篤	gui tok
 危機	gui ki
 危急	gui kip
 危害	gui hai
-危難	gui lan
+危難	gui lan5
 危樓	gui lau
 桅尾	gui ber
 桅尾	ui ber
@@ -20039,7 +20795,8 @@ columns:
 飛禽	hui khim
 飛鼠	hui chir
 飛狐	hui hoo
-飛彈	hui tuann
+飛彈	hui tuann5
+飛彈	hui tan5
 飛碟	hui tiap
 飛艇	hui thing
 飛機	hui ki
@@ -20048,7 +20805,7 @@ columns:
 飛行機	hui hing5 ki
 飛行機	hui ling ki
 飛安	hui an
-飛毛腿	hui moo thui
+飛毛腿	hui mo thui
 飛龍在天	hui liong cai thian
 飛檐走壁	hui iam cau piah
 飛檐走壁	per iam cau piah
@@ -20120,7 +20877,7 @@ columns:
 血筋	huih kern
 血路	huih loo
 血脈	huih meeh
-血脈	huih beh
+血脈	huih beeh
 血氣	huih khi
 血色	huih sik
 血跡	huih jiah
@@ -20130,7 +20887,7 @@ columns:
 血滓	huih tai
 血糖	huih thng
 血癌	huih gam
-血清	hiuh ching
+血清	huih ching
 血庫	huih khoo
 血崩山	huih pang suann
 血抱心	huih pho sim
@@ -20140,13 +20897,14 @@ columns:
 瓷仔碗	hui a uann
 瓷仔塗	hui a thoo
 瓷鍋仔	hui er a
-瓷砵	hui puah
+瓷缽	hui puah
 瓷碭	hui thng
 肥沃	hui ak
 惠民	hui bin
-惠贈	hui cing
-惠我良多	hui ngoo lIang to
-惠我良多	hui ngoo lIang toO
+惠贈	hui cing7
+惠贈	hui can7
+惠我良多	hui ngo lIang to
+惠我良多	hui ngo lIang toO
 慧眼	hui gan
 彗星	hui chenn
 錐錐	cui cui
@@ -20208,6 +20966,7 @@ columns:
 水族館	cui cok kuan
 水果	cui ko
 水果	cui ker
+水分	cui hun
 水份	cui hun
 水漈	cui chua
 水餃	cui kiau
@@ -20249,11 +21008,11 @@ columns:
 水甕仔	cui ang a
 水罐	cui kuan
 水壺	cui oo
-水薫吹	cui hun cher
+水薰吹	cui hun cher
 水粉	cui hun
 水靴	cui hia
 水秤	cui chin
-水尺	cui cioh
+水尺	cui chioh
 水洘	cui kho
 水退	cui thEr
 水向	cui hiann
@@ -20312,9 +21071,9 @@ columns:
 水葬	cui cong
 水寨	cui cee
 水墨	cui bak
-水墨畫	cui bak uee
+水墨畫	cui bak Uee
 水彩	cui chai
-水彩畫	cui chai uee
+水彩畫	cui chai Uee
 水火無情	cui her bo cing
 水疱	cui pha
 水筧	cui kaInn
@@ -20360,7 +21119,7 @@ columns:
 喙舌	chui cih
 喙齒	chui khi
 喙齒岸	chui khi huann
-喙齒痕	chui khi hern
+喙齒痕	chui khi hun
 喙齒縫	chui khi phang
 喙齒根	chui khi kern
 喙齒噗噗	chui khi phok phok
@@ -20401,7 +21160,7 @@ columns:
 喙利	chui lai
 喙緊	chui kin
 喙快	chui khuai
-喙鈍	chui tun
+喙鈍	chui tun6
 喙鼓	chui koo
 喙硬	chui ngee
 喙凊	chui chin
@@ -20413,7 +21172,8 @@ columns:
 喙琴	chui khim
 喙笑目笑	chui chio bak chio
 喙翹翹	chui khiau khiau
-喙䫌	chui phue
+喙䫌	chui phere
+喙䫌肉	chui phere bah
 碎碎	chui chui
 碎去	chui khIR
 碎甲	chui kah
@@ -20435,12 +21195,12 @@ columns:
 雖罔	sui bong
 雖講	sui kong
 綏靖	sui cing
-緩靖政策	sui cing cing chik
+綏靖政策	sui cing cing chik
 媠啦	sui lah
 媠媠	sui sui
 媠色	sui sik
 媠某	sui boo
-媠查某	sui ca boo
+媠查某	sui ca1 boo
 媠姑娘	sui koo niu
 媠姑娘仔	sui koo niu a
 媠䆀	sui bai
@@ -20466,6 +21226,7 @@ columns:
 隨處理	sui chir2 li
 隨欲	sui berh
 隨欲	sui beh
+隨欲	sui boh
 隨時	sui si
 隨來	sui lai
 隨隨來	sui sui lai
@@ -20506,8 +21267,8 @@ columns:
 隨在儂	sui cai lang
 隨儂	sui lang
 隨儂意	sui lang i
-隨儂的意	sui lang e
-隨儂兮意	sui lang e
+隨儂的意	sui lang e i
+隨儂兮意	sui lang e i
 隨儂个意	sui lang e i
 隨母嫁
 隨身聽	sui sin thiann
@@ -20526,7 +21287,7 @@ columns:
 垂愛	sui ai
 垂危	sui gui
 垂涏三尺	sui ian sam1 chioh
-垂簾聽政	sui liam thing cing
+垂簾聽政	sui liam thing1 cing
 瑞穗	sui sui
 瑞穗牧場	sui sui bok tiunn
 瑞氣千條	sui khi chian tiau
@@ -20560,6 +21321,7 @@ columns:
 傳	thuInn5	1%
 軟	nuI2
 軁	nuI3
+圇	nuI5
 卵	nuI6
 光	kuInn1
 廣	kuInn2	1%
@@ -20604,6 +21366,7 @@ columns:
 黃豆	uInn tau
 黃酒	uInn ciu
 黃連	uInn ni
+黃連	uInn lian
 黃絲帶	uInn si tua
 楓葉	puInn hioh
 楓樹	puInn chiu
@@ -20729,8 +21492,7 @@ columns:
 傳儂	tuInn lang
 斷水	tuInn cui
 斷電	tuInn tian
-斷囝斷孫	tuInn kiann tuInn sun
-斷囝斷孫	tuInn kann tuInn sun
+斷囝斷孫	tuInn kirann tuInn sun
 斷站	tuInn cam
 斷節	tuInn cat
 斷種	tuInn cing2
@@ -20882,6 +21644,7 @@ columns:
 鋤	tir5
 鋤[廈]	tIR5
 躇	tir5
+儲	tir5
 佇	tir6	10
 佇[廈]	tIR6	10
 苧	tir6
@@ -20957,10 +21720,11 @@ columns:
 狙	chir1
 苴	chir1
 趄	chir1
+差	chir1	1%
 鼠	chir2	10
 處	chir2
 處	chir3	10
-𩑾	chirh4
+𩑾	chIRh4
 徐	chir5
 徐[廈]	chIR5
 汝	jir2	0%
@@ -21051,7 +21815,7 @@ columns:
 豬岫	tIR siu
 豬腿	tIR thui
 豬刀	tIR to
-豬肚	tIR too
+豬肚	tIR too6
 著作	tir cok
 著名	tir mia
 著名	tir bing
@@ -21076,12 +21840,31 @@ columns:
 佇咧	tIR tErh
 佇足	tir ciok
 佇立	tir lip
-箸奇	tIR khia
-箸奇	tir kha
-箸籠	tIR lang
+箸奇	tIR khira
+箸奇	tIR kha
+箸籠	tIR lang6
 貯藏	thir cong5
-儲蓄	thir thiok
-儲君	thir kun
+儲備	thir5 pi
+儲備	thir2 pi
+儲備	tir5 pi
+儲藏	thir5 cong
+儲藏	thir2 cong
+儲藏	tir5 cong
+儲存	thir5 cun5
+儲存	thir2 cun5
+儲存	tir5 cun5
+儲蓄	thir5 thiok
+儲蓄	thir2 thiok
+儲蓄	tir5 thiok
+儲蓄[漳]	thir5 hiok
+儲蓄[漳]	thir2 hiok
+儲蓄[漳]	tir5 hiok
+儲君	thir5 kun
+儲君	thir2 kun
+儲君	tir5 kun
+汝的	li e
+汝兮	li e
+汝个	li e
 汝好	lIR ho
 汝做汝
 女性	lir sing
@@ -21130,7 +21913,8 @@ columns:
 女士	lu sur{俗}
 女方	lir hong
 女方	lu hong{俗}
-女將	lir cIang
+女將	lir cIang3
+女將	lu cIang3{俗}
 旅行	lir hing5
 旅居	lir kir
 旅費	lir hui
@@ -21175,9 +21959,10 @@ columns:
 舉薦	kir cian3
 舉薦	kir cian7
 舉辦	kir pan
-舉例
+舉例	kir le
+舉例[漳]	kir li
 舉一个例	kir cit e le
-舉一个例	kir cit e li
+舉一个例[漳]	kir cit e li
 舉出	kir chut
 舉報	kir po
 矩形	kir hing
@@ -21284,10 +22069,10 @@ columns:
 魚卵	hIR nuI
 魚雷	hIR lui
 魚丸	hIR uan
-魚肚	hIR too
+魚肚	hIR too6
 魚池	hIR ti
 魚翼	hIR sit
-魚腐	hIR hu
+魚拊	hIR hu
 魚餌	hIR ji
 魚鰾	hIR pio
 魚藤	hIR tin
@@ -21394,7 +22179,7 @@ columns:
 如來	jir lai
 如來佛	jir lai hut
 如來佛祖	jir lai put coo
-如是我聞	jir si ngoo bun
+如是我聞	jir si ngo bun
 如夫人	jir hu jin
 如同	jir tong
 書籍	sir cik
@@ -21408,8 +22193,8 @@ columns:
 書局	sir kiok
 書記	sir ki
 書吏	sir li
-書畫	sir uee
-書畫家	sir uee ka
+書畫	sir Uee
+書畫家	sir Uee ka
 書生	sir sing
 書生	sir serng
 書信	sir sin
@@ -21417,10 +22202,11 @@ columns:
 書刊	sir khan
 書評	sir phing
 書展	sir tian
+書籤	sir chiam
 抒情	sir cing
 抒發	sir huat
 紓解	sir kai
-紓難	sir lan
+紓難	sir lan7
 紓困	sir khun
 暑假	sir ka
 暑氣	sir khi
@@ -21528,9 +22314,10 @@ columns:
 恣意	cur i
 慈悲	cur pi
 慈悲為懷	cur pi ui5 huai
+慈母	cur bu
 慈母	cur biO
 慈母[臺]	cur bIO
-慈母[漳]	cur bo
+慈母	cur bo
 慈愛	cur ai
 慈悲心	cur pi sim
 慈善	cur sian
@@ -21539,7 +22326,7 @@ columns:
 自憐	cur lian
 自憐自艾	cur lian cur ge
 自卑	cur pi
-自我	cur ngoo
+自我	cur ngo
 自傲
 自豪	cur ho
 自愛	cur ai
@@ -21582,8 +22369,8 @@ columns:
 自本	cur pun
 自暴自棄
 自始至終	cur si ci ciong
-自細	cur sue
-自細漢	cur sue han
+自細	cur sere
+自細漢	cur sere han
 自信	cur sin
 自身	cur sin
 自習	cur sip
@@ -21596,7 +22383,7 @@ columns:
 自得	cur tit
 自底	cur tere
 自動	cur tong
-自彈自唱	cur tuann cur chiunn
+自彈自唱	cur tuann5 cur chiunn
 自謙	cur khiam
 自強	cur kIang5
 自私	cur sur
@@ -21610,7 +22397,7 @@ columns:
 自保	cur po
 自助	cur coo
 自助餐	cur coo chan
-自稱	cur ching
+自稱	cur ching1
 自責	cur cik
 自責	cur cit
 自從	cur ciong
@@ -21633,7 +22420,7 @@ columns:
 次序	chur sir
 次第	chur te
 次長	chur tiunn2
-次要	chur iau
+次要	chur iau3
 司法	sur huat
 司令	sur ling
 司法院	sur huat inn
@@ -21641,9 +22428,10 @@ columns:
 司機	sur ki
 司長	sur tiunn2
 師父	sur hu
+師母	sur bu
 師母	sur biO
 師母[臺]	sur bIO
-師母[漳]	sur bo
+師母	sur bo
 師祖	sur coo
 師叔	sur cik
 師公	sur kong
@@ -21695,16 +22483,20 @@ columns:
 史記	sur ki
 史官	sur kuann
 史略	sur lIak
-使用	sur iong
-使用	sur ing
-使用人	sur iong jin
-使用人	sur ing jin
+使用	sur2 iong
+使用	sur2 ing
+使用人	sur2 iong jin
+使用人	sur2 ing jin
 死盲	sur bong
 死有餘辜	sur iu ir koo
 四物	sur but
 四物湯	sur but thng
 四正	sur ciann3
 四正	si ciann3
+四伨	si thin
+四媵	si thin
+四伨	sur thin
+四媵	sur thin
 四海	sur hai
 四方	sur hong
 四方八達	sur hong pat tat
@@ -21720,7 +22512,7 @@ columns:
 四神湯	sur sin thng
 四君子	sur3 kun1 cu2
 肆意	sur i
-駟馬難追	sur ma lan tui
+駟馬難追	sur ma lan5 tui
 使命	sur2 bing
 使命感	sur2 bing kam
 使者	sur2 cia2
@@ -21781,10 +22573,10 @@ columns:
 胎	thEr1	5%
 推	thEr1
 退	thEr3
+褪	thEr3	1%
 儡	lEr2
 裡	lEr3
 咧	lErh4
-捩	lErh4
 螺	lEr5
 腡	lEr5
 㤉	gEr5
@@ -21850,6 +22642,7 @@ columns:
 退開	thEr khui
 退股	thEr koo
 退色	thEr sik
+褪色	thEr sik
 退伍	thEr ngoo
 退守	thEr siu
 退散	thEr suann3
@@ -21867,8 +22660,10 @@ columns:
 退稅	thEr ser
 咧欲	lErh berh
 咧欲	lErh beh
+咧欲	lErh boh
 咧欲	tErh berh
 咧欲	tErh beh
+咧欲	tErh boh
 咧看	lErh khuann
 咧想	lErh siunn
 螺仔	lEr a
@@ -21890,7 +22685,8 @@ columns:
 坐船	cEr cun
 坐飛機	cEr hui ki
 坐向	cEr hIang
-坐禪	cEr sian
+坐禪	cEr sian5
+坐禪	cEr siam5{俗}
 坐桌	cEr toh
 坐清	cEr ching
 坐津	cEr cin
@@ -21948,13 +22744,15 @@ columns:
 美	ber2
 欲	berh4	10
 欲	beh4{異}	10
-欲	boh4{異}	10
+欲	boh4{異，泉+漳南}	10
 糜	ber5
 微	ber5
 未	ber7	10
 妹	ber7
 襪	berh8
 綴	ter3
+捩	lerh4
+捩	nerh4{漳等}
 跂	ker2
 果	ker2	5%
 粿	ker2
@@ -21991,6 +22789,7 @@ columns:
 稅	ser3
 說	serh4
 垂	ser5
+垂	ser7
 倭番	er huan
 倭奴	er loo
 倭寇	er khiO
@@ -22023,8 +22822,8 @@ columns:
 配魚	pher hIR
 配湯	pher thng
 配話	pher uee
-配物配	pher mngh pher
-配物配	pher mih pher
+配物配	pher mngh8 pher
+配物配	pher mih8 pher
 皮鞋	pher ere
 皮包	pher pau
 皮包仔	pher pau a
@@ -22057,7 +22856,7 @@ columns:
 尾手	ber chiu
 尾牙	ber gee
 尾日	ber jit
-尾囝
+尾囝	ber kirann
 尾局	ber kiok
 尾名	ber mia
 尾二指	ber ji cainn
@@ -22068,23 +22867,41 @@ columns:
 尾聲	ber siann
 尾錐	ber cui
 欲來	berh lai
-欲去	berh khIR
-欲食	berh ciah
-欲啉	berh lim
-欲睏	berh khun
-欲暗	berh am
-欲暗仔	berh am a
-欲毋	berh m
-欲挃	berh tih
 欲來	beh lai
+欲來	boh lai
+欲去	berh khIR
 欲去	beh khIR
+欲去	boh khIR
+欲食	berh ciah
 欲食	beh ciah
+欲食	boh ciah
+欲啉	berh lim
 欲啉	beh lim
+欲啉	boh lim
+欲睏	berh khun
 欲睏	beh khun
+欲睏	boh khun
+欲暗	berh am
 欲暗	beh am
+欲暗	boh am
+欲暗仔	berh am a
 欲暗仔	beh am a
-欲毋	beh m
+欲暗仔	boh am a
+欲毋	berh m70
+欲毋	beh m70
+欲毋	boh m70
+欲挃	berh tih
 欲挃	beh tih
+欲挃	boh tih
+欲哭	berh khau
+欲哭	beh khau
+欲哭	boh khau
+欲哭欲𥍉	berh khau berh nih
+欲哭欲𥍉	beh khau beh nih
+欲哭欲𥍉	boh khau boh nih
+欲哭欲睰	berh khau berh nih
+欲哭欲睰	beh khau beh nih
+欲哭欲睰	boh khau boh nih
 糜飯	ber puInn
 未曾	ber cing5
 未曾未	ber cing5 ber
@@ -22118,7 +22935,7 @@ columns:
 跂跤	ker kha
 果子	ker ci
 果子醬	ker ci ciunn
-果子樹	ker ci ciu
+果子樹	ker ci chiu
 果子皮	ker ci pher
 果子擔	ker ci tann3
 果子攤	ker ci thuann
@@ -22261,7 +23078,7 @@ columns:
 月給	gerh kip
 月內房	gerh lai pang
 月中	gerh tiong1
-月初	gerh cere
+月初	gerh chere
 月內風	gerh lai hong
 月檯	gerh tai
 月份	gerh hun
@@ -22357,16 +23174,16 @@ columns:
 和棋	her ki
 和和	her her
 和尚	her siunn
+回覆	her hok4
 回復	her hok
 回魂	her hun
 回話	her uee
 會失禮	her sit le
 會毋著	her m tioh
-罪過	cer kua
+罪過	cer kua3
 吹風	cher huang
 吹風	cher hong
-吹頭毛	cher thau mng
-吹頭毛	cher thau moo
+吹頭毛	cher thau mNG
 吹狗螺	cher kau lEr
 炊魚	cher hIR
 炊粿	cher ker
@@ -22407,10 +23224,11 @@ columns:
 說賺	serh tann
 說破毋值一分錢	serh phua m tat cit hun1 cinn
 說法	serh huat
-垂垂	ser ser
-垂落去	ser loh8 khIR
-垂肩	ser kaInn
-垂手	ser chiu
+垂垂	ser5 ser5
+垂落去	ser5 loh8 khIR
+垂肩	ser5 kaInn
+垂手	ser5 chiu
+垂落去	ser7 loh8 khIR
 ##	ere/ereh
 挨	ere1
 矮	ere2
@@ -22421,6 +23239,8 @@ columns:
 狹	ereh8
 八	pereh4
 批	phere1
+䫌	phere2
+襞	phere2
 稗	phere7
 買	bere2
 袂	bere6	10
@@ -22454,6 +23274,7 @@ columns:
 潔	kereh4	1%
 膎	kere5
 快	kere7
+易	kere7
 溪	khere1
 齧	khere3
 契	khere3
@@ -22465,7 +23286,8 @@ columns:
 夾	ngeh4
 莢	gereh4
 莢	ngereh4
-莢	ngeh4
+莢	ngeh4{廈等}
+莢	kereh4
 倪	gere5
 藝	gere7	1%
 挾	gereh8
@@ -22491,10 +23313,10 @@ columns:
 挨倒	ere to2
 挨石磨	ere cioh bo
 矮仔	ere a
-矮矮	ere ue
+矮矮	ere ere
 矮仔精	ere a cenn
 矮肥	ere pui
-矮頓	ere tng
+矮頓	ere tuInn3
 揋錢	ere cinn
 鞋仔	ere a
 鞋拖	ere thua
@@ -22551,8 +23373,8 @@ columns:
 會和	e ho
 會記得	ere ki tit
 會記得	e ki tit
-會當	ere tang
-會當	e tang
+會當	ere tang3
+會當	e tang3
 八字	pereh ji
 八角	pereh kak
 八十	pereh cap
@@ -22591,7 +23413,7 @@ columns:
 袂用	bere ing
 袂用得	bere ing tit
 袂出得	bere chut tit
-袂當	bere tang
+袂當	bere tang3
 袂堪	bere kham
 袂堪得	bere kham tit
 袂離	bere li7
@@ -22657,6 +23479,8 @@ columns:
 地脈	tere meeh
 地頭	tere thau
 地動	tere tang
+地檢署	tere kiam sU2
+地檢署	tere kiam sU7
 𠞄刀	there to
 體勢	there se
 體剔	there thak
@@ -22682,10 +23506,8 @@ columns:
 雞仔	kere a
 雞鴨	kere ah
 雞卵	kere nuI
-雞毛	kere mng
-雞毛	kere moo
+雞毛	kere mNG
 雞毛筅	kere mng chaInn
-雞毛筅	kere moo chaInn
 雞翼	kere sit
 雞跤	kere kha
 雞牢	kere tiau
@@ -22693,10 +23515,11 @@ columns:
 雞屎	kere sai
 雞肉	kere hik
 雞肉	kere bah
-雞仔腸肚	kere a tng too
+雞仔腸肚	kere a tng too6
 雞母皮
 雞喙	kere chui
-雞卷	kere kuInn
+雞卷	kere kuInn2
+雞卷[雲霄]	kere kuan2
 雞卵糕	kere nuI ko
 雞卵形	kere nuI hing
 雞卵仁	kere nuI jin
@@ -22704,14 +23527,14 @@ columns:
 雞心	kere sim
 雞胘	kere kian
 雞料	kere liau
-雞僆	kere nua
-雞僆	kere lua
+雞僆	kere nua7
+雞僆	kere lua7{*}
 雞腿	kere thui
 雞胸	kere hing
 雞眠	kere bin
 雞髻	kere ke
 雞罩	kere ta
-雞籠	kere lang
+雞籠	kere lang5
 街路	kere loo
 街路頂	kere loo ting
 街市	kere chi
@@ -22753,7 +23576,7 @@ columns:
 契小弟	khere sio ti
 契小妹	khere sio ber
 契小妹	khere sio mue
-契約	khere iok
+契約	khere Iak
 齧破	khere phua
 齧齧破	khere khere phua
 瞌瞌	khereh khereh
@@ -22816,7 +23639,7 @@ columns:
 細塊	sere tEr
 細爿	sere paInn
 細聲	sere siann
-細下	sere e
+細下	sere ee
 細仔聲	sere a siann
 細項	sere hang
 細姨	sere i
@@ -22861,10 +23684,12 @@ columns:
 森林	som lim
 森嚴	som giam
 滲透	serm thau
-##	ern/ert
+##	ern/ert（老泉，如南安；泉廈 un/ut <> 漳 in/it；漳不讀 in/it 則加 [泉] 標籤過濾，補全 un/ut；廈有 in/it 讀音則補全）
 恩	ern1	10
 殷	ern1
-允	ern2	10
+慇	ern1
+允	ern2
+隱	ern2
 癮	ern2
 根	kern1	10
 巾	kern1	10
@@ -22873,29 +23698,32 @@ columns:
 跟	kern1
 艮	kern3
 近	kern6	10
-懇	khern2
-墾	khern2
+懇[泉]	khern2
+墾[泉]	khern2
 芹	khern5
 勤	khern5	10
+懃	khern5
 迄	gert4
 訖	gert4
+仡	gert4
+屹	gert4
 銀	gern5
 睨	gern5
 齦	gern5
 鄞	gern5
 垠	gern5
-沂	gern5
+沂	gern5	1%
 仡	gert8
 屹	gert8
-兀	gert8
+兀[泉]	gert8
 很	hern2
 狠	hern2
-痕	hern5	10
+痕[泉]	hern5
 恨	hern7	10
-核	hert8
+核[泉]	hert8
 恩愛	ern ai
 恩情	ern cing
-恩將仇報	ern cIang siu po
+恩將仇報	ern cIang1 siu po
 恩主	ern cu
 恩義	ern gi
 恩施	ern si
@@ -22905,11 +23733,32 @@ columns:
 恩怨	ern uan
 殷實	ern sit
 殷勤	ern khern
+慇懃	ern khern
+殷切	ern chiat
 殷戶	ern hoo
+殷商	ern sIang
 允許	ern hir
 允准	ern cun
 允諾	ern lok
 允儂	ern lang
+允親	ern chin
+# 文傳「隱」漳可讀 in2
+隱蔽	ern pe
+隱蔽[漳]	ern pi
+隱祕	ern pi
+隱秘	ern pi
+隱密	ern bat
+隱密	ern bit
+隱情	ern cing
+隱藏	ern cong5
+隱現	ern hian
+隱諱	ern hui
+隱囥	ern khng
+隱居	ern kir
+隱名	ern mia
+隱瞞	ern mua
+隱私	ern sur
+隱士	ern sur
 根本	kern pun
 根據	kern kir
 根據地	kern kir tere
@@ -22923,7 +23772,7 @@ columns:
 斤聲	kern siann
 根數	kern soo
 根量	kern lIang7
-筋脈	kern beh
+筋脈	kern beeh
 筋脈	kern meeh
 筋骨	kern kut
 筋絡	kern le
@@ -22931,7 +23780,8 @@ columns:
 跟隨	kern sui
 跟綴	kern ter
 跟進	kern cin
-艮卦
+艮卦	kern kua
+艮卦[漳]	kern kuee
 近近	kern kern
 近前	kern caInn
 近路	kern loo
@@ -22949,8 +23799,13 @@ columns:
 近期	kern ki
 懇求	khern kiu
 懇切	khern chiat
+墾荒	khern huInn
+墾荒	khern hong
 勤儉	khern khiam
 勤務	khern bu
+迄今	gert4 kim1
+屹立	gert4 lip
+屹立	gert8 lip
 銀行	gern hang
 銀色	gern sik
 銀紙	gern cua
@@ -22977,11 +23832,9 @@ columns:
 銀山	gern suann
 睨儂	gern lang
 睨儂	gin lang
-痕跡	hern jiah
-痕敦	hern tun
 恨氣	hern khi
 恨命	hern mia
-恨心	herm sim
+恨心	hern sim
 恨死	hern si
 ##	erng/erk
 等	terng2
@@ -23020,6 +23873,7 @@ columns:
 嗚	oo1
 鄔	oo1
 鎢	oo1
+槔	oo1
 扝	oo2
 塢	oo2
 惡	oo3	10
@@ -23048,6 +23902,8 @@ columns:
 蒲	poo5
 匍	poo5
 酺	poo5
+裒	poo5
+衭	poo5
 部	poo6	10
 步	poo7	10
 哺	poo7
@@ -23063,6 +23919,7 @@ columns:
 扶	phoo5
 菩	phoo5
 莆	phoo5
+莆	poo5{又}
 簿	phoo6
 部	phoo6	1%
 廍	phoo7
@@ -23249,7 +24106,7 @@ columns:
 烏狗	oo kau
 烏心肝	oo sim kuann
 烏甕串	oo ang chuInn
-烏漚	oo au
+烏漚	oo au3
 烏墨	oo bak
 烏煙	oo ian
 烏影	oo iann
@@ -23268,7 +24125,7 @@ columns:
 烏豆	oo tau
 烏頭	oo thau
 烏龍茶	oo liong tee
-烏漉肚	oo lok too
+烏漉肚	oo lok too6
 烏㽎㽎	oo sim sim
 烏西	oo se
 烏心石	oo sim cioh
@@ -23377,8 +24234,8 @@ columns:
 佈滿	poo mua
 佈田	poo chan
 佈田管	poo chan kong
-佈秞仔	poo tiu a
-佈稻仔	poo tiu a
+佈粙仔	poo tiu a
+佈粙仔	poo tiu a
 佈道
 布景	poo king
 布教	poo kau
@@ -23405,7 +24262,8 @@ columns:
 部屬	poo siok
 部隊	poo tui
 部首	poo siu
-部署	poo su
+部署	poo sU7
+部署	poo sU2
 步輦	poo lian
 步行	poo hing5
 步兵	poo ping
@@ -23449,9 +24307,11 @@ columns:
 菩提樹	phoo the chiu
 簿仔	phoo a
 簿仔紙	phoo a cua
-某囝
-某物	boo mih
-某物儂	boo mih lang
+某囝	boo kirann
+某物	boo mih8
+某物	boo mih4
+某物儂	boo mih8 lang
+某物儂	boo mih4 lang
 某儂	boo lang
 某大姊	boo tua ci
 某某	boo boo
@@ -23498,21 +24358,25 @@ columns:
 募款	boo khuann
 都著	too tioh
 都著	to tioh
-都是
-都欲
-都毋
-都也
-都計
+都是	to si
+都欲	to berh
+都欲	to beh
+都欲	to boh
+都毋	to m
+都也	to ia6
+都也	to a6
+都計	to ke
 都攏	to long
-都有
+都有	to u
 都無	too bo
 都無	to bo
 都合	too hap
 都城	too siann
 都市	too chi
-肚垂	too se
-肚綰	too kuann
-肚脹	too tIang
+肚垂	too2 se5
+肚重	too2 tang
+肚綰	too2 kuann
+肚脹	too2 tIang
 賭氣	too khi
 賭強	too kIang5
 賭定	too tiann
@@ -23527,7 +24391,7 @@ columns:
 徒勞
 徒步	too poo
 圖案	too an
-圖畫	too uee
+圖畫	too Uee
 圖書
 圖書館
 圖解	too kai
@@ -23544,9 +24408,9 @@ columns:
 塗改	too kai
 塗改液	too kai ik
 屠戶	too hoo
-肚量	too lIang7
-肚腸	too tng
-肚臍	too cai
+肚量	too7 lIang7
+肚腸	too7 tng
+肚臍	too7 cai
 度咧
 度度咧
 度量衡	too lIang5 hing
@@ -23594,18 +24458,20 @@ columns:
 土儂	thoo lang
 土菝仔	thoo puat a
 土風舞	thoo hong bu
-吐氣	thoo khui
-吐大氣	thoo tua khui
-吐肉箭	thoo bah cinn
-吐目	thoo bak
-吐腸頭	thoo tng thau
-吐舌	thoo cih
-吐血	thoo huih
-吐吐出來
-吐憐涎	thoo lian sian
-吐絲	thoo si
-吐吐	thoo thoo
-吐穗	thoo sui
+吐頭	thoo2 thau5
+吐頭	thong2 thau5{*}
+吐氣	thoo2 khui
+吐大氣	thoo2 tua khui
+吐肉箭	thoo2 bah cinn
+吐目	thoo2 bak
+吐腸頭	thoo2 tng thau
+吐舌	thoo2 cih
+吐血	thoo3 huih
+吐吐出來	thoo3 thoo3 chut40 lai50
+吐憐涎	thoo3 lian sian
+吐絲	thoo3 si
+吐吐	thoo3 thoo3
+吐穗	thoo3 sui
 兔仔毛
 兔唇	thoo tun
 兔仔尾	thoo a ber
@@ -23687,15 +24553,15 @@ columns:
 孤枝	koo ki
 孤顝	koo khut
 孤顝絕種	koo khut cErh cing2
-孤毛絕種	koo moo cErh cing2
+孤毛絕種	koo mo cErh cing2
 孤魂	koo hun
 孤魂野鬼
 孤兒	koo ji
 孤項	koo hang
 孤枕獨眠	koo cin tok bian
-孤枕難眠	koo cim lan bian
-孤掌難鳴	koo cIang lan bing
-孤囝
+孤枕難眠	koo cim lan5 bian
+孤掌難鳴	koo cIang lan5 bing
+孤囝	koo kirann
 孤兒院	koo ji inn
 孤軍	koo kun
 孤立	koo lip
@@ -23708,7 +24574,7 @@ columns:
 姑仔	koo a
 姑丈	koo tiunn
 姑且	koo chiann
-姑不而將	koo put ji cIang
+姑不而將	koo put ji cIang1
 姑爺	koo ia
 姑嫂	koo so
 姑息
@@ -23767,7 +24633,8 @@ columns:
 股票	koo phio
 股利	koo li
 股長	koo tiunn2
-股本
+股本	koo pun
+股本	koo puInn
 股價	koo kee
 股權
 股市	koo chi
@@ -23794,12 +24661,12 @@ columns:
 顧門	koo muI
 顧三頓	koo sann tuInn
 顧厝	koo chu
-觀前顧後	kuan caInn koo au
+觀前顧後	kuan1 caInn koo au
 顧慮	koo lir
-顧家己	koo ka ki
-顧家己	koo ka ti
-顧家己	koo kai ki
-顧全大局	koo cuan tai kIak
+顧家己	koo ka ki7
+顧家己	koo ka ti7
+顧家己	koo kai ki7
+顧全大局	koo cuan tai kiok
 固定	koo ting
 固執	koo cip
 固有	koo iu
@@ -23855,7 +24722,7 @@ columns:
 苦茶油	khoo tee iu
 # 苦里	khoo li
 苦悶	khoo bun
-苦難	khoo lan
+苦難	khoo lan7
 苦無	khoo bo
 苦慼	khoo chereh
 褲仔	khoo a
@@ -23910,7 +24777,7 @@ columns:
 悟道
 呼音	hoo im
 呼叫	hoo kio
-呼風喚雨	hoo hong huan u
+呼風喚雨	hoo hong huan U
 呼應	hoo ing3
 呼聲	hoo siann
 呼籲	hoo jU
@@ -23962,7 +24829,9 @@ columns:
 雨來天	hoo lai thinn
 雨來天時	hoo lai thinn si
 雨霎仔	hoo sap a
-雨毛仔	hoo mng a
+雨毛仔	hoo mNG a
+雨微仔	hoo bui1 a
+雨微仔	hoo mui1 a
 雨鞋	hoo ere
 戶口	hoo khau
 戶口簿	hoo khau phoo
@@ -23987,7 +24856,7 @@ columns:
 予汝	thoo lir
 予我	thoo gua
 予誰	thoo siang5
-互相	hoo sIang
+互相	hoo sIang1
 互助	hoo coo
 互聯網	hoo lian bang
 互惠	hoo hui
@@ -24092,7 +24961,6 @@ columns:
 初稿	choo ko
 初戀	choo luan
 初見面	choo kinn bin
-起初	khi choo
 初初	choo choo
 初學者	choo hak cia
 初步	choo poo
@@ -24150,33 +25018,32 @@ columns:
 訴求	soo kiu
 訴訟	soo siong
 溯源	soo guan
-##	onn/onnh
+##	onn/onnh（moo/noo/ngoo 根據老漳腔區分鼻音聲母後接的 onn / ounn(oonn)）
 唔	onn1
 惡	onn3
-麼	moo2
-𢯾	mooh4
-毛	moo5
-磨	moo5
-魔	moo5
-摩	moo5
-蘑	moo5
-髦	moo5
-冒	moo7
-耄	moo7
-膜	mooh8
-瘼	mooh8
+麼	mo2
+𢯾	moh4
+毛	mo5
+磨	mo5
+魔	mo5
+摩	mo5
+蘑	mo5
+髦	mo5
+冒	mo7
+耄	mo7
+膜	moh8
+瘼	moh8
 老[泉]	noo2{泉等}
-兩	noo6
-挪	noo5
+挪	no5
 怒	noo7
-懦	noo7
+懦	no7
 考	khonn2
 可	khonn2
 拷	khonn2
 烤	khonn2
 坷	khonn2
 五	ngoo2	5%
-我	ngoo2	1%
+我	ngo2	50%
 午	ngoo2
 仵	ngoo2
 忤	ngoo2
@@ -24184,16 +25051,17 @@ columns:
 偶	ngoo2
 吳	ngoo5
 吾	ngoo5
-娥	ngoo5
-鵝	ngoo5	0%
-俄	ngoo5
-峨	ngoo5
-蛾	ngoo5
-吪	ngoo5
-翱	ngoo5
-臥	ngoo7
-傲	ngoo7	10
+娥	ngo5
+鵝	ngo5	0%
+俄	ngo5
+峨	ngo5
+蛾	ngo5
+吪	ngo5
+翱	ngo5
+臥	ngo7
+傲	ngo7	10
 悟	ngoo7
+誤	ngoo7
 火	honn2
 好	honn3	5%
 耗	honn3
@@ -24201,28 +25069,28 @@ columns:
 唔唔睏	onn onn khun
 惡妒	onn too
 惡妒	oo too
-𢯾壁	mooh piah
-𢯾壁鬼	mooh piah kui
-𢯾無路	mooh bo loo
-毛筆	moo pit
-毛氈	moo cian
-魔鬼	moo kui
-魔神	moo sin
-魔神仔	moo sin a
-魔術	moo sut
-魔術師	moo sut sur
-魔法	moo huat
-魔法師	moo huat sur
-魔力	moo lik
-摩擦	moo chat
-蘑菇	moo koo
-蘑菇頭	moo koo thau
-冒名	moo mia
-冒稱	moo ching
-冒險	moo hiam
-冒犯	moo huan
-冒充	moo chiong
-耄耋	moo tiat
+𢯾壁	moh piah
+𢯾壁鬼	moh piah kui
+𢯾無路	moh bo loo
+毛筆	mo pit
+毛氈	mo cian
+魔鬼	mo kui
+魔神	mo sin
+魔神仔	mo sin a
+魔術	mo sut
+魔術師	mo sut sur
+魔法	mo huat
+魔法師	mo huat sur
+魔力	mo lik
+摩擦	mo chat
+蘑菇	mo koo
+蘑菇頭	mo koo thau
+冒名	mo mia
+冒稱	mo ching1
+冒險	mo hiam
+冒犯	mo huan
+冒充	mo chiong
+耄耋	mo tiat
 老君[泉]	noo kun
 老君岩[泉]	noo kun gam
 老君巖[泉]	noo kun gam
@@ -24240,7 +25108,7 @@ columns:
 老鼠[泉]	loo chir
 老鼠藥[泉]	loo chir ioh
 怒氣	noo khi
-懦弱	noo jIak
+懦弱	no jIak
 五花十色	ngoo huee cap sik
 五香	ngoo hIang
 五彩	ngoo chai
@@ -24251,7 +25119,7 @@ columns:
 五言	ngoo gian
 五馬分屍	ngoo ma hun1 si
 五方	ngoo hong
-五虎將	ngoo hoo cIang
+五虎將	ngoo hoo cIang3
 五葷	ngoo hun
 五音	ngoo im
 五音不全	ngoo im put cuan
@@ -24266,18 +25134,18 @@ columns:
 五臟	ngoo cong
 五臟六府	ngoo cong liok hu
 五指山	ngoo ci suann
-我輩	ngoo pue
-我國	ngoo kok
-我省	ngoo sing
-我市	ngoo chi
-我皇	ngoo hong
+我輩	ngo pue
+我國	ngo kok
+我省	ngo sing
+我市	ngo chi
+我皇	ngo hong
 忤逆
 翱翔
 峨嵋
 峨嵋山
 峨嵋派
 臥鋪
-臥龍	ngoo liong
+臥龍	ngo liong
 臥龍	go liong
 傲慢
 傲視群雄
@@ -24286,7 +25154,7 @@ columns:
 好玄	honn hian
 好學	honn hak
 好戰	honn cian
-好勝	honn sing
+好勝	honn sing3
 好色	honn sik
 好色之徒	honn sik ci too
 ##	o/oh (oO是泉州音oo)
@@ -24330,6 +25198,7 @@ columns:
 粕	phoh4
 樸	phoh4
 抱	pho6
+部	pho6
 無	bo5	20
 帽	bo7
 磨	bo7
@@ -24400,7 +25269,8 @@ columns:
 腦	lo2
 瑙	lo2
 裸	lo2
-落	loh4
+咾	lo2
+落	loh4	1%
 羅	lo5
 勞	lo5	10
 勞	loO5	10
@@ -24525,12 +25395,14 @@ columns:
 踖	coh8
 臊	cho1
 操	cho1
+操	choO1
 搓	cho1
 蹉	cho1
 草	cho2	5%
 錯	cho3	10
 剉	cho3	10
 操	cho3
+操	choO3
 噪	cho3
 挫	cho3
 糙	cho3
@@ -24551,6 +25423,7 @@ columns:
 躁	so3
 索	soh4
 趖	so5	10
+呵咾	o lo
 呵佬	o lo
 呵施	o si
 阿彌陀佛	o bi to hut
@@ -24744,7 +25617,9 @@ columns:
 抱的	pho e
 抱兮	pho e
 抱个	pho e
-抱歉	pho khiam
+抱歉	pho khiam2
+抱歉	pho khiam3
+抱歉[臺]	pho khiam1{俗}
 無關	bo kuan
 無孝	bo ha
 無關緊要
@@ -24810,8 +25685,8 @@ columns:
 無意無思	bo i bo sur3
 無意識	bo i sik
 無意識	bo i sit
-無要無緊	bo iau bo kin
-無要緊	bo iau kin
+無要無緊	bo iau3 bo kin
+無要緊	bo iau3 kin
 無伊法	bo i huat
 無音無信	bo im bo sin
 無動無靜	bo tong bo cing
@@ -24873,7 +25748,7 @@ columns:
 無某無猴	bo boo bo kau
 無尾巷	bo ber hang
 無礙著	bo gai tioh
-無議量	bo gi niu
+無議量	bo gi niu7
 無法伊	bo huat i
 無依無倚	bo i bo ua
 無佮意	bo kah i
@@ -24881,6 +25756,7 @@ columns:
 無意中	bo i ting
 無閒	bo aInn
 無閒無工	bo aInn bo kang
+無閒𩑾𩑾	bo aInn chIRh chIRh
 無仝	bo kang
 無𫝛	bo siang
 無𫝛	bo sang
@@ -24963,8 +25839,8 @@ columns:
 無合算	bo hah suInn
 無侵無欠	bo chim bo khiam
 帽仔	bo a
-莫幹	boh kan
-莫幹	boh an{懶}
+莫幹	boh8 kan3
+莫幹	boh8 an3{*懶}
 莫用	boh ing
 莫用	bok ing
 莫應	boh ing3
@@ -25040,7 +25916,7 @@ columns:
 倒轉來[漳]	to3 tun2 lai
 倒想	to3 siunn
 倒退步	to3 thEr poo
-倒彈	to3 tuann
+倒彈	to3 tuann6
 倒向	to3 hiann
 倒剾	to3 khau
 倒反	to3 puInn
@@ -25072,7 +25948,7 @@ columns:
 桌球	toh kiu
 逃犯	to huan
 逃監	to kann
-逃難	to lan
+逃難	to lan7
 逃命	to mia
 逃脫	to thuat
 逃避	to pi
@@ -25085,16 +25961,26 @@ columns:
 陶器	to khi
 淘汰	to thai
 道理	to li
-道德
-道士
-道義
-道袍
-道術
-道德經
-道場
-道友
-道路
-道人
+道德	to tik
+道德	toO tik
+道士	to sur
+道士	toO sur
+道義	to gi
+道義	toO gi
+道袍	to phau3
+道袍	toO phau3
+道術	to sut
+道術	toO sut
+道德經	to tik king
+道德經	toO tik king
+道場	to tiunn
+道場	toO tiunn
+道友	to iu
+道友	toO iu
+道路	to loo
+道路	toO loo
+道人	to jin
+道人	toO jin
 道行	to hing7
 道行	toO hing7
 道教	to kau
@@ -25103,6 +25989,10 @@ columns:
 道家	toO ka
 道學	to hak
 道學	toO hak
+道觀	to kuan3
+道觀	toO kuan3
+道歉	to khiam2
+道歉	toO khiam2
 墮落	to lok
 惰性
 導航
@@ -25112,8 +26002,9 @@ columns:
 導覽
 導師	to sur
 導師	toO sur
-導彈	to tuann
-導彈	toO tuann
+導彈	to tuann5
+導彈	toO tuann5
+導彈	to tan5
 盜賊	to chat
 盜賊	toO chat
 盜版
@@ -25128,7 +26019,7 @@ columns:
 討海	tho hai
 討海儂	tho hai lang
 討債	tho cee
-討債囝
+討債囝	tho cee kirann
 討皮疼	tho pher thiann
 討命	tho mia
 討論	tho lun
@@ -25142,7 +26033,7 @@ columns:
 套房	tho pang
 套直	tho tit
 套話	tho uee
-妥當	tho tong
+妥當	tho tong3
 妥協	tho hiap
 唾棄	tho khi
 桃仔	tho a
@@ -25192,8 +26083,8 @@ columns:
 落後日	loh8 au jit
 落後年	loh4 au ni
 落後年	loh8 au ni
-落前年	loh4 tsun ni20
-落前年	loh8 tsun5 ni20
+落前年	loh4 cun5 ni20
+落前年	loh8 cun5 ni20
 落尾	loh8 ber
 落馬	loh8 bee
 落目	loh8 bak
@@ -25229,7 +26120,7 @@ columns:
 落儂的喙	loh8 lang e
 落儂兮喙	loh8 lang e
 落儂个喙	loh8 lang e chui
-落難	loh8 lan
+落難	loh8 lan7
 落軟	loh8 nuI
 落本	loh8 pun
 落本	loh8 puInn
@@ -25259,7 +26150,6 @@ columns:
 高度
 高談闊論
 高血壓
-高潮
 高音
 高壓
 高壓電
@@ -25275,7 +26165,11 @@ columns:
 高速
 高考
 高跟鞋
-高頻
+高頻	ko pin
+高頻	koO pin
+高潮	ko tiau
+高潮	koO tiau
+高潮[漳南]	ko tio
 高鐵	ko thih
 高鐵	koO thih
 高等	ko ting
@@ -25365,8 +26259,8 @@ columns:
 科技	kher ki
 科員	kho uan
 科員	kher uan
-科系	kho hee
-科系	kher hee
+科系	kho he
+科系	kher he
 科學	kho hak
 科學	kher hak
 科目	kho bok
@@ -25379,7 +26273,7 @@ columns:
 考試	kho chi
 考場	kho tiunn
 考驗	kho giam
-考卷	kho kuInn
+考卷	kho kuInn3
 考證	kho cing
 考官	kho kuann
 考慮	kho lir
@@ -25393,7 +26287,7 @@ columns:
 考試	khonn chi
 考場	khonn tiunn
 考驗	khonn giam
-考卷	khonn kuInn
+考卷	khonn kuInn3
 考證	khonn cing
 考官	khonn kuann
 考慮	khonn lir
@@ -25423,10 +26317,13 @@ columns:
 可笑	kho chio
 可惱	kho nau
 可惜	kho sioh
+可汗	kho2 han5
+可汗[漳]	khik4 han5{俗}
 可見	khonn kian
 可笑	khonn chio
 可惱	khonn nau
 可惜	khonn sioh
+可汗	khonn2 han5
 拷問	kho bun
 拷問	khonn bun
 洘旱	kho uann
@@ -25526,7 +26423,7 @@ columns:
 好料	ho liau
 好跤好手	ho kha ho chiu
 好記持	ho ki ti
-好囝
+好囝	ho kirann
 好睏	ho khun
 好款	ho khuan
 好教示	ho ka si
@@ -25612,7 +26509,11 @@ columns:
 河圖	ho too
 浩瀚	ho han
 禍福	ho hok
+禍福	hoO hok
+禍根	ho kern
+禍根	hoO kern
 禍端	ho tuan
+禍端	hoO tuan
 皓月	ho guat
 號碼	ho bee
 號外	ho gua
@@ -25624,7 +26525,7 @@ columns:
 賀卡	ho kha2
 鶴頂紅	hoh ting ang
 遭遇	co gU
-遭難	co lan
+遭難	co lan7
 遭受	co siu
 棗仔	co a
 左爿
@@ -25702,7 +26603,7 @@ columns:
 挫折	cho ciat
 𧮙儂	choh lang
 𧮙粗話	choh choo uee
-𧮙姦	choh kan
+𧮙姦	choh kan3
 挲挲	so so
 挲頭	so thau
 挲圓	so inn
@@ -25723,6 +26624,7 @@ columns:
 趖趖	so so
 ##	om/op
 掩	om1
+罨	om1
 橐	lop4
 欱	hop4
 參	som1
@@ -25748,6 +26650,7 @@ columns:
 旁	pong5
 膀	pong5
 徬	pong5
+篷	pong5
 磅	pong6
 鎊	pong6
 傍	pong7
@@ -26030,6 +26933,7 @@ columns:
 煌	hong5
 簧	hong5
 癀	hong5
+潢	hong5
 馮	hong5
 奉	hong6
 晃	hong6
@@ -26123,26 +27027,31 @@ columns:
 惡毃毃	ok khiak khiak
 惡霸	ok pa
 惡性	ok sing
-惡魔	ok moo
+惡魔	ok mo
 王子	ong cur
 王母
 王者	ong cia
 王族	ong cok
 王法	ong huat
 王爺	ong ia
+王爺公	ong ia kong
+王爺廟	ong ia bio
+王爺債	ong ia cee
 王妃	ong hui
 王府	ong hu
 王位	ong ui
 王后	ong hiO
 王后[臺]	ong hIO
 王室	ong sik
-王爺債	ong ia cee
 王國	ok kok
 王牌	ong pai
 王朝	ong tiau5
 王祿仔	ong lok a
 王祿仔仙	ong lok a sian
 王哥柳哥	ong ko liu ko
+王爹	ong tia
+王爹公	ong tia kong
+王爹廟	ong tia bio
 旺盛	ong sing
 榜眼	pong gan
 謗影	pong iann
@@ -26152,7 +27061,7 @@ columns:
 卜筮[漳]	pok si
 卜算子	pok suan cur
 烞薰	pok hun
-旁觀	pong kuan
+旁觀	pong kuan1
 旁聽	pong thiann
 膀胱	pong kong
 徬徨	pong hong
@@ -26182,7 +27091,7 @@ columns:
 膨獅獅	phong sai sai
 膨紗	phong see
 膨紗衫	phong see sann
-膨肚短命	phong too tEr mia
+膨肚短命	phong too6 tEr mia
 膨床	phong chng
 碰釘	phong ting1
 碰電	phong tian
@@ -26195,9 +27104,9 @@ columns:
 博覽會	phok lam hue
 撲克	phok khik
 樸素	phok soo
-噗仔	phok a
-噗噗	phok phok
-噗噗跳	phok phok thiau
+噗仔	phok8 a
+噗噗	phok8 phok8
+噗噗跳	phok8 phok8 thiau
 蓬萊	phong lai
 蓬蓽生輝	phong pit sing hui
 摸無	bong bo
@@ -26245,25 +27154,28 @@ columns:
 莫名奇妙	bok bing ki biau
 莫邪	bok ia
 沐沐泅	bok bok siu
-當然	tong jian
-當初	tong choo
-當初時	tong choo si
+當然	tong1 jian
+當初	tong1 choo
+當初時	tong1 choo si
 當時	tong1 si5
 當時	tang1 si5
 當時	tng1 si5
-當歸	tong kui
-當年	tong ni
-當事人	tong sur jin
-當場	tong tiunn
-當場	tng tiunn
-當值	tong tit
-當地	tong tere
-當日	tong jit
-當今	tong kim
-當代	tong tai
-當局	tong kiok
-當前	tong cian
-冬蟲	tong thiong
+當其時	tong1 ki5 si5
+當其時	tang1 ki5 si5
+當其時	tng1 ki5 si5
+當歸	tong1 kui
+當年	tong1 ni
+當事人	tong1 sur jin
+當場	tong1 tiunn
+當場	tng1 tiunn
+當值	tong1 tit
+當地	tong1 tere
+當日	tong1 jit
+當今	tong1 kim
+當代	tong1 tai
+當局	tong1 kiok
+當前	tong1 cian
+冬蟲	tong1 thiong
 冬蟲夏草	tong thiong ha cho
 冬蟲夏草[漳]	tong thiong hee cho
 黨派	tong phai
@@ -26291,9 +27203,9 @@ columns:
 檔案	tong an
 檔名	tong mia
 檔期	tong ki
-當做	tong cue
-當做	tong co
-當選	tong suan
+當做	tong3 cue
+當做	tong3 co
+當選	tong3 suan
 凍結	tong kiat
 督促	tok chiok
 督學	tok hak
@@ -26346,7 +27258,7 @@ columns:
 唐三藏	tong5 sam1 cong7
 螳螂	tong long
 螳螂	tong bong
-螳臂當車	tong pi tong chia
+螳臂當車	tong5 pi tong3 chia
 動物	tong but
 動物園	tong but huInn
 動靜	tong cing
@@ -26385,7 +27297,7 @@ columns:
 獨用	tok iong
 獨有	tok iu
 獨居	tok kir
-獨斷	tok tuan
+獨斷	tok tuan3
 獨獨	tok tok
 獨身	tok sin
 獨裁	tok chai
@@ -26404,10 +27316,10 @@ columns:
 通用
 通通	thong thong
 通盤	thong puann
-通稱	thong ching
+通稱	thong ching1
 通行	thong hing5
 通融	thong iong
-通姦	thong kan
+通姦	thong kan1
 通過	thong ker
 通篇	thong phian
 通世界	thong se kai
@@ -26416,7 +27328,7 @@ columns:
 通批	thong phere
 通世間	thong se kan1
 通四界	thong si kere
-通報	thong puann
+通報	thong po
 通信	thong sin
 通商	thong sIang
 通道	thong to
@@ -26469,16 +27381,31 @@ columns:
 讀者	thok cia
 讀物	thok but
 攏總	long cong
-攏共	long kiong
-攏共	liong kiong
-籠罩	long tau
+攏共	long2 kiong7
+攏共	liong2 kiong7{*}
+攏是	long si
+攏著	long tioh
+攏無	long bo
+攏愛	long ai
+攏袂	long bere
+攏會	long ere
+攏會	long e
+攏毋	long m
+攏好	long ho
+攏來	long lai
+攏去	long khIR
+攏嘛	long ma6
+攏欲	long berh
+攏欲	long beh
+攏欲	long boh
+籠罩	long2 tau
 挵破	long phua
 挵門	long muI
 挵鼓	long koo
 挵鐘	long cing
 挵球	long kiu
 挵破碗	long phua uann
-挵姦𧮙	long kan choh
+挵姦𧮙	long kan3 choh
 漉漉	lok lok
 郎君	long kun
 農民	long bin
@@ -26514,9 +27441,11 @@ columns:
 浪蕩	long tong
 浪費	long hui
 浪漫	long ban
-浪潮
-弄狗相咬
-樂觀	lok kuan
+浪潮	long tiau
+浪潮[漳南]	long tio
+弄狗相咬	lang kau sio ka
+弄狗相咬	lang kau sann ka
+樂觀	lok kuan1
 樂園	lok huInn
 樂極生悲	lok kik sing pi
 樂暢	lok thIang
@@ -26533,8 +27462,10 @@ columns:
 鹿茸	lok jiong
 鹿角	lok kak
 鹿鞭	lok pian
-碌硞	lok khok
-碌硞馬	lok khok bee
+碌硞	lok8 khok8
+碌硞	lok4 khok4
+碌硞馬	lok8 khok8 bee
+碌硞馬	lok4 khok4 bee
 洛書	lok sir
 諾言
 漉喙	lok chui
@@ -26597,7 +27528,7 @@ columns:
 公德心	kong tik sim
 公道	kong to
 公民	kong bin
-公寓	kong gu
+公寓	kong gU
 公元	kong guan
 公費	kong hui
 公用	kong iong
@@ -26621,13 +27552,16 @@ columns:
 公交車	kong kau chia
 公私	kong sur
 公投	kong tau
-公署	kong su
+公署	kong sU7
+公署	kong sU2
 公正	kong cing3
 公職	kong cit
 公主	kong cu
 公子	kong cur
 公轉	kong cuan
 公噸	kong tun
+公允	kong un
+公允	kong ern
 工部	kong poo
 功名	kong bing
 功名顯達	kong bing hian tat
@@ -26657,7 +27591,7 @@ columns:
 攻讀
 剛強	kong kIang5
 剛毅	kong ge
-綱要	kong iau
+綱要	kong iau3
 講話	kong uee
 講課[雲霄]	kong kher
 講法	kong huat
@@ -26744,7 +27678,7 @@ columns:
 國老	kok lo2
 國老[泉]	kok noo2
 國立	kok lip
-國難	kok lan
+國難	kok lan7
 國稅	kok ser
 國產	kok san
 國姓爺	kok sing ia
@@ -26776,7 +27710,7 @@ columns:
 國粹	kok chui
 國風	kok hong
 國號	kok ho
-國畫	kok uee
+國畫	kok Uee
 國魂	kok hun
 國泰	kok thai
 國泰民安	kok thai bin an
@@ -26803,7 +27737,7 @@ columns:
 空想	khong1 sIang
 空襲	khong1 sip
 空軍	khong1 kun
-空難	khong1 lan
+空難	khong1 lan7
 空姐	khong1 cia
 空調	khong1 tiau5
 空戰	khong1 cian
@@ -26859,12 +27793,14 @@ columns:
 酷毒	khok tok
 觳仔	khok a
 觳仔炱	khok a tEr
-硞著
-硞硞綴	khok khok tEr
+硞著	khok8 tioh80
+硞著	khok4 tioh80
+硞硞綴	khok4 khok4 ter
+硞硞綴	khok8 khok8 ter
 嘓魚	khok hIR
 嘓子	khok ci
 戇戇	gong gong
-戇囝
+戇囝	gong kirann
 戇怢怢	gong thuh thuh
 戇的	gong e
 戇兮	gong e
@@ -26879,8 +27815,9 @@ columns:
 戇錢	gong cinn
 戇話	gong uee
 戇大呆	gong tua tai
+戇福	gong hok
 風神	hong sin
-風雨	hong u
+風雨	hong U
 風聲謗影	hong siann pong iann
 風月	hong guat
 風化	hong hua
@@ -26891,7 +27828,7 @@ columns:
 風韻	hong un
 風度	hong too
 風采	hong chai
-風調雨順	hong tiau5 u sun
+風調雨順	hong tiau5 U sun
 風水	hong sui
 風格	hong keeh
 風景	hong king
@@ -26903,14 +27840,15 @@ columns:
 風暴	hong poO
 風塵	hong tin
 方面	hong bin
-方言
+方言	hong gian
+方言[漳]	hong gan
 方向	hong hIang
 方法	hong huat
 方便	hong pian
 方位	hong ui
 方式	hong sik
 方案	hong an
-方針
+方針	hong cSam
 方程
 方程式
 封厝	hong chu
@@ -26924,8 +27862,10 @@ columns:
 封肉	hong bah
 封條	hong tiau
 封殺	hong sat
-封釘
+封釘	hong tan
+封釘	hong ting
 封禁	hong kim3
+封禪	hong sian7
 豐盛	hong sing
 豐富	hong hu
 豐收	hong siu
@@ -26947,7 +27887,8 @@ columns:
 訪問	hong bun
 訪談	hong tam
 訪察	hong chat
-訪查	hong ca
+訪查	hong ca1
+訪查[漳]	hong cee1
 訪客	hong kheeh
 仿仔雞	hong a kere
 恍惚	hong hut
@@ -26967,18 +27908,26 @@ columns:
 放大鏡	hong tua kiann
 福祉	hok ci
 福分	hok hun7
+福份	hok hun7
 福音	hok im
 福氣	hok khi
 福祿	hok lok
+福壽	hok siu
+福祿壽	hok lok siu
 福德	hok tik
 福德正神	hok tik cing3 sin
 福星	hok chenn
-福相	hok sIang
+福相	hok sIang3
+福利	hok li
+福利社	hok li sia
+福衫	hok sam
+福眼	hok gan
+福壽螺	hok siu lEr
 霍亂	hok luan
 幅度	hok too
 覆滅	hok biat
 覆蓋	hok kai
-覆水難收	hok sui lan siu
+覆水難收	hok sui lan5 siu
 複雜	hok cap
 複製	hok ce
 複製[漳]	hok ci
@@ -26986,7 +27935,8 @@ columns:
 複製品[漳]	hok ci phin
 複習	hok sip
 複數	hok soo
-複查	hok ca
+複查	hok ca1
+複查[漳]	hok cee1
 複診	hok cin
 複印	hok in
 複寫	hok sia
@@ -27006,7 +27956,9 @@ columns:
 皇陵	hong ling
 皇室	hong sik
 皇上	hong sIang7
-皇儲	hong thir
+皇儲	hong thir5
+皇儲	hong thir2
+皇儲	hong tir5
 皇天	hong thian
 皇恩	hong ern
 皇弟	hong te
@@ -27019,7 +27971,7 @@ columns:
 防身	hong sin
 防備	hong pi
 防護	hong hoo
-防腐劑	hong hu ce
+防腐劑	hong hu2 ce
 防範	hong huan
 防空	hong khong1
 防火	hong her
@@ -27028,7 +27980,7 @@ columns:
 防衛	hong ue
 防毒	hong tok
 防止	hong ci
-宏觀	hong kuan
+宏觀	hong kuan1
 宏偉	hong ui
 宏大	hong tai
 紅顏	hong gan
@@ -27056,10 +28008,10 @@ columns:
 復古	hok koo
 復甦	hok soo
 復發	hok huat
-復興	hok hing
+復興	hok hing1
 復原	hok guan
 復仇	hok siu
-伏魔	hok moo
+伏魔	hok mo
 宗親	cong chin
 宗族	cong cok
 宗教	cong kau
@@ -27098,10 +28050,11 @@ columns:
 總價	cong kee
 總理	cong li
 總部	cong poo
-總署	cong su
+總署	cong sU7
+總署	cong sU2
 葬身	cong sin
 葬身之地	cong sin ci tere
-壯觀	cong kuan
+壯觀	cong kuan1
 壯麗	cong le
 綜合	cong hap
 綜藝	cong ge
@@ -27130,6 +28083,9 @@ columns:
 族長	cok tiunn2
 族親	cok chin
 族人	cok jin
+倉儲	chong thir5
+倉儲	chong thir2
+倉儲	chong tir5
 聰明	chong bing
 聰敏	chong bin
 蒼天	chong thian
@@ -27376,8 +28332,8 @@ columns:
 票選	phio suan
 票券	phio kng
 票錢	phio cinn
-漂白	phio peeh
-漂白粉	phio peeh hun
+漂白	phio3 peeh
+漂白粉	phio3 peeh hun
 秒針
 秒鐘	bio cing
 秒鐘	biau cing
@@ -27487,7 +28443,7 @@ columns:
 轎夫	kio hu
 抾著	khioh tioh
 抾拾	khioh sip
-抾恨	khioh hun
+抾恨	khioh hern
 抾囡仔
 抾柴	khioh cha
 抾錢	khioh cinn
@@ -27523,7 +28479,7 @@ columns:
 招儂	cio lang
 招翁	cio ang
 招會仔	cio hue a
-招囝婿
+招囝婿	cio kirann sai
 招標	cio pio
 招生	cio sing
 招生	cio serng
@@ -27543,6 +28499,7 @@ columns:
 照影	cio3 iann2
 照相	cio3 sIang3
 照像	cio3 sIang6
+照像[漳]	cio3 chIang6
 照相	cio3 sIang6	1%
 照路	cio loo
 照謝	cio sia
@@ -27583,11 +28540,12 @@ columns:
 石杮	cioh pher
 石碑	cioh pi
 石獅仔	cioh sai a
-石像	cioh siong
+石像	cioh sIang7
+石像[漳]	cioh chIang7
 石榫	cioh sun
 石塔	cioh thah
 石埕	cioh tiann
-石敢當	cioh kam tong
+石敢當	cioh kam tong1
 石工	cioh kang
 石坎	cioh kham
 石洞	cioh tong
@@ -27629,6 +28587,8 @@ columns:
 尺仔	chioh a
 尺寸	chioh chun
 尺頭	chioh thau
+尺牘	chioh tok
+尺牘	chik tok
 螫著	chioh tioh
 耀光	chio kuInn
 耀一下	chio cit ee
@@ -27691,8 +28651,7 @@ columns:
 小可	sio khua
 小可仔	sio khua a
 小名	sio mia
-小囝	sio kiann
-小囝	sio kann
+小囝	sio kirann
 小腸	sio tng
 小臟	sio cng
 小等	sio tan
@@ -27706,7 +28665,7 @@ columns:
 小票	sio phio
 小生	sio sing
 小生	sio serng
-小肚	sio too
+小肚	sio too6
 小組	sio coo
 小島	sio to
 小島	sio toO
@@ -27720,14 +28679,15 @@ columns:
 小兒	siau ji
 小兒科	sio ji kho
 小兒科	siau ji kho
-小兒麻痺
-小兒麻痺
+小兒麻痺	sio ji ba pi
+小兒麻痺	siau ji ba pi
+小楷	sio khai
 惜惜	sioh sioh
 惜命命	sioh mia mia
 惜略	sioh lioh
 惜福	sioh hok
 惜面皮	sioh bin pher
-惜囝
+惜囝	sioh kirann
 惜別	sioh piat
 惜錢	sioh cinn
 寂寂	sioh sioh
@@ -27810,6 +28770,7 @@ columns:
 購物車	kiO but chia
 偶像	giO sIang
 偶像	ngoo sIang
+偶像[漳]	ngoo chIang
 偶數	giO soo
 偶數	ngoo soo
 偶然
@@ -27840,7 +28801,8 @@ columns:
 後衛	hiO ue
 後衛[臺]	hIO ue
 搜救	siO kiu
-搜查	siO ca
+搜查	siO ca1
+搜查[漳]	siO cee1
 搜索	siO sik
 搜檢	siO kiam
 蒐集	siO cip
@@ -27931,8 +28893,8 @@ columns:
 洶	hiong1
 匈	hiong1
 旭	hiok4
+蓄[漳]	hiok4
 郁	hiok4
-謔	hiok4
 頊	hiok4
 彧	hiok4
 雄	hiong5	10
@@ -27953,6 +28915,7 @@ columns:
 屬	ciok4	1%
 從	ciong5	10
 崇	ciong5	10
+狀	ciong7
 充	chiong1
 衝	chiong1
 沖	chiong1
@@ -28010,6 +28973,7 @@ columns:
 容量	iong lIang7
 容貌	iong bau
 容貌	iong mau
+容允	iong un
 容允	iong ern
 容器	iong khi
 容顏	iong gan
@@ -28041,7 +29005,7 @@ columns:
 慾骨	iok kut
 慾念	iok liam
 中途	tiong1 too
-中將	tiong1 cIang
+中將	tiong1 cIang3
 中鋒	tiong1 hong
 中央	tiong1 iong
 中氣	tiong1 khi
@@ -28064,7 +29028,7 @@ columns:
 中學	tiong1 oh
 中學	tiong1 hak
 中型	tiong1 hing
-中興	tiong1 hing
+中興	tiong1 hing1
 中和	tiong1 ho
 中營	tiong1 iann
 中庸	tiong1 iong
@@ -28145,7 +29109,7 @@ columns:
 重九	tiong5 kiu
 重修	tiong5 siu
 重圍	tiong5 ui
-重興	tiong5 hing
+重興	tiong5 hing1
 重新	tiong5 sin
 重新	ting5 sin
 重生	tiong5 sing
@@ -28156,7 +29120,7 @@ columns:
 重播	tiong5 po
 重整	tiong5 cing
 重起	tiong5 khi
-重要	tiong6 iau
+重要	tiong6 iau3
 重食	tiong6 ciah
 重祭	tiong6 ce
 重辭生	tiong6 si sinn
@@ -28188,13 +29152,13 @@ columns:
 暢板	thiong pan
 暢仙	thiong sian
 暢舍	thiong sia
-暢舍囝	thiong sia kiann
-暢舍囝	thiong sia kann
-暢囝	thiong kiann
-暢囝	thiong kann
+暢舍囝	thiong sia kirann
+暢囝	thiong kirann
+蟲草	thiong cho
+蟲草花	thiong cho huee
 畜牧	thiok bok
 矗立	thiok lip
-壟斷	liong tuan
+壟斷	liong tuan6
 龍仔	liong a
 龍門	liong bun
 龍顏	liong gan
@@ -28227,18 +29191,24 @@ columns:
 錄取
 錄製
 錄音帶	liok im tua
-錄影	liok iann
-錄影帶	liok iann tua
-錄用	liok ing
 錄音帶	lok im tua
+錄音機	liok im ki
+錄音機	lok im ki
+錄音筆	liok im pit
+錄音筆	lok im pit
+錄影	liok iann
 錄影	lok iann
+錄影帶	liok iann tua
 錄影帶	lok iann tua
+錄用	liok ing
 錄用	lok iong
 宮殿	kiong tian
 宮女	kiong lir
 宮廷	kiong ting
 宮室	kiong sik
 宮中	kiong tiong1
+宮廟	kiong bio
+宮公	kiong kong
 恭迎	kiong ging
 恭喜	kiong hi
 恭賀	kiong ho
@@ -28289,6 +29259,7 @@ columns:
 恐怖分子	khiong2 poo3 hun7 cur2
 恐怖份子	khiong2 poo3 hun7 cur2
 恐畏	khiong ui
+恐畏[漳]	khiong uinn
 曲折	khiok ciat
 曲藝	khiok ge
 曲解	khiok kai
@@ -28380,6 +29351,12 @@ columns:
 從堂兄弟	ciong tong hiann ti
 從堂伯	ciong tong peeh
 崇拜
+狀元	ciong guan
+狀元紅	ciong guan hong
+狀元餅	ciong guan piann
+狀元地	ciong guan te
+狀元抽	ciong guan thiu
+狀元籌	ciong guan tiu
 充足	chiong ciok
 充分	chiong hun1
 充分	chiong hun7
@@ -28405,11 +29382,11 @@ columns:
 憧憬	chiong king
 縱橫	chiong hing
 縱貫	chiong kuan
-縱深	ciong chim
+縱深	chiong chim
 促銷	chiok siau
 促進	chiok cin
 促進會	chiok cin hue
-促使	chiok sur
+促使	chiok sur2
 促成	chiok sing
 觸犯	chiok huan
 觸動	chiok tong
@@ -28426,9 +29403,10 @@ columns:
 肅靜	siok cing
 肅靜	sok cing
 肅貪
+叔母	siok bu
 叔母	siok biO
 叔母[臺]	siok bIO
-叔母[漳]	siok bo
+叔母	siok bo
 叔父	siok hu
 叔姪	siok tit
 宿怨	siok uan
@@ -28445,10 +29423,11 @@ columns:
 誦經	siong king
 誦經禮佛	siong king le hut
 誦讀	siong thok
-俗物	siok mngh
-俗物	siok mih
-俗物無好貨	siok mngh bo ho her
-俗物無好貨	siok mih bo ho her
+俗物	siok mngh8
+俗物	siok mih8
+俗物仔
+俗物無好貨	siok mngh8 bo ho her
+俗物無好貨	siok mih8 bo ho her
 俗買	siok bere
 俗賣	siok bere
 俗務	siok bu
@@ -28456,13 +29435,14 @@ columns:
 俗貨	siok her
 俗字	siok ji
 俗價	siok kee
-俗例
+俗例	siok le
+俗例[漳]	siok li
 俗名	siok mia
 俗話	siok uee
 俗世	siok se
 俗事	siok sur
 俗語話	siok gir uee
-俗稱	siok ching
+俗稱	siok ching1
 俗諺	siok gan
 屬於
 屬性	siok sing
@@ -28498,7 +29478,7 @@ columns:
 浡	phu7
 浡	phuh8
 母	bu2	10
-母[漳]	bo2	10
+母[漳][臺]	bo2	10
 武	bu2	10
 侮	bu2	10
 舞	bu2	10
@@ -28551,7 +29531,6 @@ columns:
 柩	khu6
 臼	khu6
 懼	khu7
-具	khu7
 汩	khuh8
 牛	gu5	10
 夫	hu1
@@ -28565,6 +29544,7 @@ columns:
 趺	u1{又}
 府	hu2	10
 甫	hu2
+拊	hu2
 腐	hu2	10
 撫	hu2
 斧	hu2
@@ -28646,11 +29626,13 @@ columns:
 有肉	u hik
 有欲	u berh
 有欲	u beh
+有欲	u boh
 有面	u bin
 有站節	u cam cat
 有站有節	u cam u cat
 有穿	u ching
-有賰	u chun
+有賰	u chun1
+有賰	u chun6
 有錢	u cinn
 有錢儂	u cinn lang
 有陣	u cun
@@ -28759,31 +29741,53 @@ columns:
 浮桶	phu thang
 浮冇	phu phann
 浮碇	phu tiann
-浮漂	phu phio
+浮薸	phu phio
 浮沉	phu tim
 浮現	phu hian
 浮雕	phu tiau
 葡萄酒	phu to ciu
 葡萄牙	phu to ga
 葡萄乾	phu to kuann
-母錢
-母舅
-母仔
-母仔囝
-母親
-母兮
-母校
-母姨
-母囝
-母妗
-母金
-母身
-母本
-母欉
-母目
-母體
-母女
-母語
+母錢	bu cinn
+母錢	bo cinn
+母舅	bu ku
+母舅	bo ku
+母仔	bu a
+母仔囝	bu a kirann
+母親	bu chin
+母親	bo chin
+母的	bu e
+母的	bo e
+母兮	bu e
+母兮	bo e
+母个	bu e
+母个	bo e
+母校	bu hau
+母校	bo hau
+母姨	bu i
+母姨	bo i
+母囝	bu kirann
+母囝	bo kirann
+母妗	bu kim
+母妗	bo kim
+母金	bu kim
+母金	bo kim
+母身	bu sin
+母身	bo sin
+母本	bu pun
+母本	bo pun
+母欉	bu cang
+母欉	bo cang
+母目	bu bak
+母目	bo bak
+母體	bu the
+母體	bo the
+母女	bu lir
+母女	bo lir
+母女	bu lu{俗}
+母女	bo lu{俗}
+母語	bu gir
+母語	bo gir
 母親節	bu chin ciat
 母親節	bo chin ciat
 母親節	bu chin cereh
@@ -28792,8 +29796,8 @@ columns:
 武市	bu chi
 武廟	bu bio
 武齣	bu chut
-武將	bu cIang
-武狀元	bu cIang guan
+武將	bu cIang3
+武狀元	bu ciong guan
 武職	bu cit
 武裝	bu cong
 武藝	bu ge
@@ -28829,7 +29833,7 @@ columns:
 舞會	bu hue
 舞團	bu thuan
 無關	bu kuan
-無關緊要	bu kuan kin iau
+無關緊要	bu kuan kin iau3
 無情	bu cing
 無蹤	bu cong
 無益	bu ik
@@ -28882,8 +29886,8 @@ columns:
 務必	bu pit
 㧣風	tu huang
 㧣流	tu lau
-推風	tu huang
-推流	tu lau
+㧣風	tu huang
+㧣流	tu lau
 拄著	tu tioh
 拄好	tu ho
 拄好好	tu ho ho
@@ -28916,6 +29920,7 @@ columns:
 拄親像	tu chin chiunn
 拄欲	tu berh
 拄欲	tu beh
+拄欲	tu boh
 厾眠	tuh bin
 厾交睡	tuh ka cer
 厾龜	tuh ku
@@ -28947,8 +29952,7 @@ columns:
 攄倒	lu to2
 鑢仔	lu a
 鑢鑢咧	lu lu lErh
-攄頭毛	lu thau mng
-攄頭毛	lu thau moo
+攄頭毛	lu thau mNG
 龜精	ku cenn
 龜精	ku ciann
 龜仔	ku a
@@ -28965,8 +29969,7 @@ columns:
 龜板	ku pan
 龜蠅	ku sin
 龜頭	ku thau
-龜毛	ku moo
-龜毛	ku mng
+龜毛	ku mNG
 龜怪	ku kuai
 龜裂	ku lih
 龜背	ku pue
@@ -28975,8 +29978,8 @@ columns:
 龜鱉	ku pih
 龜咧趖	ku leh so
 龜笑鱉無尾	ku chio pih bo ber
-龜笑鱉無毛	ku chio pih bo mng
-龜笑鱉無毛	ku chio pih bo moo
+鱉笑龜無尾	pih chio ku bo ber
+龜笑鱉無毛	ku chio pih bo mNG
 痀痀	ku ku
 痀燒	ku sio
 跔跔	ku ku
@@ -29014,7 +30017,7 @@ columns:
 舊款	ku kuan
 舊落落	ku lak lak
 舊例	ku le
-舊例	ku li
+舊例[漳]	ku li
 舊名	ku mia
 舊年	ku ni
 舊年冬	ku ni tang
@@ -29030,8 +30033,8 @@ columns:
 坵段	khu tuann
 呿呿嗽	khuh khuh sau
 跍礐	khu hak
-跍廁所	khu che soo
-跍徛
+跍廁所	khu chee soo
+跍徛	khu khira
 跍落來	khu loh8 lai
 跍燒	khu sio
 臼仔	khu a
@@ -29043,7 +30046,7 @@ columns:
 牛貫鼻	gu kuInn phinn
 牛頭馬面	gu thau bee bin
 牛仔褲	gu a khoo
-牛仔褲	gu cai khoo
+牛仔褲	gu cai2 khoo
 牛肉	gu bah
 牛肉	gu hik
 牛肉羹	gu bah kenn
@@ -29053,10 +30056,10 @@ columns:
 牛肉店
 牛鞭	gu pian
 牛種	gu cing2
-牛草肚	gu chau too
+牛草肚	gu chau too6
 牛車	gu chia
 牛腰	gu io
-牛肚	gu too
+牛肚	gu too6
 牛油	gu iu
 牛角	gu kak
 牛角尖	gu kak ciam
@@ -29119,7 +30122,7 @@ columns:
 輔音	hu im
 俯仰	hu gIang
 赴後手	hu au chiu
-赴墟	hu hi
+赴墟	hu hir
 赴會	hu hue
 赴任	hu jim5
 赴流水	hu lau cui
@@ -29129,7 +30132,7 @@ columns:
 赴死	hu si
 副業	hu giap
 副手	hu chiu
-副將	hu cIang
+副將	hu cIang3
 副本	hu pun
 副刊	hu khan
 副作用	hu cok iong
@@ -29178,9 +30181,10 @@ columns:
 父親	hu chin
 父老[泉]	hu noo2
 父老	hu lo2
+父母	hu bu
 父母	hu biO
 父母[臺]	hu bIO
-父母[漳]	hu bo
+父母	hu bo
 父子	hu cur
 父兄	hu hing
 婦人	hu jin
@@ -29202,9 +30206,9 @@ columns:
 負責	hu cit
 負責儂	hu cit lang
 負荷	hu ho
-腐敗	hu pai
-腐爛	hu nua
-腐化	hu hua
+腐敗	hu2 pai
+腐爛	hu2 nua
+腐化	hu2 hua
 珠寶	cu po
 珠仔	cu a
 珠仔鎖	cu a so
@@ -29216,12 +30220,13 @@ columns:
 主事	cu sur
 主意	cu i
 主見	cu kian
-主將	cu cIang
+主將	cu cIang3
 主命	cu bing
 主父	cu hu
+主母	cu bo
 主母	cu biO
 主母[臺]	cu bIO
-主母[漳]	cu bo2
+主母	cu bo2
 主謀	cu biO
 主文	cu bun
 主宰	cu cai
@@ -29239,19 +30244,19 @@ columns:
 主婦	cu hu
 主婚	cu hun
 主婚人	cu hun jin
-主要	cu iau
+主要	cu iau3
 主任	cu jim7
 主儂	cu lang
 主幹	cu kan
 主客	cu kheeh
 主考	cu khonn
 主管	cu kuan
-主觀	cu kuan
+主觀	cu kuan1
 主權
 主公	cu kong
 主顧	cu koo
 主顧客	cu koo kheeh
-主脈	cu beh
+主脈	cu beeh
 主脈	cu meeh
 主腦
 主簿	cu phoo
@@ -29260,7 +30265,7 @@ columns:
 主僕	cu pok
 主食	cu sit
 主席	cu sik
-主席	cu sit
+主席[泉]	cu sit
 主上	cu sIang7
 主帥	cu sue
 主治	cu ti
@@ -29314,7 +30319,7 @@ columns:
 註疏	cu soo
 註定	cu tiann
 註定	cu ting
-註好	cu ho ho
+註好好	cu ho ho
 註銷	cu siau
 駐軍	cu kun
 鑄模	cu boo
@@ -29325,7 +30330,7 @@ columns:
 住宿	cu sok
 趨倒	chu to2
 樞紐	chu niu
-樞要	chu iau
+樞要	chu iau3
 樞機	chu ki
 厝主	chu cu
 厝契	chu khere
@@ -29405,6 +30410,7 @@ columns:
 驅	khU1
 嶇	khU1
 瞿	khU5
+具	khU7
 虞	gU5
 娛	gU5
 愚	gU5
@@ -29441,10 +30447,11 @@ columns:
 璽	sU2
 署	sU2
 徙	sU2	5%
+署	sU7{傳統}
 樹	sU7	5%
 豎	sU7	10
-羽毛	U moo
-羽毛球	U moo kiu
+羽毛	U mo
+羽毛球	U mo kiu
 雨水	U sui
 具體	kU the
 具備	kU pi
@@ -29519,22 +30526,27 @@ columns:
 輸血	sU huih
 輸送	sU sang
 輸送	sU song
-需要	sU iau
+需要	sU iau3
 需求	sU kiu
-須當	sU tong
+須當	sU1 tong1
 須知	sU ti
 鬚眉	sU bi
 樹立	sU lip
+豎立	sU lip
+署名	sU7 mia
+署名	sU2 mia
+署長	sU7 tiunn
+署長	sU2 tiunn
 ##	un/ut
 溫	un1	10
 瘟	un1
 蝹	un1
 穩	un2	10
+允	un2	10
 尹	un2
 隕	un2
 殞	un2
 隱	un2
-癮	un2
 蚓	un2
 搵	un3
 蘊	un3
@@ -29601,7 +30613,7 @@ columns:
 紊	bun7
 燜	bun7
 沒	but8
-物	but8
+物	but8	10
 勿	but8
 歿	but8
 𢪱	but8
@@ -29610,6 +30622,7 @@ columns:
 墩	tun1
 惇	tun1
 噸	tun1
+鈍	tun1
 盾	tun2
 囤	tun2
 頓	tun3	10
@@ -29635,7 +30648,7 @@ columns:
 臀	thun5
 坉	thun7
 脫	thut8
-圇	lun1
+圇	lun1{縮}	1%
 忍	lun2
 輪	lun2
 碖	lun2
@@ -29682,6 +30695,8 @@ columns:
 昆	khun1
 琨	khun1
 髡	khun1
+懇	khun2
+墾	khun2
 捆	khun2
 菌	khun2
 睏	khun3	10
@@ -29693,6 +30708,7 @@ columns:
 䘿	khut8
 顝	khut8
 阮	gun2	10
+兀	gut8
 分	hun1	10
 薰	hun1	10
 婚	hun1	10
@@ -29709,6 +30725,7 @@ columns:
 壎	hun1
 雰	hun1
 粉	hun2	10
+很[漳]	hun2{雅俗通}	1%
 訓	hun3	10
 奮	hun3
 糞	hun3
@@ -29720,8 +30737,9 @@ columns:
 沸	hut4
 囫	hut4
 拂	hut4
-雲	hun5
+雲	hun5	10
 魂	hun5	10
+痕	hun5	10
 焚	hun5
 墳	hun5
 渾	hun5
@@ -29733,6 +30751,7 @@ columns:
 分	hun7
 份	hun7
 佛	hut8
+核	hut8
 尊	cun1	10
 遵	cun1	10
 諄	cun1
@@ -29761,6 +30780,7 @@ columns:
 春	chun1
 村	chun1
 伸	chun1
+賰	chun1
 忖	chun2
 蠢	chun2
 寸	chun3
@@ -29771,8 +30791,12 @@ columns:
 存	chun5
 賰	chun6	10
 潤	jun7
+潤	lun7{俗傳}
+潤[漳南]	lun3{俗傳}
 韌	jun7
+韌	lun7{俗傳}
 閏	jun7
+閏	lun7{俗傳}
 孫	sun1	10
 珣	sun1
 荀	sun1
@@ -29806,6 +30830,7 @@ columns:
 馴	sun5
 淳	sun5
 醇	sun5
+鶉	sun5
 吮	sun6
 順	sun7	10
 殉	sun7
@@ -29830,28 +30855,36 @@ columns:
 溫道
 溫度	un too
 溫度計	un too ke
+溫存	un cun
 瘟愛	un ai
 瘟疫	un ik
 瘟神	un sin
 蝹蜷	un khun
 殞命	un mia
 殞沒	un but
+# 俗傳「隱」漳不讀 in
+隱痀	un ku
+隱痀橋	un ku kio
+隱燒	un sio
+# 文傳「隱」漳可讀 in2
+隱蔽	un pe
+隱蔽[漳]	un pi
+隱祕	un pi
+隱秘	un pi
 隱密	un bat
+隱密	un bit
 隱情	un cing
 隱藏	un cong5
 隱現	un hian
 隱諱	un hui
 隱囥	un khng
 隱居	un kir
-隱痀	un ku
-隱痀橋	un ku kio
 隱名	un mia
 隱瞞	un mua
-隱燒	un sio
 隱私	un sur
 隱士	un sur
 穩定	un ting
-穩當	un tang
+穩當	un tang3
 穩固	un koo
 穩重	un tiong6
 穩健	un kian
@@ -29859,6 +30892,10 @@ columns:
 穩輸	un su
 穩死	un si
 穩死無救	un si bo kiu
+允許	un hir
+允准	un cun
+允諾	un lok
+允親	un chin
 搵墨	un bak
 搵水	un cui
 搵鹽咬薑	un iam ka kiunn
@@ -29979,7 +31016,8 @@ columns:
 本末	pun buat
 本文	pun bun
 本草	pun cho
-本錢
+本錢	pun cinn
+本錢	puInn cinn
 本質	pun cit
 本職	pun cit
 本月	pun gerh
@@ -30002,7 +31040,7 @@ columns:
 本性	pun sing
 本是	pun si
 本心	pun sim
-本相	pun sIang
+本相	pun sIang3
 本宅	pun theeh
 本調	pun tiau7
 本土	pun thoo
@@ -30014,8 +31052,8 @@ columns:
 本字	pun ji
 糞箕	pun ki
 糞掃	pun so
-糞掃籠	pun so lang
-糞掃桶	pun so thang
+糞掃籠	pun so lang2
+糞掃桶	pun so thang2
 糞掃堆	pun so tui
 糞掃車	pun so chia
 糞斗	pun tau
@@ -30051,10 +31089,9 @@ columns:
 不符	put hu
 不意	put i
 不容	put iong
-不一	put i
+不一	put it
 不而過	put ji ko
-不而過	put li ko
-不而過	put li koo
+不而過	put ji koO
 不忍	put jim
 不忍心	put jim sim
 不仁	put jin
@@ -30063,7 +31100,7 @@ columns:
 不該	put kai
 不解	put kai
 不覺	put kak
-不感當	put kam tong
+不敢當	put kam tong1
 不敬	put king
 不堪	put kham
 不可	put kho
@@ -30094,7 +31131,7 @@ columns:
 不答不七	put tap put chit
 不惜	put sik
 不成	put sing
-不勝	put sing
+不勝	put sing1
 不成器	put sing khi
 不成算	put sing suan
 不時	put si
@@ -30116,17 +31153,18 @@ columns:
 不治	put ti
 不忠	put tiong
 不得	put tit
-不斷	put tuan
+不斷	put tuan6
 不端	put tuan
 不同	put tong
-不當	put tong
+不當	put tong3
 不動	put tong
 不動產	put tong san
-不穩	put un
+不穩	put un2
 不為	put ui7
 不禁	put kim1
 不三似兩	put sam1 sur lIang
 不垃不圾	put lap put sap
+不菲	put7 hui2
 抔錢	put cinn
 抔塗	put thoo
 抔沙	put sua
@@ -30158,6 +31196,7 @@ columns:
 佛生	put senn
 佛生日	put senn jit
 佛像	put sIang
+佛像[漳]	put chIang
 佛事	put sur
 佛塔	put thah
 佛殿	put tian
@@ -30224,7 +31263,8 @@ columns:
 文庫	bun khoo
 文棋	bun ki
 文官	bun kuann
-文具	bun ku
+文具	bun kU
+文具	bun khU
 文雅	bun nga
 文雅[漳]	bun ngee
 文憑	bun pin
@@ -30232,14 +31272,18 @@ columns:
 文筆	bun pit
 文身	bun sin
 文書	bun sir
-文詞	bun si
+文詞	bun sur
+文辭	bun sur
 文壇	bun tuann
 文旦	bun tan
 文旦柚	bun tan iu
 文體	bun the
 文火	bun her
 文讀	bun thak
+文讀	bun thok
 文讀音	bun thak im
+文讀音	bun thok im
+文牘	bun tok
 文蚶	bun ham
 文件	bun kiann
 文件夾	bun kiann kiap
@@ -30256,6 +31300,24 @@ columns:
 文科	bun kho
 文科	bun kher
 文白	bun peeh
+文本	bun pun
+文博	bun phok
+文采	bun chai
+文才	bun cai
+文臣	bun sin
+文傳	bun tuan
+文傳	bun thuan
+文創	bun chong
+文萃	bun cui
+文粹	bun chui
+文存	bun cun
+文檔	bun tong
+文稿	bun ko
+文昌	bun chIang
+文昌宮	bun chIang kiong
+文昌帝君	bun chIang te kun
+文公	bun kong
+文醜	bun chiu
 門市	bun chi
 門外漢	bun gue han
 門風	bun hong
@@ -30269,14 +31331,14 @@ columns:
 紋銀	bun gern
 紋理	bun li
 紋路	bun loo
-蝒蟲	bun thang
 問題	bun tere
 問罪	bun cue
 問卜	bun pok
 問喪	bun song
 問答	bun tap
 問政	bun cing
-問卷	bun kuan
+問卷	bun7 kuan3
+問卷	muI7 kuInn3
 悶悶	bun bun
 悶糟糟	bun cau cau
 悶慒慒	bun co co
@@ -30291,12 +31353,14 @@ columns:
 物色	but sik
 物體	but the
 物品	but phin
-𢪱落去	but loh8 khIR
+𢪱落去	but8 loh8 khIR
+𢪱落去	but4 loh8 khIR
 敦厚	tun hiO
 敦督	tun tok
 墩仔	tun a
 噸數	tun soo
 噸位	tun ui
+鈍去	tun1 khIR3
 頓悟	tun goo
 頓悟	tun ngoo
 咄咄叫	tut tut kio
@@ -30304,14 +31368,14 @@ columns:
 唇紅	tun ang
 唇印	tun in
 唇亡齒寒	tun bong chi han
-鈍刀	tun to
-鈍刀出利手	tun to chut lai chiu
-鈍市	tun chi
-鈍目	tun bak
-鈍喙鈍舌	tun chui tun cih
-鈍角	tun kak
-鈍去	tun khi
-鈍才	tun cai
+鈍刀	tun6 to
+鈍刀出利手	tun6 to chut lai chiu
+鈍市	tun6 chi
+鈍目	tun6 bak
+鈍喙鈍舌	tun6 chui tun6 cih
+鈍角	tun6 kak
+鈍才	tun6 cai
+鈍去	tun6 khIR3
 遁走	tun cau
 遁法	tun huat
 遁世	tun se
@@ -30320,6 +31384,8 @@ columns:
 突破
 突發	tut huat
 突變	tut pian
+突兀	tut gut
+突兀[泉]	tut gut
 吞忍	thun lun
 吞併	thun ping
 吞喙瀾	thun chui nua
@@ -30336,8 +31402,7 @@ columns:
 禿額	thut hiah
 禿禿	thut thut
 禿髮	thut huat
-禿毛	thut mng
-禿毛	thut moo
+禿毛	thut mNG
 禿驢	thut lir
 豚仔	thun a
 豚母
@@ -30353,11 +31418,15 @@ columns:
 坉岸	thun huann
 坉塗	thun thoo
 坉平	thun penn
+坉本	thun pun
 坉本	thun puInn
-坉本錢
+坉本錢	thun pun cinn
+坉本錢	thun puInn cinn
+坉某本	thun boo pun
+坉某本	thun boo puInn
 坉地	thun tere
 坉腹	thun pak
-坉腹肚	thun pak too
+坉腹肚	thun pak too2
 黜走	thut cau
 黜臼	thut khu
 黜骨	thut kut
@@ -30371,7 +31440,7 @@ columns:
 黜喙	thut chui
 脫箠	thut cher
 脫尺	thut che
-圇頭	lun thau
+圇頭	lun5 thau
 懍膽	lun tann
 懍場	lun tiunn
 懍懾	lun liap
@@ -30386,8 +31455,7 @@ columns:
 甪班	lut pan
 甪價	lut kee
 甪漆	lut chat
-甪毛	lut mng
-甪毛	lut moo
+甪毛	lut mNG
 甪仔	lut a
 甪仔喙	lut a chui
 甪臼	lut khu
@@ -30401,22 +31469,26 @@ columns:
 甪鉎	lut sSan
 甪蒂	lut ti
 甪漆	lut chat
-輪流	lun liu
-輪渡	lun too
-輪轉	lun cuan
-輪番	lun huan
-輪迴	lun hue
-輪鬮	lun khau
-輪班	lun pan
-輪著	lun tioh
-輪當	lun tng
-輪仔
-輪框
-輪椅	lun i
-輪胎	lun thai
-輪船	lun cun
-輪替	lun there
-輪廓	lun khok
+輪流	lun5 liu
+輪渡	lun5 too
+輪轉	lun5 cuan
+輪番	lun5 huan
+輪迴	lun5 hue
+輪鬮	lun5 khau
+輪班	lun5 pan
+輪著	lun5 tioh
+輪當	lun5 tng1
+輪仔	lian2 a2
+輦仔	lian2 a2
+輪仔	lun2 a2
+輪框	lian2 khing
+輦框	lian2 khing
+輪框	lun2 khing
+輪椅	lun5 i
+輪胎	lun5 thai
+輪船	lun5 cun
+輪替	lun5 there
+輪廓	lun5 khok
 倫理	lun li
 倫常	lun sIang
 崙仔	lun a
@@ -30435,14 +31507,15 @@ columns:
 論說	lun serh
 論定	lun tiann
 論定	lun ting
-論斷	lun tuan
+論斷	lun tuan3
 論戰	lun cian
 論述	lun sut
 論調	lun tiau7
 論壇	lun tuann
 論點	lun tiam
 律法	lut huat
-律例
+律例	lut le
+律例[漳]	lut li
 律令	lut ling
 律師	lut sur
 律詩	lut si
@@ -30455,7 +31528,7 @@ columns:
 君神	kun sin
 君威	kun ui
 君位	kun ui
-軍將	kun cIang
+軍將	kun cIang3
 軍民	kun bin
 軍帽	kun bo
 軍務	kun bu
@@ -30555,7 +31628,7 @@ columns:
 骨氣	kut khi
 骨瘤	kut liu
 骨路	kut loo
-骨輪	kut lun
+骨輪	kut lun4
 骨縫	kut phang
 骨盤	kut puann
 骨塊	kut tEr
@@ -30609,6 +31682,10 @@ columns:
 髡鼎	khun tiann
 髡芋	khun oo
 髡刀	khun to
+懇求	khun kiu
+懇切	khun chiat
+墾荒	khun huInn
+墾荒	khun hong
 捆絚	khun an
 捆縛	khun pak
 捆身	khun sin
@@ -30639,7 +31716,7 @@ columns:
 睏床	khun chng
 睏塗跤	khun thoo kha
 睏乏	khun3 huat
-困難	khun lan
+困難	khun lan5
 困苦	khun khoo
 困境	khun king
 困擾	khun jiau
@@ -30661,17 +31738,22 @@ columns:
 屈辱	khut jiok
 屈頭	khut thau
 屈頭巷	khut thau hang
-屈頭囝
+屈頭囝	khut thau kirann
 屈頭步	khut thau poo
 屈頭路	khut thau loo
 屈頭軍	khut thau kun
 窟仔	khut a
 蜷伏	khun hok
-阮囝
-阮某
-阮翁
-阮兜
-阮厝
+阮囝	guan kirann
+阮囝	gun kirann
+阮某	guan boo
+阮某	gun boo
+阮翁	guan ang
+阮翁	gun ang
+阮兜	guan tau
+阮兜	gun tau
+阮厝	guan chu
+阮厝	gun chu
 婚約	hun Iak
 婚禮	hun le
 婚姻	hun in
@@ -30749,7 +31831,7 @@ columns:
 粉餅	hun piann
 粉腸	hun tng
 粉腸	hun chiang
-粉腸[臺]	hun chian
+粉腸[臺]	hun2 chian5{*}
 訓練	hun lian
 訓蒙	hun bong
 訓示	hun si
@@ -30762,7 +31844,7 @@ columns:
 奮勇	hun iong
 奮起	hun khi
 奮鬥	hun tiO
-奮興	hun hing
+奮興	hun hing1
 奮膿	hun lang
 忽然	hut jian
 忽然間	hut jian kan1
@@ -30803,6 +31885,9 @@ columns:
 魂魄	hun phik
 魂身	hun sin
 魂亭	hun ting
+痕跡	hun jiah
+痕跡	hun ciah
+痕敦	hun tun
 焚香	hun hIang
 焚化	hun hua
 焚化爐	hun hua loo
@@ -30888,9 +31973,10 @@ columns:
 分級	hun1 khip
 分叉	hun1 chee
 分叉路	hun1 chee loo
+分母	hun7 bu2
 分母	hun7 biO2
 分母[臺]	hun7 bIO2
-分母[漳]	hun7 bo2
+分母	hun7 bo2
 分子	hun7 cur
 份子	hun7 cur
 份額	hun7 giah
@@ -30903,7 +31989,7 @@ columns:
 佛旨	hut8 ci
 佛國	hut8 kok
 尊命	cun bing
-尊稱	cun ching
+尊稱	cun ching1
 尊者	cun cia
 尊前	cun cian
 尊榮	cun ing
@@ -30924,7 +32010,6 @@ columns:
 遵守	cun siu
 遵命	cun bing
 諄諄	cun cun
-準則	cun cak
 準繩	cun cin
 準做	cun cue
 準做	cun co
@@ -30938,7 +32023,7 @@ columns:
 準去	cun khIR
 準算	cun suInn
 準講	cun kong
-準當	cun tng
+準當	cun tng1
 準時	cun si
 準確	cun khak
 撙節	cun cat
@@ -30988,7 +32073,7 @@ columns:
 船頭	cun thau
 船長	cun tiunn2
 船底	cun tere
-船肚	cun too
+船肚	cun too6
 船拄流	cun tu lau
 存錢	cun cinn
 存囥	cun khng
@@ -31021,13 +32106,13 @@ columns:
 春情	chun cing
 春蠶	chun cham
 春草	chun chau
-春秋	chun thsiu
+春秋	chun chiu
 春錢	chun cinn
 春寒	chun han
 春夏秋冬	chun hee chiu tang
 春夏秋冬	chun ha chiu tong
 春風	chun hong
-春雨	chun u
+春雨	chun U
 春雨	chun hoo
 春衣	chun i
 春日	chun jit
@@ -31040,7 +32125,7 @@ columns:
 春令	chun ling
 春聯	chun lian
 春暖	chun luan
-春畫	chun uee
+春畫	chun Uee
 春飯	chun puInn
 春色	chun sik
 春社	chun sia
@@ -31058,11 +32143,11 @@ columns:
 伸筋挽頷	chun kern ban am
 伸跤	chun kha
 伸勼	chun kiu
-伸輪	chun lun
+伸輪	chun lun5
 伸跤伸手	chun kha chun chiu
 伸腰拔骨	chun io puih kut
 伸腰拔骨	chun io peh kut
-伸勻	chun un
+伸勻	chun un5
 伸出	chun chut
 伸手	chun chiu
 伸跤出手	chun kha chut chiu
@@ -31078,7 +32163,7 @@ columns:
 寸心	chun sim
 寸鐵	chun thih
 寸土	chun thoo
-寸斷	chun tuan
+寸斷	chun tuan6
 出來	chut lai
 出發	chut huat
 出珠	chut cu
@@ -31187,7 +32272,8 @@ columns:
 出世	chut se
 出水聲	chut cui siann
 出師	chut sai
-出賰	chut chun
+出賰	chut chun1
+出賰	chut chun6
 出剩	chut sin
 出儂前	chut lang caInn
 出正	chut ciann1
@@ -31196,19 +32282,24 @@ columns:
 出腳	chut kioh
 出年	chut ni
 出月	chut gerh
-出汁
+出汁	chut cSap
 出水淋	chut cui lam
 出其不意	chut ki put i
-出於
+出於	chut ir1
+出於	chut ir5
+出席	chut sik
+出席[泉]	chut sit
 齣頭	chut thau
 猝然	chut jian
 猝死	chut si
 存心	chun sim
 存死	chun si
 存欲好	chun berh ho
-存欲死	chun berh si
 存欲好	chun beh ho
+存欲好	chun boh ho
+存欲死	chun berh si
 存欲死	chun beh si
+存欲死	chun boh si
 存意	chun i
 存良心	chun lIang sim
 存辦	chun pan
@@ -31221,23 +32312,42 @@ columns:
 存歹	chun phai
 存歹	chun phainn
 存雄	chun hiong
-賰錢	chun cinn
-賰的	chun e
-賰兮	chun e
-賰个	chun e
-賰長	chun tng5
-潤餅	jun piann
-潤餅𩛩	jun piann kauh
-潤餅菜	jun piann chai
-潤餅皮	jun piann pher
+賰錢	chun1 cinn
+賰的	chun1 e
+賰兮	chun1 e
+賰个	chun1 e
+賰長	chun1 tng5
+賰錢	chun6 cinn
+賰的	chun6 e
+賰兮	chun6 e
+賰个	chun6 e
+賰長	chun6 tng5
+潤餅	jun7 piann
+韌餅	lun7 piann
+潤餅	lun7 piann
+潤餅𩛩	jun7 piann kauh
+韌餅𩛩	lun7 piann kauh
+潤餅𩛩	lun7 piann kauh
+潤餅菜	jun7 piann chai
+韌餅菜	lun7 piann chai
+潤餅菜	lun7 piann chai
+潤餅皮	jun7 piann pher
+韌餅皮	lun7 piann pher
+潤餅皮	lun7 piann pher
 潤喉	jun au
 潤澤	jun tik
 韌皮	jun pher
+韌皮	lun pher
 韌性	jun sing
+韌性	lun sing
 韌力	jun lat
+韌力	lun lat
 韌脯脯	jun poo poo
+韌脯脯	lun poo poo
 閏月	jun gerh
+閏月	lun gerh
 閏年	jun ni
+閏年	lun ni
 孫仔	sun a
 孫仔螺	sun a lEr
 孫悟空	sun goo khong1
@@ -31250,7 +32360,8 @@ columns:
 孫嫂	sun so
 詢問	sun bun
 詢問	sun muI
-荀子	sun cur
+荀子	sun1 cur
+荀子	sun5 cur
 損失	sun sit
 損命	sun bing
 損益	sun ik
@@ -31292,7 +32403,8 @@ columns:
 巡按	sun an3
 巡撫	sun hu2
 巡撫	sun bu2
-巡查	sun ca
+巡查	sun ca1
+巡查[漳]	sun cee1
 巡察	sun chat
 巡水	sun cui
 巡迴	sun hue
@@ -31375,7 +32487,7 @@ columns:
 純淨	sun cing
 殉職	sun cit
 殉國	sun kok
-殉難	sun lan
+殉難	sun lan7
 術仔	sut a
 術語	sut gir
 術士	sut sur
@@ -31480,6 +32592,7 @@ columns:
 丘	khiu1
 坵	khiu1
 鳩	khiu1
+鬮	khiu1
 搝	khiu2	10
 虯	khiu5	10
 𩚨	khiu7
@@ -31612,9 +32725,9 @@ columns:
 誘拐	iu kuai
 誘殺	iu sat
 幼秀	iu siu
-幼肉	iu bah
-幼肉	iu mah
-幼肉	iu hik
+幼肉	iu3 bah4
+幼肉	iu3 mah4{*}
+幼肉	iu3 hik
 幼芒芒	iu bang bang
 幼茈	iu cinn
 幼葉	iu hioh
@@ -31624,7 +32737,7 @@ columns:
 幼瓷	iu hui
 幼幼	iu iu
 幼兒園	iu ji huInn
-幼囝
+幼囝	iu kirann
 幼跤	iu kha
 幼骨	iu kut
 幼粒物	iu liap mngh
@@ -31646,8 +32759,7 @@ columns:
 幼細	iu sere
 幼工	iu kang
 幼穡	iu sit
-幼毛	iu mng
-幼毛	iu moo
+幼毛	iu mNG
 幼粒	iu liap
 幼粒仔	iu liap a
 幼末	iu buah
@@ -31658,9 +32770,9 @@ columns:
 優惠	iu hui
 優美	iu bi
 優柔	iu jiu
-優柔寡斷	iu jiu kua tuan
+優柔寡斷	iu jiu kua tuan3
 優伶	iu ling
-優勝	iu sing
+優勝	iu sing3
 優先	iu sian
 優先權
 優待	iu thai
@@ -31682,7 +32794,7 @@ columns:
 友愛	iu ai
 友誼	iu gi
 油門	iu muI
-油毛氈	iu moo cian
+油毛氈	iu mo cian
 油炸鬼	iu cah kui
 油味	iu bi
 油面	iu bin
@@ -31706,7 +32818,7 @@ columns:
 油垢	iu kau
 油漏	iu lau
 油麻	iu mua
-油畫	iu uee
+油畫	iu Uee
 油矸	iu kan
 油瓶	iu pan
 油粕	iu phoh
@@ -31735,7 +32847,7 @@ columns:
 遊藝	iu ge
 遊行	iu hing5
 遊玩	iu guan
-遊興	iu hing
+遊興	iu hing3
 遊戲	iu hi
 遊街	iu kere
 遊覽	iu lam
@@ -31745,7 +32857,7 @@ columns:
 遊賞	iu siunn
 遊山	iu suann
 遊覽車	iu lam chia
-遊輪	iu lun
+遊輪	iu lun5
 遊客	iu kheeh
 遊樂	iu lok
 遊樂園	iu lok huInn
@@ -31777,6 +32889,7 @@ columns:
 又閣再	iu koh cai
 又欲閣	iu berh koh
 又欲閣	iu beh koh
+又欲閣	iu boh koh
 又是	iu si
 右手	iu chiu
 右目	iu bak
@@ -31835,6 +32948,7 @@ columns:
 抽絲	thiu si
 抽身	thiu sin
 抽象	thiu sIang
+抽象[漳]	thiu chIang
 抽退	thiu thEr
 抽退步	thiu thEr poo
 抽籐	thiu tin
@@ -31986,7 +33100,7 @@ columns:
 救急	kiu kip
 救兵	kiu ping
 救世主	kiu se cu
-救難	kiu lan
+救難	kiu lan7
 救儂	kiu lang
 救命	kiu mia
 救援	kiu uan
@@ -32051,10 +33165,8 @@ columns:
 搝倒	giu to2
 搝直	giu tit
 搝斷	giu tuInn
-虯毛	khiu mng
-虯毛	khiu moo
-虯頭毛	khiu thau mng
-虯頭毛	khiu thau moo
+虯毛	khiu mNG
+虯頭毛	khiu thau mNG
 虯頭鬃	khiu thau cang
 虯手	khiu chiu
 虯爪	khiu jiau
@@ -32065,12 +33177,9 @@ columns:
 虯筋	khiu kern
 虯跤筋	khiu kha kern
 虯跤	khiu kha
-虯毛的	khiu mng e
-虯毛兮	khiu mng e
-虯毛个	khiu mng e
-虯毛的	khiu moo e
-虯毛兮	khiu moo e
-虯毛个	khiu moo e
+虯毛的	khiu mNG e
+虯毛兮	khiu mNG e
+虯毛个	khiu mNG e
 𩚨牽	khiu khan
 𩚨𩚨	khiu khiu
 牛黃	giu hong
@@ -32079,6 +33188,7 @@ columns:
 周全	ciu cuan
 周至	ciu ci
 周易	ciu ik
+周易	ciu iah
 周元	ciu guan
 周遊	ciu iu
 周禮	ciu le
@@ -32112,7 +33222,7 @@ columns:
 酒錢	ciu cinn
 酒菜	ciu chai
 酒醉	ciu cui
-酒興	ciu hing
+酒興	ciu hing3
 酒瘋	ciu hong
 酒杯	ciu pue
 酒意	ciu i
@@ -32172,7 +33282,8 @@ columns:
 蛀子	ciu ci
 蛀穿	ciu chuInn
 蛀齒	ciu khi
-蛀核	ciu hert
+蛀核	ciu hut
+蛀核[泉]	ciu hert
 蛀空	ciu khang1
 蛀龜	ciu ku
 蛀骨	ciu kut
@@ -32184,7 +33295,7 @@ columns:
 就是	to si
 就是	tio si
 就勢	ciu se
-就使	ciu sur
+就使	ciu sur2
 就按呢	ciu7 an nee{*}
 就按呢	ciu7 an ne{*}
 就若是	ciu7 na7 si6
@@ -32222,7 +33333,7 @@ columns:
 秋涼	chiu lIang
 秋色	chiu sik
 秋收	chiu siu
-秋雨	chiu u
+秋雨	chiu U
 鬚聳目降	chiu chang bak kang
 鬚髯	chiu jiam
 羞羞	chiu chiu
@@ -32261,7 +33372,7 @@ columns:
 手藝	chiu ge
 手法	chiu huat
 手花	chiu huee
-手痕	chiu hern
+手痕	chiu hun
 手淫	chiu im
 手印	chiu in
 手爪	chiu jiau
@@ -32290,7 +33401,7 @@ columns:
 手臂	chiu pi
 手錶	chiu pio
 手筆	chiu pit
-手盤	thsiu puann
+手盤	chiu puann
 手捗	chiu poo
 手勢	chiu se
 手勢	chiu si
@@ -32309,15 +33420,16 @@ columns:
 手刀	chiu to
 手段	chiu tuann
 手底	chiu tere
-手肚	chiu too
-手肚肉	chiu too hik
-手肚肉	chiu too bah
-手肚仁	chiu too jin
+手肚	chiu too2
+手肚肉	chiu too2 hik
+手肚肉	chiu too2 bah
+手肚仁	chiu too2 jin
 手箍	chiu khoo
 手轎	chiu kio
 手腡	chiu lEr
 手雷	chiu lui
-手雷彈	chiu lui tuann
+手雷彈	chiu lui tuann5
+手雷彈	chiu lui tan5
 手拐	chiu kuai
 手後捅	chiu au thong
 手禁	chiu kim3
@@ -32327,15 +33439,16 @@ columns:
 手電仔	chiu tian a
 手冗	chiu ling
 手爪黏	chiu jiau liam
-手挹後	chiu iap au
-手閹手捩	chiu iam chiu lErh
+手揜後	chiu iap au
+手閹手捩	chiu iam chiu lerh
+手閹手捩	chiu iam chiu nerh
 手提	chiu the
 愁眉	chiu bi
 愁顏	chiu gan
 愁容	chiu iong
 愁苦	chiu khoo
 愁腸	chiu tng
-愁腸愁肚	chiu tng chiu too
+愁腸愁肚	chiu tng chiu too6
 揫索仔	chiu soh a
 揫墓
 樹枝	chiu ki
@@ -32351,7 +33464,7 @@ columns:
 樹尾風	chiu ber huang
 樹尾風	chiu ber hong
 樹母
-樹叢	chiu cang
+樹欉	chiu cang
 樹子	chiu ci
 樹下	chiu ee
 樹芽	chiu gee
@@ -32447,6 +33560,8 @@ columns:
 收隊	siu tui
 收毒	siu tok
 收音機	siu im ki
+收益	siu ik
+收訖	siu gert4
 修理	siu li
 修行	siu hing5
 修心	siu sim
@@ -32463,7 +33578,7 @@ columns:
 修養	siu Iang
 修改	siu kere
 修改	siu kai
-修己	siu ki
+修己	siu ki2
 修橋	siu kio
 修練	siu lian
 修路	siu loo
@@ -32490,20 +33605,19 @@ columns:
 首領	siu ling
 首都	siu too
 首府	siu hu
-首要	siu iau
+首要	siu iau3
 首級	siu khip
 首級	siu kip
 首烏	siu oo
 首飾	siu sik
 首席	siu sik
-首席	siu sit
+首席[泉]	siu sit
 首相	siu sIang3
 首先	siu saInn
 首先	siu sian
 首長	siu tiunn2
 守則	siu cik
 守則	siu cerk
-守則	siu cak
 守護	siu hoo
 守制	siu ce
 守制[漳]	siu ci
@@ -32516,7 +33630,7 @@ columns:
 守分	siu hun7
 守約	siu Iak
 守空房	siu khang1 phang
-守己	siu ki
+守己	siu ki2
 守宮	siu kiong
 守舊	siu kiu
 守衛	siu ue
@@ -32579,15 +33693,17 @@ columns:
 受虧	siu khui
 受屈	siu khut
 受理	siu li
-受累	siu lui
+受累	siu lui7
 受室	siu sik
-受恿	siu sing
+受慂	siu sing
+受倖	siu sing
 受傷	siu sIang
 受敵	siu tik
 受胎	siu thai
 受託	siu thok
 受恩	siu ern
 受死	siu si
+受益	siu ik
 壽眉	siu bai
 壽龜	siu ku
 壽桃	siu tho
@@ -32605,7 +33721,7 @@ columns:
 壽誕	siu tan
 壽圖	siu too
 袖箍	siu khoo
-袖手旁觀	siu siu pong kuan
+袖手旁觀	siu siu pong kuan1
 授業	siu giap
 授受	siu siu
 授課	siu kho
@@ -32620,6 +33736,7 @@ columns:
 羊	iunn5	10
 楊	iunn5
 陽	iunn5	1%
+揚	iunn5	1%
 洋	iunn5	10
 溶	iunn5	10
 熔	iunn5
@@ -32689,10 +33806,8 @@ columns:
 瘍	siunn5
 想	siunn6	10
 尚	siunn7
-羊毛	iunn mng
-羊毛	iunn moo
-羊毛衫	iunn mng sann
-羊毛衫	iunn moo sann
+羊毛	iunn mNG
+羊毛衫	iunn mNG sann
 羊仔	iunn a
 羊仔屎	iunn a sai
 羊仔目	iunn a bak
@@ -32749,16 +33864,16 @@ columns:
 長官	tiunn kuann
 長老	tiunn lo2
 長老會	tiunn lo2 hue
-長老會	tIang lo2 hue
-長老會[泉]	tIang noo2 hue
+長老會	tIang2 lo2 hue
+長老會[泉]	tIang2 noo2 hue
 長老派
 長房	tiunn pang
-漲退	tiunn ther
+漲退	tiunn thEr
 帳眉	tiunn bi
 帳簾	tiunn ni
 帳鉤	tiunn kau
 脹氣	tiunn khi
-脹肚	tiunn too
+脹肚	tiunn too6
 脹行	tiunn hing7
 脹風	tiunn huang
 脹膿	tiunn lang
@@ -32772,7 +33887,7 @@ columns:
 脹胿	tiunn kui
 脹破	tiunn phua
 脹死	tiunn si
-脹疼	tiunn thia
+脹疼	tiunn thiann
 脹大	tiunn tua
 場後	tiunn au
 場面	tiunn bin
@@ -32804,7 +33919,7 @@ columns:
 娘繭	niu kian
 娘屎	niu sai
 娘帽	niu bo
-娘囝
+娘囝	niu kirann
 娘娘	niu niu
 糧食	niu sit
 糧草	niu chau
@@ -32812,8 +33927,8 @@ columns:
 涼傘	niu suann
 樑神	niu sin
 樑柱	niu thiau
-量債	niu cee
-量地	niu tere
+量債	niu6 cee
+量地	niu6 tere
 讓一下	niu cit ee
 讓座	niu cEr
 讓座	niu co
@@ -32906,7 +34021,7 @@ columns:
 漿泔	ciunn am
 漿衫	ciunn sann
 漿洗	ciunn sere
-掌痕	ciunn hern
+掌痕	ciunn hun
 掌心	ciunn sim
 掌扇	ciunn sinn
 掌中	ciunn tiong1
@@ -33045,6 +34160,7 @@ columns:
 上桌	ciunn toh
 上位	ciunn ui
 上運	ciunn un
+上癮	ciunn ern
 牆仔	chiunn a
 牆仔拄	chiunn a tu
 牆仔頂	chiunn a ting
@@ -33137,7 +34253,7 @@ columns:
 箱仔	siunn a
 箱盒	siunn ah
 箱殼	siunn khak
-箱籠	siunn lang
+箱籠	siunn lang2
 箱底	siunn tere
 廂房	siunn pang
 賞面	siunn bin
@@ -33191,12 +34307,14 @@ columns:
 想東想西	siunn tang siunn sai
 想前想後	siunn caInn siunn au
 想欲	siunn berh
+想欲	siunn beh
+想欲	siunn boh
 想袂出	siunn bere chut
 想無路	siunn bo loo
 想袂到	siunn bere kau
 想症頭	siunn cing thau
 想出	siunn chut
-想進想退	siunn cin siunn ther
+想進想退	siunn cin siunn thEr
 想行	siunn hing7
 想到	siunn kau
 想計	siunn ke
@@ -33215,7 +34333,7 @@ columns:
 想賺	siunn tann
 想短路	siunn tEr loo
 想貪軁雞罨	siunn tham nuI kere am
-想退悔	siunn ther hue
+想退悔	siunn thEr hue
 想定	siunn tiann
 想著	siunn tioh
 想轉	siunn tuInn
@@ -33228,10 +34346,15 @@ columns:
 ##	m/mh
 姆	m2
 梅	m5
+梅	hm5{又}
 莓	m5
+莓	hm5{又}
 毋	m7	10
 摁	hmh4
 媒	hm5
+媒	m5{又}
+媒[漳]	bun5
+媒[雲霄]	mee5
 茅	hm5
 默	hmh8
 姆仔	m a
@@ -33282,7 +34405,7 @@ columns:
 毋甘願	m kam guan
 毋甘心	m kam sim
 毋敢	m kann
-毋敢當	m kann tng
+毋敢當	m kann tng1
 毋肯	m khing
 毋肯	m kherng
 毋驚	m kiann
@@ -33290,7 +34413,7 @@ columns:
 毋見	m kinn
 毋管	m kuan
 毋過	m ko
-毋過	m koh
+毋過	m koh4{*}
 毋過	m ku
 毋過	m kuh
 毋但	m na
@@ -33317,15 +34440,14 @@ columns:
 毋是勢	m si se
 毋知儂	m cai lang
 毋成猴	m ciann kau
-毋成囝	m ciann kiann
-毋成囝	m ciann kann
+毋成囝	m ciann kirann
 毋成儂	m ciann lang
 毋食	m ciah
 毋啉	m lim
 毋睏	m khun
 毋免想	m bian siunn
 毋罔	m bong
-毋罔	m long
+毋罔	m7 long2{*}
 毋煞	m suah
 毋成材	m ciann cai
 毋相認
@@ -33336,18 +34458,25 @@ columns:
 摁倒	hmh to2
 摁落去	hmh loh8 khIR
 媒儂	hm lang
+媒儂	m lang
 媒儂	mue lang
-媒儂	mue lang
-媒儂	mui lang
+媒儂[漳]	bun lang
+媒儂[雲霄]	mee lang
 媒儂婆	hm lang po
+媒儂婆	m lang po
 媒儂婆	mue lang po
-媒儂婆	mue lang po
+媒儂婆[漳]	bun lang po
+媒儂婆[雲霄]	mee lang po
 媒儂公	hm lang kong
+媒儂公	m lang kong
 媒儂公	mue lang kong
-媒儂公	mue lang kong
+媒儂公[漳]	bun lang kong
+媒儂公[雲霄]	mee lang kong
 媒儂禮	hm lang le
+媒儂禮	m lang le
 媒儂禮	mue lang le
-媒儂禮	mue lang le
+媒儂禮[漳]	bun lang le
+媒儂禮[雲霄]	mee lang le
 茅仔草	hm a chau
 茅草	hm chau
 默默	hmh hmh
@@ -33364,7 +34493,7 @@ columns:
 榜	png2
 傍	png7
 嗙	phngh4
-毛	mng5
+毛	mNG5
 物	mngh8
 張	tng1
 當	tng1	10
@@ -33391,7 +34520,7 @@ columns:
 郎	nng5
 榔	nng5
 瓤	nng5
-兩	nng6	10
+兩	nNG6	10
 缸	kng1
 扛	kng1
 鋼	kng3
@@ -33408,6 +34537,7 @@ columns:
 裝	cng1
 莊	cng1
 妝	cng1
+粧	cng1
 指	cng2
 從	cng5
 狀	cng7
@@ -33459,16 +34589,11 @@ columns:
 傍官靠勢	png kuann kho se
 傍官靠勢	png kuann khoO se
 傍著	png tioh
-毛管	mng kuInn
-毛管空	mng kuInn1 khang
-毛刺	mng chi
-毛尾仔	mng ber a
-毛跤	mng kha
-毛管	moo kuInn
-毛管空	moo kuInn1 khang
-毛刺	moo chi
-毛尾仔	moo ber a
-毛跤	moo kha
+毛管	mNG kuInn
+毛管空	mNG kuInn1 khang1
+毛刺	mNG chi
+毛尾仔	mNG ber a
+毛跤	mNG kha
 物件	mngh8 kiann
 物配	mngh8 pher
 物件	mih8 kiann
@@ -33479,14 +34604,15 @@ columns:
 張鳥鼠	tng niau chir
 張等	tng tan
 張綴	tng ter
-當咧	tng lErh
-當眾儂面	tng cing lang bin
-當欲	tng berh
-當欲	tng beh
-當面	tng bin
-當頭白日	tng thau peeh jit
-當頭對面	tng thau tui bin
-當皮賣骨	tng pher bere kut
+當咧	tng1 lErh
+當眾儂面	tng1 cing lang bin
+當欲	tng1 berh
+當欲	tng1 beh
+當欲	tng1 boh
+當面	tng1 bin
+當頭白日	tng1 thau peeh jit
+當頭對面	tng1 thau tui bin
+當皮賣骨	tng1 pher bere kut
 當票	tng3 phio
 當舖	tng3 phoo
 當店	tng3 tiam
@@ -33505,7 +34631,7 @@ columns:
 長期	tng5 ki
 長久	tng5 ku
 長裙	tng5 kun
-長裙掃肚	tng5 kun sau too
+長裙掃肚	tng5 kun sau too6
 長流長頭	tng5 lau tng5 thau
 長暝	tng5 mee
 長命	tng5 mia
@@ -33527,8 +34653,7 @@ columns:
 長統鞋	tng5 thang ere
 長統靴	tng5 thang hia
 長統襪	tng5 thang berh
-長頭毛	tng5 thau mng
-長頭毛	tng5 thau moo
+長頭毛	tng5 thau mNG
 長頭鬃	tng5 thau cang
 長年久月	tng5 ni ku gerh
 長佬佬	tng5 lo lo
@@ -33546,9 +34671,9 @@ columns:
 長尾星	tng5 ber chenn
 長長	tng5 tng5
 腸仔	tng a
-腸肚	tng too
+腸肚	tng too6
 腸炎	tng iam
-腸仔炎	tng a iam
+腸仔炎	tng a iam 
 腸仔熱	tng a jiat
 腸仔瘍	tng a siunn
 腸病毒	tng penn tok
@@ -33580,7 +34705,7 @@ columns:
 糖罐	thng kuan
 糖鼓	thng koo
 糖龜	thng ku
-糖籠	thng lang
+糖籠	thng lang2
 糖漏	thng lau
 糖龍	thng ling
 糖料	thng liau
@@ -33589,6 +34714,7 @@ columns:
 糖勺	thng siah
 糖塔	thng thah
 糖甘蜜甜	thng kam bit tinn
+糖分	thng hun7
 糖份	thng hun
 糖粉	thng hun
 糖廠	thng chiunn
@@ -33605,14 +34731,13 @@ columns:
 糖霜寮仔	thng sng liau a
 糖黏黏	thng liam liam
 碭光	thng kuInn
-兩个
-兩爿
-兩百
-兩千	nng chaInn
-兩千	noo chaInn
-兩萬
-兩億
-兩間	noo6 kaInn
+兩个	nNG e
+兩爿	nNG paInn
+兩百	nNG pah
+兩百[漳]	nNG peeh
+兩千	nNG chaInn
+兩億	nNG ik
+兩間	nNG6 kaInn
 扛轎	kng kio
 鋼琴	kng khim
 鋼鐵	kng thih
@@ -33769,8 +34894,8 @@ columns:
 唐高祖
 唐太宗	tong thai cong
 李世民	li se bin
-貞觀	cing kuan
-貞觀之治	cing kuan ci ti
+貞觀	cing kuan1
+貞觀之治	cing kuan1 ci ti
 唐高宗
 唐中宗	tong tiong1 cong
 唐睿宗	tong jue cong
@@ -33778,7 +34903,6 @@ columns:
 武后[臺]	bu hIO
 武則天	bu cik thian
 武則天	bu cerk thian
-武則天	bu cak thian
 唐玄宗	tong hian cong
 李隆基	li liong ki
 開元	khai guan
@@ -33832,7 +34956,7 @@ columns:
 長安	tIang2 an
 建業	kian giap
 建康	kian khong
-大興	tai hing
+大興	tai hing1
 臨安	lim5 an
 皇都	hong too
 上京	sIang7 kiann
@@ -33863,7 +34987,7 @@ columns:
 大陸架	tai liok kee
 海洋	hai iunn
 海洋性	hai iunn sing
-海灣	hai uan
+海灣	hai uan1
 海溝	hai kau
 地平線	te ping suann
 海平線	hai ping suann
@@ -33941,26 +35065,31 @@ columns:
 蒙古語	bong koo gir
 烏蘭巴托	oo lan pa thok
 文萊	bun lai
-斯里巴加灣市	sur li pa ka uan chi
+斯里巴加灣市	sur li pa ka uan1 chi
 印尼	in ni
 印度尼西亞	in too ni se a
 雅加達	nga ka tat
 雅加達[漳]	ngee kee tat
-噶喇吧	ka la pa
+咬喇吧	ka1 la1 pa1{*}
+交喇吧	ka1 la1 pa1{*}
+交留吧	ka1 la1 pa1{*}
+咬𠺕吧	ka1 la1 pa1{*}
+噶喇吧	ka1 la1 pa1{*}
 東帝汶	tong te bun
 帝力	te lik
 柬埔寨	kan2 phoo2 cee7{*俗讀「浦」}
 金邊	kim pian
 緬甸	bian tian
 仰光	gIang kong
-菲律賓	hui lut pin
-菲律賓	hui lit pin{異}
+菲律賓	hui1 lut pin
+菲律賓	hui1 lit8 pin1{*異}
 馬尼拉	ma ni la
 泰國	thai kok
 曼谷	ban kok
 泰語	thai gir
 老撾	lau2 o
 萬象	ban sIang
+萬象[漳]	ban chIang
 越南	uat lam
 越南語	uat lam gir
 河內	ho lai
@@ -33980,14 +35109,14 @@ columns:
 不丹	put tan
 廷布	ting poo
 馬爾代夫	ma JINN tai hu
-馬累	ma lui
+馬累	ma lui2
 巴基斯坦	pa ki sur than
 科威特	kho ui tik
 阿塞拜疆	a sai pai kIang
 巴庫	pa khoo
 伊朗	i long
 波斯	pho sur
-阿富汗	a hu han
+阿富汗	a hu han7
 伊拉克	i la khik
 以色列	i sik liat
 耶路撒冷	ia loo sat ling
@@ -34052,7 +35181,7 @@ columns:
 瑞典	sui tian
 冰島
 芬蘭	hun lan
-挪威	noo ui
+挪威	no ui
 俄羅斯
 俄語
 美國	bi kok
@@ -34121,7 +35250,7 @@ columns:
 大連	tai lian
 菏澤	ho tik
 聊城	liau siann
-臨沂	lim5 gi
+臨沂	lim5 ki5
 日照	jit ciau
 泰安	thai an
 濰坊	huai hong
@@ -34155,7 +35284,7 @@ columns:
 揚州話	iunn ciu uee
 揚州話	Iang ciu uee
 泰州	thai ciu
-泰興	thai hing
+泰興	thai hing1
 鹽城	iam siann
 鎮江	tin kang
 淮安	huai an
@@ -34175,9 +35304,9 @@ columns:
 玉環	giok khuan
 洞頭	tong thau
 浙南閩語	ciat lam ban gir
-嘉興	ka hing
+嘉興	ka hing1
 湖州	oo ciu
-紹興	siau hing
+紹興	siau hing1
 金華	kim hua5
 金華[漳]	kim huee5
 衢州	kU ciu
@@ -34212,7 +35341,8 @@ columns:
 湖北省	oo pak sing
 武漢	bu han
 湖南省	oo lam sing
-長沙	tIang2 sa
+長沙	tIang5 sa
+長沙[漳]	tIang5 see
 湘語	sIang gir
 湖南話	oo lam uee
 四川	sur chuan
@@ -34291,7 +35421,9 @@ columns:
 福州	hok ciu
 福州話	hok ciu uee
 莆田	phoo chan
+莆田	poo chan
 莆田話	phoo chan uee
+莆田話	poo chan uee
 寧德	ling tik
 三明	sam1 bing
 龍岩
@@ -34341,7 +35473,8 @@ columns:
 毛蟹
 沙梭	sua so
 梭仔魚	so a hIR
-鮑魚	pau hIR
+鮑魚	pau1 hIR
+鮑魚	pau5 hIR
 巴郎	pa1 lang1{*}
 巴郎魚	pa1 lang1 hIR5{*}
 煙仔	ian a
@@ -34584,19 +35717,20 @@ columns:
 瓜仔	kuee a
 菜頭	chai thau
 膋儳	la sam
-籮蔔	la pak
-籮蔔	la tak
-紅籮蔔	ang la pak
-紅籮蔔	ang la tak
+蘿蔔	la pak
+蘿蔔	la tak
+紅蘿蔔	ang la5 pak8
+紅蘿蔔	ang la tak8
 高麗菜	ko le chai
 紅菜	ang chai
 茄仔	kio a
 油菜	iu chai
 芫荽	ian sui
 辣椒	luah cio
-青椒	chinn cio
+青椒	chenn cio
 番薑	huan kiunn
-番薑	huang kiunn
+番薑	huang1 kiunn1{*}
+薟茄仔[雲霄]	hiam1 kio5 a2
 番瓜	huan kuee
 烏瓜仔	oo kuee a
 金瓜	kim kuee
@@ -34615,6 +35749,11 @@ columns:
 菠薐仔菜	po1 ling5 a2 chai3
 冬瓜	tang kuee
 芥菜	kua chai
+芹菜	khern chai
+芹菜珠	khern chai cu
+芹菜珠仔	khern chai cu a
+水芹菜	cui khern chai
+西芹	se khern
 蕹菜	ing chai
 茭白筍	ka pik sun
 茭白筍	kha1 peeh8 sun2{*}
@@ -34652,6 +35791,7 @@ columns:
 豆生	tau senn
 豆青	tau chenn
 豆菜	tau chai
+豆芽	tau gee
 扁豆	pinn tau
 甜菜	tinn chai
 甜瓜	tinn kuee
@@ -34684,10 +35824,10 @@ columns:
 楊梅	chiunn m
 楊梅	chiu m
 火梅	her m
-龍眼	ling ngaI
-龍眼	ging ngaI
-荔枝	naI ci
-荔枝	lian ci
+龍眼	ling5 ngaI2
+龍眼	ging5 ngaI2{*}
+荔枝	naI7 ci
+荔枝	lian7 ci1{*}
 燈柿	ting khi
 柿仔	khi a
 油柑	iu kam
@@ -34755,8 +35895,10 @@ columns:
 等呼	ting hoo
 聲韻	siann un
 聲韻調	siann un tiau7
-聲母
-韻母
+聲母	siann bo
+聲母	siann bu
+韻母	un bo
+韻母	un bu
 聲調	siann tiau7
 平聲	piann siann
 平仄	piann ceeh
@@ -34837,7 +35979,7 @@ columns:
 天平座	thian ping co
 天蠍座	thian hiat co
 射手座	sia chiu co
-摩羯座	moo kiat co
+摩羯座	mo kiat co
 水瓶座
 雙魚座
 ##	地名
